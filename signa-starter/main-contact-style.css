@@ -1,0 +1,44 @@
+p.contact-form-title {
+    text-align: center;
+    font-size: 61px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: heebo;
+    margin: 0 auto 1.2em;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fff !important;
+}
+.nf-form-content .nf-field-container #nf-field-6-wrap .nf-field-element select option {
+    color: #000;
+}
+
+.nf-before-form-content {display: none;}
+.nf-response-msg { text-align: center; }
+#nf-form-2-cont .nf-form-content {
+    width: 585px;
+    max-width: 100%;
+    margin: auto;
+}
+#nf-form-3-cont ::-webkit-input-placeholder {
+    color: #000 !important;
+    opacity: .4;
+}
+#nf-form-3-cont .nf-form-content {
+    width: 585px;
+    max-width: 100%;
+    margin: auto;
+}
+@media (max-width:600px){
+    .nf-form-content .nf-field-container #nf-field-4-wrap .nf-field-element .ninja-forms-field{width:100% !important}
+}
