@@ -42,7 +42,7 @@
 				<?php esc_html_e( 'Skip to content', 'signa-starter' ); ?>
 			</a>
 
-
+<!-- Testing deployHQ -->
 			<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg">
 				<div class="homepage-background-img-filter"></div>
 				<div id="navbar">
