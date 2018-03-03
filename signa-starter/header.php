@@ -26,7 +26,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
-		<script type="text/javascript" src="wp-content/themes/signa-starter/js/retina.min.js"></script>
+
 		<?php wp_head(); ?>
 
 	</head>
@@ -42,7 +42,7 @@
 				<?php esc_html_e( 'Skip to content', 'signa-starter' ); ?>
 			</a>
 
-
+<!-- Testing deployHQ-->
 			<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg">
 				<div class="homepage-background-img-filter"></div>
 				<div id="navbar">
