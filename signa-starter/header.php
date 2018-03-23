@@ -23,6 +23,45 @@
 		})(window,document,'script','dataLayer','GTM-KQ2747V');
 	</script>
 	<!-- End Google Tag Manager -->
+	<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "additionalType": "Mobile App Development iOS and Android",
+    "name": "Sector 7 Apps",
+    "image": "http://sector7apps.com/wp-content/uploads/2018/03/Sector7Apps_logo.png",
+    "logo": "http://sector7apps.com/wp-content/uploads/2018/03/Sector7Apps_logo.png",
+    "@id": "http://sector7apps.com/",
+    "url": "http://sector7apps.com/",
+    "description": "Sector 7 Apps is a skilled in-house iPhone and Android App Development team for startups and enterprise clients. We build the best apps through extensive strategy, careful development, rigorous QA and user testing, and creative branding and design.",
+    "priceRange": "$$",
+    "telephone": "602-456-2906",
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Phoenix",
+      "addressRegion": "AZ",
+      "postalCode":"85034",
+      "streetAddress": "1201 E Jefferson St #4 "
+      },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 33.4468662,
+      "longitude": -112.05602440000001
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    }]
+}
+</script>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
