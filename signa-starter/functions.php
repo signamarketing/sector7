@@ -93,7 +93,7 @@ endif;
 add_action( 'after_setup_theme', 'signa_starter_setup' );
 
 
-/* Disable Gutenberg Editor */
+/*  Disable Gutenberg Editor  */
 add_filter('gutenberg_can_edit_post_type', '__return_false');
 
 
