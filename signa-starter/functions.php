@@ -92,6 +92,11 @@ if ( ! function_exists( 'signa_starter_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'signa_starter_setup' );
 
+
+/* Disable Gutenberg Editor */
+add_filter('gutenberg_can_edit_post_type', '__return_false');
+
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
