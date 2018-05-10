@@ -23,6 +23,8 @@
 		})(window,document,'script','dataLayer','GTM-KQ2747V');
 	</script>
 	<!-- End Google Tag Manager -->
+	ddrakes [2:36 PM]
+<meta name="google-site-verification" content="w41pP2UP46HH85wZvRDQdiDYac6cmiIuEEiv11LQzUs" />
 	<script type="application/ld+json">
 {
   "@context": "http://schema.org",
