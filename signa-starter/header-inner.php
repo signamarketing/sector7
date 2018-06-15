@@ -25,25 +25,25 @@
 		<!-- End Google Tag Manager -->
 		ddrakes [2:36 PM]
 <meta name="google-site-verification" content="w41pP2UP46HH85wZvRDQdiDYac6cmiIuEEiv11LQzUs" />
-		<script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "http://schema.org",
     "@type": "LocalBusiness",
     "additionalType": "Mobile App Development iOS and Android",
     "name": "Sector 7 Apps",
-    "image": "http://sector7apps.com/wp-content/uploads/2018/03/Sector7Apps_logo.png",
-    "logo": "http://sector7apps.com/wp-content/uploads/2018/03/Sector7Apps_logo.png",
-    "@id": "http://sector7apps.com/",
-    "url": "http://sector7apps.com/",
+    "image": "https://www.sector7apps.com/wp-content/uploads/2018/03/Sector7Apps_logo.png",
+    "logo": "https://www.sector7apps.com/wp-content/uploads/2018/03/Sector7Apps_logo.png",
+    "@id": "https://www.sector7apps.com/",
+    "url": "https://www.sector7apps.com/",
     "description": "Sector 7 Apps is a skilled in-house iPhone and Android App Development team for startups and enterprise clients. We build the best apps through extensive strategy, careful development, rigorous QA and user testing, and creative branding and design.",
     "priceRange": "$$",
-    "telephone": "602-456-2906",
+    "telephone": "602-358-0199",
      "address": {
       "@type": "PostalAddress",
       "addressLocality": "Phoenix",
       "addressRegion": "AZ",
       "postalCode":"85034",
-      "streetAddress": "1201 E Jefferson St #4 "
+      "streetAddress": "1201 E Jefferson St #4A "
       },
     "geo": {
       "@type": "GeoCoordinates",
@@ -60,7 +60,7 @@
         "Friday"
       ],
       "opens": "09:00",
-      "closes": "19:00"
+      "closes": "17:00"
     }]
 }
 </script>
