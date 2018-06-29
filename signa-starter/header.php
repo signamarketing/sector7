@@ -25,6 +25,7 @@
 	<!-- End Google Tag Manager -->
 	ddrakes [2:36 PM]
 <meta name="google-site-verification" content="w41pP2UP46HH85wZvRDQdiDYac6cmiIuEEiv11LQzUs" />
+<meta name="p:domain_verify" content="6d518e8c461746ab6c6952bed2bdd67e"/>
 	<script type="application/ld+json">
 {
   "@context": "http://schema.org",
