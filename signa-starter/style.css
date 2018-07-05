@@ -954,14 +954,13 @@ padding-right:0px;
     background-position: top center;
 }
 .homepage-background-img-filter {
-    background: linear-gradient(0deg,#889293 6%, #0c0e0c 92%);
+    background: linear-gradient(0deg,#4fc7c9 6%, #36bfc2 92%);
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: .5;
-
+    opacity: 0.3;
 }
 
 .header-banner h1 {color:#fff; font-size: 68px;font-weight: 800;}
@@ -1053,7 +1052,8 @@ padding-right:0px;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .4);
+    background: linear-gradient(0deg,#4fc7c9 6%, #36bfc2 92%);
+    opacity: 0.3;
 }
 #inner-banner.header-banner h1 {
     margin: 0px;
