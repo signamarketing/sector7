@@ -275,7 +275,11 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 	color:#221e20;
 }
-h2{font-size:26px;font-weight:700;}
+h2{    font-size: 43px;
+    font-weight: 700;
+	line-height: 1;
+    margin-bottom: 25px;}
+	
 p {
 	/* margin-bottom: 1.5em; */
 	margin-bottom:25px;
@@ -1019,10 +1023,10 @@ padding-right:0px;
 
 .bold-statement span:nth-of-type(1) {text-decoration:underline;	text-decoration-color: #ff9933;}
 .bold-statement span:nth-of-type(2) {color:#ff9933;}
-.btn.white{color:#fff;background-color:none;}
-.btn.black{color:#231f20;background-color:none;}
-.btn.white:hover{color:#fff; background-color:#39BFC3; border-color:#39BFC3}
-.btn.black:hover{color:#fff; background-color:#39BFC3; border-color:#39BFC3}
+.btn.white{color:#fff !important;background-color:transparent;}
+.btn.black{color:#231f20 !important;background-color:transparent;}
+.btn.white:hover{color:#fff !important; background-color:#39BFC3; border-color:#39BFC3}
+.btn.black:hover{color:#fff !important; background-color:#39BFC3; border-color:#39BFC3}
 
 
 
@@ -1042,6 +1046,10 @@ padding-right:0px;
 #inner-banner.header-banner h1 {
     margin: 0px;
     line-height: 1.1;
+}
+img.hp-card-image {
+    position: absolute;
+    right: -120px;
 }
 @media (max-width:1400px){
 	.hp-card-image-spacer{padding: 90px 0;}
@@ -1097,7 +1105,7 @@ padding-right:0px;
 #main-footer-section li {padding-top: 15px;}
 #main-footer-section p:nth-of-type(1), #main-footer-section li:nth-of-type(1) {margin-top:0px; padding-top:0px}
 #main-footer-section p:nth-of-type(1) { margin-bottom: 12px; }
-#main-footer-section a:hover {text-decoration:underline;}
+#footer-sidebar1 a:hover {text-decoration:underline;}
 #main-footer-section h3 {
     font-size: 34px;
     margin-bottom: 25px;
