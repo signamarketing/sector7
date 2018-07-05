@@ -813,15 +813,14 @@ object {
 .row-container {width:1200px; max-width:100%; margin:auto; padding: 100px 0;}
 .white-text {color:#fff;}
 .btn {
-    padding: 5px 44px;
+    padding: 9px 61px;
     text-decoration: none;
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 400;
     border-radius: 4px;
     line-height: 1;
     cursor: pointer;
     border: 2px solid;
-    border-color: rgba(0, 0, 0, 0);
     transition: all .3s;
 }
 .btn:hover{text-decoration:none;}
@@ -972,16 +971,17 @@ padding-right:0px;
 }
 
 #hp-banner .btn {
-    color: #fff;
-    background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	background-color: transparent;
+	font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
-    font-weight: 100;
-    border: 2px solid #fff;
-    border-radius: 4px;
+    font-weight: 400;
     line-height: 1;
     cursor: pointer;
-    font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
+    
+
 }
 #hp-banner .btn:hover {
     border-color: #39BFC3;
