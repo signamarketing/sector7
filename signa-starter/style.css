@@ -964,14 +964,14 @@ padding-right:0px;
 
 }
 
-.header-banner h1 {color:#fff; font-size: 64px;font-weight: 700;}
+.header-banner h1 {color:#fff; font-size: 68px;font-weight: 800;}
 .header-banner p {
     font-size: 30px;
-    width: 572px;
+    width: 637px;
     max-width: 100%;
     margin: -31px auto 40px;
-	line-height: 1.5;
-	font-size: 24px;
+    line-height: 1.5;
+	font-weight: 300;
 }
 
 #hp-banner .btn {
@@ -981,7 +981,7 @@ padding-right:0px;
 	background-color: transparent;
 	font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1;
     cursor: pointer;
     
