@@ -277,7 +277,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2{font-size:26px;font-weight:700;}
 p {
-	margin-bottom: 1.5em;
+	/* margin-bottom: 1.5em; */
+	margin-bottom:25px;
 	font-weight:100;
 }
 
@@ -955,7 +956,7 @@ padding-right:0px;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: .7;
+    opacity: .5;
 
 }
 
@@ -989,7 +990,9 @@ padding-right:0px;
 
 
 /* HOME PAGE CUSTOM CONTENT */
-.steel-blue-horizontal-bg {background: linear-gradient(-90deg,#0c0e0c 0%, #8b9596 82%);}
+.bold-statement-bg {
+    background: linear-gradient(-90deg,#35bfc2 20%, #baddde 80%);
+}
 .bold-statement-img {
 	width: 460px;
     position: absolute;
@@ -1018,8 +1021,8 @@ padding-right:0px;
 .bold-statement span:nth-of-type(2) {color:#ff9933;}
 .btn.white{color:#fff;background-color:none;}
 .btn.black{color:#231f20;background-color:none;}
-.btn.white:hover{color:#fff; background-color:#fff; border-color:#39BFC3}
-.btn.black:hover{color:#fff; background-color:#fff; border-color:#39BFC3}
+.btn.white:hover{color:#fff; background-color:#39BFC3; border-color:#39BFC3}
+.btn.black:hover{color:#fff; background-color:#39BFC3; border-color:#39BFC3}
 
 
 
