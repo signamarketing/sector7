@@ -1087,20 +1087,20 @@ padding-right:0px;
 ----------------------- */
 
 /* .site-footer{background-color:#5f6877;} */
-.site-footer{background-color:#414954;}
+.site-footer{background-color:#fff;}
 .copyright-section{background-color:#414954; width:100%;}
 .copyright-text {color:#fff; text-align:center; margin:1em 0;width:100%;}
 .copyright-text a {color:#ff9933;text-decoration: none;}
 #main-footer-section {padding-top:100px; padding-bottom:100px}
 #main-footer-section ul{padding:0px;list-style: none;}
-#main-footer-section p, #main-footer-section a {color:#fff;font-weight:100; font-size:20px; text-decoration:none;}
+#main-footer-section p, #main-footer-section a {color:#231f20;font-weight:100; font-size:20px; text-decoration:none;}
 #main-footer-section li {padding-top: 15px;}
 #main-footer-section p:nth-of-type(1), #main-footer-section li:nth-of-type(1) {margin-top:0px; padding-top:0px}
 #main-footer-section p:nth-of-type(1) { margin-bottom: 12px; }
 #main-footer-section a:hover {text-decoration:underline;}
 #main-footer-section h3 {
     font-size: 34px;
-    margin-bottom: 7px;
+    margin-bottom: 25px;
     margin-top: 0px;
     line-height: 1;
 }
@@ -1109,14 +1109,12 @@ padding-right:0px;
 div#footer-sidebar1 {min-width: 214px; margin-bottom: 2.9em;}
 div#footer-sidebar2 {min-width: 198px;}
 div#footer-sidebar3 {margin-bottom:1.7em;}
-#footer-sidebar1 a {font-size:15px;}
-#footer-sidebar2 p {font-size:15px;}
 .address span {font-weight:700;}
 .phone-number span {font-weight:700;}
 #footer-sidebar3 a:hover{color:#ff9933; text-decoration:none;background-color:#fff;}
 @media {
 	#main-footer-section { padding-bottom: 10px;}
-	#main-footer-section h3 {margin-bottom: 17px;}
+	#main-footer-section h3 {margin-bottom: 25px;}
 }
 /*-------------------------------------------------------------
 ## Fixed Phone

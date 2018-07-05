@@ -1,4 +1,4 @@
-p.contact-form-title{
+p.contact-form-title-1{
     text-align: center;
     font-size: 41px;
     font-weight: 700;
@@ -43,6 +43,33 @@ p.contact-form-title-2 {
     width: 585px;
     max-width: 100%;
     margin: auto;
+}
+
+.nf-form-content .nf-field-container #nf-field-9-wrap .nf-field-element .ninja-forms-field {
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #fff;
+    width: 350px;
+    max-width:100%;
+    padding: 15px;
+    margin: auto;
+    min-width: 260px;
+    transition: all .3s;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 18px 0px 18px;
+}
+.nf-form-content .nf-field-container #nf-field-9-wrap .nf-field-element .ninja-forms-field:hover {
+    background-color: #fff;
+    color: #39BFC3;
+    width: 350px;
+
 }
 @media (max-width:600px){
     .nf-form-content .nf-field-container #nf-field-4-wrap .nf-field-element .ninja-forms-field{width:100% !important}
