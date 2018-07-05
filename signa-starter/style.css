@@ -45,7 +45,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
@@ -265,7 +265,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: Heebo, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1rem;
 	font-size: 17px;
 	line-height: 1.5;
@@ -295,7 +295,7 @@ address {
 
 pre {
 	background: #eee;
-	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -306,7 +306,7 @@ pre {
 }
 
 code, kbd, tt, var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -813,7 +813,6 @@ object {
 .row-container {width:1200px; max-width:100%; margin:auto; padding: 100px 0;}
 .white-text {color:#fff;}
 .btn {
-	background-color: #ff9933;
     padding: 5px 44px;
     text-decoration: none;
     font-size: 22px;
@@ -981,18 +980,17 @@ padding-right:0px;
     border-radius: 4px;
     line-height: 1;
     cursor: pointer;
-    font-family: Heebo;
-	font-weight: 100;
-	font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
 }
 #hp-banner .btn:hover {
-    color: #ff9933;
-    background-color: #fff;
+    border-color: #39BFC3;
+    background-color: #39BFC3;
 }
 
 
 /* HOME PAGE CUSTOM CONTENT */
-.steel-blue-horizontal-bg {background: linear-gradient(-90deg,#5f6877 0%, #97b3be 82%);}
+.steel-blue-horizontal-bg {background: linear-gradient(-90deg,#0c0e0c 0%, #8b9596 82%);}
 .bold-statement-img {
 	width: 460px;
     position: absolute;
@@ -1019,10 +1017,10 @@ padding-right:0px;
 
 .bold-statement span:nth-of-type(1) {text-decoration:underline;	text-decoration-color: #ff9933;}
 .bold-statement span:nth-of-type(2) {color:#ff9933;}
-.btn.ios{color:#fff;background-color:#2c6497;}
-.btn.android{color:#fff;background-color:#a4c639;}
-.btn.ios:hover{color:#2c6497;background-color:#fff;border:2px solid #2c6497 }
-.btn.android:hover{color:#a4c639;background-color:#fff;border:2px solid #a4c639}
+.btn.white{color:#fff;background-color:none;}
+.btn.black{color:#231f20;background-color:none;}
+.btn.white:hover{color:#fff; background-color:#fff; border-color:#39BFC3}
+.btn.black:hover{color:#fff; background-color:#fff; border-color:#39BFC3}
 
 
 

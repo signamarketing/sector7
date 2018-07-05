@@ -23,7 +23,6 @@
 		})(window,document,'script','dataLayer','GTM-KQ2747V');
 		</script>
 		<!-- End Google Tag Manager -->
-		ddrakes [2:36 PM]
 <meta name="google-site-verification" content="w41pP2UP46HH85wZvRDQdiDYac6cmiIuEEiv11LQzUs" />
 <meta name="p:domain_verify" content="6d518e8c461746ab6c6952bed2bdd67e"/>
 <script type="application/ld+json">
@@ -68,8 +67,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
-		<link href="https://fonts.googleapis.com/css?family=Heebo:300,400,700,900" rel="stylesheet">
-		<script src="/wp-content/themes/signa-starter/js/master-js.js"></script>
+
 		<?php wp_head(); ?>
 	</head>
 
