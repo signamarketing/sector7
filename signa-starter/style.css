@@ -1249,8 +1249,8 @@ div#footer-sidebar3 {margin-bottom:1.7em;}
 		.bold-statement { font-size: 45px; }
 	}
 /*Android Page */
-.android-page-row-bg {	background: linear-gradient(-90deg,#36b53f 0%, #a4c639  82%);}
+.android-page-row-bg {	background: linear-gradient(-90deg,#35bfc2 20%, #baddde 80%);}
 .android-page-row-bg h2 {color:#fff;}
 /*iphone Page */
-.ios-page-row-bg { background: linear-gradient(-90deg,#456CB3 0%, #36a6e8 82%);   background: linear-gradient(-90deg,#45d6aa, #36a6e8 82%);}
+.ios-page-row-bg { background: linear-gradient(-90deg,#456CB3 0%, #36a6e8 82%);   background: linear-gradient(-90deg,#35bfc2 20%, #baddde 80%);}
 .ios-page-row-bg h2 {color:#fff;}
