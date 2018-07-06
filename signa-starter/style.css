@@ -830,10 +830,12 @@ object {
 }
 .btn:hover{text-decoration:none;}
 .m-b-8 {margin-bottom:85px;}
+.responsive-m-b-5{margin-bottom:50px;}
 @media (max-width:767px) {
 	.f-center{text-align:center;}
 	.fo1 {order:1;}
 	.fo2 {order:2;}
+	.responsive-m-b-5{margin-bottom:50px;}
 }
 /*--------------------------------------------------------------
 ## Header & Menu
