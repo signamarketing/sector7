@@ -887,8 +887,25 @@ object {
 	text-decoration: none;
 }
 #navbar .menu li:last-of-type a {
-margin-right:0px;
-padding-right:0px;
+    margin-right: 0px;
+    margin-top: 25px;
+    color: #fff;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 7px 21px;
+}
+.scrolled #navbar .menu li:last-of-type a {
+    border-color: #39BFC3;
+    color: #39BFC3;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+#navbar .menu li:last-of-type a:hover {
+	border-color: #39BFC3;
+	color: #fff;
+	background-color:#39BFC3;
 }
 #open-menu-btn {
     /* padding-top: 18px; */
@@ -960,7 +977,7 @@ padding-right:0px;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 
 .header-banner h1 {color:#fff; font-size: 68px;font-weight: 800;}
