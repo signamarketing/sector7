@@ -66,7 +66,6 @@
 </script>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="profile" href="http://gmpg.org/xfn/11">
 
 		<?php wp_head(); ?>
 
@@ -109,8 +108,8 @@
 				<div id="hp-banner" class="header-banner row no-gutter">
 					<div style="width:1200px; max-width:100%; margin: auto auto; padding-top:40px;">
 						<div class="col-12">
-							<p style="margin-bottom: 0px; font-weight: 700; font-size: 22px; letter-spacing: 1px;">iOS + ANDROID</p>
-							<h1 style="margin-top:0px;">Mobile App Experts</h1>
+							<p style="margin-bottom: 0px; font-weight: 700; font-size: 34px; letter-spacing: 1px;">iOS + ANDROID</p>
+							<h1 style="margin-top:0px;">Mobile App Development</h1>
 						</div>
 						<div class="col-12">
 							<p>If your plans don't include mobile, your plans are not finished</p>

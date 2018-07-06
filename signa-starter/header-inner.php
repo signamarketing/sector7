@@ -67,8 +67,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
-		<link href="https://fonts.googleapis.com/css?family=Heebo:300,400,700,900" rel="stylesheet">
-		<script src="/wp-content/themes/signa-starter/js/master-js.js"></script>
+
 		<?php wp_head(); ?>
 	</head>
 
