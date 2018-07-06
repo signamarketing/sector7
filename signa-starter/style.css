@@ -835,7 +835,8 @@ object {
 	.f-center{text-align:center;}
 	.fo1 {order:1;}
 	.fo2 {order:2;}
-	.responsive-m-b-5{margin-bottom:50px;}
+	.row-container {padding: 62px 0;}
+	.responsive-m-b-3{margin-bottom:30px;}
 }
 /*--------------------------------------------------------------
 ## Header & Menu
