@@ -927,7 +927,7 @@ object {
 	.row-container {width:100%;}
 }
 	/* MENU TOGGLE STYLES */
-@media (max-width:950px){
+@media (max-width:1130px){
 	#primary-menu{display:none;}
 	#open-menu-btn{display:flex;}
 	div#primary-menu {right: -500px;     transition: display 1s, right 1s;transition-delay: 2s;}
@@ -939,12 +939,12 @@ object {
 	nav.row.navbar-container.open {height: 100vh; overflow-y: overlay;}
 	#navbar.open .menu li a {color:#000;}
 	#close-menu-btn.open .fa-times {color:#000;}
-/* LOGO SWITCH & COLORED BACKGROUND NAV BELOW */
-#navbar {background-color:#fff;}
-.logo {display: block;}
-.logo-2 {display: none;}
-#open-menu-btn .fa-bars {color:#000;}
-#navbar .menu li:last-of-type a { margin-right: 10px; padding: 13px;}
+	/* LOGO SWITCH & COLORED BACKGROUND NAV BELOW */
+	#navbar {background-color:#fff;}
+	.logo {display: block;}
+	.logo-2 {display: none;}
+	#open-menu-btn .fa-bars {color:#000;}
+	#navbar .menu li:last-of-type a { margin-right: 10px; padding: 13px;}
 }
 /*--------------------------------------------------------------
 ## SCROLLED HEADER & MENU
