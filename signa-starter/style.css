@@ -894,18 +894,21 @@ object {
     display: inline-block;
     text-align: center;
     border: 2px solid #fff;
-    padding: 7px 21px;
+	padding: 7px 21px;
+	border-radius: 4px;
 }
 .scrolled #navbar .menu li:last-of-type a {
     border-color: #39BFC3;
     color: #39BFC3;
     margin-right: 10px;
-    margin-top: 7px;
+	margin-top: 7px;
+	border-radius: 4px;
 }
 #navbar .menu li:last-of-type a:hover {
 	border-color: #39BFC3;
 	color: #fff;
 	background-color:#39BFC3;
+	border-radius: 4px;
 }
 #open-menu-btn {
     /* padding-top: 18px; */
