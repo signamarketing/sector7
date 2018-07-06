@@ -960,7 +960,7 @@ padding-right:0px;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .header-banner h1 {color:#fff; font-size: 68px;font-weight: 800;}
@@ -1053,7 +1053,7 @@ padding-right:0px;
     top: 0;
     left: 0;
     background: linear-gradient(0deg,#4fc7c9 6%, #36bfc2 92%);
-    opacity: 0.3;
+    opacity: 0.2;
 }
 #inner-banner.header-banner h1 {
     margin: 0px;
@@ -1074,7 +1074,7 @@ img.hp-card-image {
 .contact-page-row h3 {
     font-size: 25px;
     text-transform: uppercase;
-    color: #717c8a;
+    color: #221e20;
     font-weight: 700;
     margin-bottom: 8px;
     line-height: 1;
