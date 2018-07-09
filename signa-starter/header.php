@@ -31,8 +31,8 @@
     "@type": "LocalBusiness",
     "additionalType": "Mobile App Development iOS and Android",
     "name": "Sector 7 Apps",
-    "image": "https://www.sector7apps.com/wp-content/uploads/2018/03/Sector7Apps_logo.png",
-    "logo": "https://www.sector7apps.com/wp-content/uploads/2018/03/Sector7Apps_logo.png",
+    "image": "https://www.sector7apps.com/wp-content/uploads/2018/07/Sector7Apps_logo.png",
+    "logo": "https://www.sector7apps.com/wp-content/uploads/2018/07/Sector7Apps_logo.png",
     "@id": "https://www.sector7apps.com/",
     "url": "https://www.sector7apps.com/",
     "description": "Sector 7 Apps is a skilled in-house iPhone and Android App Development team for startups and enterprise clients. We build the best apps through extensive strategy, careful development, rigorous QA and user testing, and creative branding and design.",
@@ -89,7 +89,7 @@
 					<nav class="row navbar-container">
 
 						<a class="logo-container" alt="Sector 7 logo and homepage link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img class="logo" src="/wp-content/uploads/2018/03/Sector7Apps_logo.png">
+							<img class="logo" src="/wp-content/uploads/2018/07/Sector7Apps_logo.png">
 							<img class="logo-2" src="/wp-content/uploads/2018/03/Sector7Apps_logo_white.png">
 						</a>
 						<span id="open-menu-btn" class="open-menu-btn" onclick="openMenu()">
