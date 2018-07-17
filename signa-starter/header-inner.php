@@ -94,6 +94,7 @@ $thumb_url = $thumb_url_array[0];?>
 							<a class="logo-container" alt="Sector 7 logo and homepage link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 								<img class="logo" src="/wp-content/uploads/2018/07/Sector7Apps_logo.png">
 								<img class="logo-2" src="/wp-content/uploads/2018/07/Sector7Apps_logoWHITE.png">
+								
 							</a>
 							<span id="open-menu-btn" class="open-menu-btn" onclick="openMenu()">
 								<i class="fa fa-bars" aria-hidden="true"></i>
