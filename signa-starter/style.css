@@ -695,7 +695,7 @@ a:hover, a:active {
 .comment-content a {
 	word-wrap: break-word;
 }
-background: linear-gradient(0deg,#5f6877 0%, #97b3be 82%);
+/* background: linear-gradient(0deg,#5f6877 0%, #97b3be 82%); */
 .bypostauthor {
 	display: block;
 }
@@ -845,7 +845,10 @@ object {
 ## Header & Menu
 --------------------------------------------------------------*/
 
-.scrolled #navbar{background-color:#fff;    border-bottom: 1px solid #39BFC3;}
+.scrolled #navbar {
+    background-color: #000;
+    border-bottom: 1px solid #39BFC3;
+}
 #navbar {
     width: 100%;
     position: fixed;
@@ -958,7 +961,6 @@ object {
 /*--------------------------------------------------------------
 ## SCROLLED HEADER & MENU
 --------------------------------------------------------------*/
-.scrolled #navbar .menu li a {color:#000;}
 .scrolled #open-menu-btn .fa-bars {color:#000;}
 .scrolled #close-menu-btn .fa-times {color:#000;}
 
@@ -1025,7 +1027,6 @@ object {
 .bold-statement-img {
 	width: 460px;
     position: absolute;
-    align-items: ;
     bottom: 0;
 	left: 0;
 }
