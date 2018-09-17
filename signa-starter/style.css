@@ -982,7 +982,7 @@ object {
     background-position: top center;
 }
 .homepage-background-img-filter {
-    background: linear-gradient(0deg,#4fc7c9 6%, #36bfc2 92%);
+    background: linear-gradient(0deg,#101010 6%, #040404 92%);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -1074,13 +1074,13 @@ object {
     padding: 0px 0px;
 }
 .inner-page-banner-filter {
-    width: 100%;
+    background: linear-gradient(0deg,#101010 6%, #040404 92%);
     height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(0deg,#4fc7c9 6%, #36bfc2 92%);
-    opacity: 0.2;
+    opacity: 0.4;
 }
 #inner-banner.header-banner h1 {
     margin: 0px;
