@@ -1289,3 +1289,12 @@ div#footer-sidebar3 {margin-bottom:1.7em;}
 }
 .our-process-mobile-order-swap {}
 .our-process-img{width:500px; max-width:50%;}
+
+@media (max-width:767px) {
+	.our-process-row {
+		justify-content: center;
+	}
+	.our-process-mobile-order-swap {
+		order: 1;
+	}
+}
