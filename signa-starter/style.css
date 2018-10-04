@@ -1281,3 +1281,10 @@ div#footer-sidebar3 {margin-bottom:1.7em;}
 /*iphone Page */
 .ios-page-row-bg { background: linear-gradient(-90deg,#456CB3 0%, #36a6e8 82%);   background: linear-gradient(-90deg,#35bfc2 20%, #baddde 80%);}
 .ios-page-row-bg h2 {color:#fff;}
+
+
+/* OUR PROCESS PAGE */
+.our-process-row {
+    justify-content: space-between;
+}
+.our-process-mobile-order-swap {}
