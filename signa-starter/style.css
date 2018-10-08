@@ -688,7 +688,7 @@ a:hover, a:active {
 	clear: both;
 	margin: 0 0 1.5em;
 }
-
+.no-m-b{margin-bottom:0px;}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1293,7 +1293,7 @@ div#footer-sidebar3 {margin-bottom:1.7em;}
     justify-content: space-between;
 }
 .our-process-mobile-order-swap {}
-.our-process-img{width:500px; max-width:50%;}
+.our-process-img{max-width:46%;}
 
 @media (max-width:767px) {
 	.our-process-row {
