@@ -34,7 +34,7 @@
 	<div class="copyright-section">
 			<div class="row row-container text-center" style="padding:0px;">
 				<p class="copyright-text">
-					<a href="#">Sitemap</a> | © Copyright 2018, Sector 7 Apps, All Rights reserved
+					<a href="#">Sitemap</a> | © Copyright 2019, Sector 7 Apps, All Rights reserved
 				</p>
 			</div>
 		</div>
