@@ -42,9 +42,8 @@
 	<!-- #colophon -->
 	</div>
 	<!-- #page -->
-	<script src="https://use.fontawesome.com/52dda3483b.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
-		<script src="/wp-content/themes/signa-starter/js/master-js.js"></script>
+	<script src="https://use.fontawesome.com/52dda3483b.js"></script>	
+	<script src="/wp-content/themes/signa-starter/js/master-js.js"></script>
 	<?php wp_footer(); ?>
 
 	</body>
