@@ -86,7 +86,7 @@ get_header(); ?>
 
 					<a class="btn black" href="/start-now/">Schedule A Discovery Meeting</a>
 				</div>
-				<div class="col-lg-6 fo1 f-center"><img class="hp-card-image" src="/wp-content/uploads/2018/03/Scout-Perspective-Mockups.png"></div>
+				<div class="col-lg-6 fo1 f-center"><img class="hp-card-image" src="<?php echo get_template_directory_uri(); ?>/img/scout-perspective-mockup-min.jpg"></div>
 			</div>
 		</div>
 		<div class="container-fluid main-nf-bg" style="position: relative; display: block; background: radial-gradient(#4cced1 19% ,#34bec1);">
