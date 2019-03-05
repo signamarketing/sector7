@@ -1815,6 +1815,10 @@ p.above-header {
 	padding: 120px 0px;
 }
 
+.bold-statement-box {
+	padding: 60px 0px 0px 0px;
+}
+
 /* Mobile */
 @media(max-width: 768px) {
 	.col-12 {
@@ -1857,5 +1861,9 @@ p.above-header {
 
 	.padding-medium {
 		padding: 60px 0px;
+	}
+
+	.bold-statement-box {
+		padding: 0px;
 	}
 }
