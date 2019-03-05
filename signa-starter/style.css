@@ -52,6 +52,8 @@ html {
 
 body {
 	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 article,
@@ -1726,7 +1728,6 @@ div#footer-sidebar3 {
 		min-width: 190px;
 	}
 }
-
 
 /* Ninja Forms */
 input#nf-field-9 {
