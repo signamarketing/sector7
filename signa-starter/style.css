@@ -1089,7 +1089,7 @@ h2 {
 	border-radius: 4px;
 }
 
-nav#open > div#primary-menu > ul > li > a {
+nav.open > div#primary-menu > ul > li > a {
 	margin-right: 10px;
 	margin-top: 20px;
 	padding: 12px 0px;
