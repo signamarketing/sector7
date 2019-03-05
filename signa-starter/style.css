@@ -1097,7 +1097,7 @@ nav.open > div#primary-menu > ul > li > a {
 	border-bottom: solid 1px #ccc;
 	text-align: left;
 	font-weight: 600;
-	color: #fff;
+	color: #111;
 	display: block;
 	text-decoration: none;
 }
@@ -1105,12 +1105,13 @@ nav.open > div#primary-menu > ul > li > a {
 nav.open > div#primary-menu > ul > li:last-of-type > a {
 	margin-right: 10px;
 	margin-top: 20px;
-	padding: 12px 0px;
+	padding: 12px 0px !important;
 	font-size: 28px;
-	border-bottom: solid 1px #ccc;
+	border: 0px;
+	border-bottom: solid 1px #ccc !important;
 	text-align: left;
 	font-weight: 600;
-	color: #fff;
+	color: #111 !important;
 	display: block;
 	text-decoration: none;
 }
