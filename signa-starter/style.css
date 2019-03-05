@@ -1786,3 +1786,9 @@ input#nf-field-9:hover {
   font-size: 20px !important;
 	font-weight: 400 !important;
 }
+
+select#nf-field-15,
+select#nf-field-6 {
+	font-size: 20px !important;
+	font-weight: 400 !important;
+}
