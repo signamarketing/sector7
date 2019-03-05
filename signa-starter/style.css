@@ -927,7 +927,7 @@ h2 {
 	margin-bottom: 50px;
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 	.f-center {
 		text-align: center;
 	}
@@ -952,6 +952,7 @@ h2 {
 	.btn.white {
 		padding: 12px 60px;
 		text-transform: uppercase;
+		line-height: 1.2;
 	}
 }
 
@@ -1656,7 +1657,7 @@ div#footer-sidebar3 {
 	}
 
 	.bold-statement {
-		margin: 55px 0 82px;
+		margin: 15px 0px;
 	}
 
 	.bold-statement-img {
@@ -1806,5 +1807,9 @@ select#nf-field-6 {
 	.container-fluid {
 		padding-left: 0px;
 		padding-right: 0px;
+	}
+
+	.copyright-section {
+		padding: 0px 25px;
 	}
 }
