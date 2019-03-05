@@ -951,6 +951,7 @@ h2 {
 	.btn.black,
 	.btn.white {
 		padding: 12px 60px;
+		text-transform: uppercase;
 	}
 }
 
