@@ -1642,7 +1642,7 @@ div#footer-sidebar3 {
 	}
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
 	.fixed-phone-clip {
 		top: 263px;
 		position: relative;
@@ -1667,7 +1667,7 @@ div#footer-sidebar3 {
 	}
 
 	.header-banner h1 {
-		font-size: 44px;
+		font-size: 48px;
 	}
 
 	.header-banner p {
@@ -1681,8 +1681,9 @@ div#footer-sidebar3 {
 	}
 
 	.header-banner h1 {
-		font-size: 37px;
+		font-size: 48px;
 		margin-bottom: 40px;
+		line-height: 1.2;
 	}
 
 	.header-banner p {
@@ -1844,5 +1845,9 @@ p.above-header {
 
 	.padding-hero {
 		padding-top: 100px;
+	}
+
+	img.hp-card-image {
+		padding-left: 0px;
 	}
 }
