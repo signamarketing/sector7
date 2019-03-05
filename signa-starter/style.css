@@ -1089,6 +1089,19 @@ h2 {
 	border-radius: 4px;
 }
 
+nav#open > div#primary-menu > ul > li > a {
+	margin-right: 10px;
+	margin-top: 20px;
+	padding: 12px 0px;
+	font-size: 28px;
+	border-bottom: solid 1px #ccc;
+	text-align: left;
+	font-weight: 600;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
 #open-menu-btn {
 	/* padding-top: 18px; */
 	display: none;
@@ -1164,7 +1177,7 @@ h2 {
 	}
 
 	#navbar.open {
-		background-color: rgba(255, 255, 255, 0.9);
+		background-color: rgba(255, 255, 255, 0.95);
 	}
 
 	nav.row.navbar-container.open {
