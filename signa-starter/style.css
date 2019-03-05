@@ -1792,3 +1792,12 @@ select#nf-field-6 {
 	font-size: 20px !important;
 	font-weight: 400 !important;
 }
+
+
+
+/* Mobile Bootstrap */
+@media(max-width: 768px) {
+	.col-12 {
+		padding: 0px 25px;
+	}
+}
