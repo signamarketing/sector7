@@ -1745,15 +1745,17 @@ div#footer-sidebar3 {
 
 /* Ninja Forms */
 input#nf-field-9 {
-	color: #39BFC3;
-	border: 2px solid #FFF;
-	border-radius: 4px;
-	background-color: #FFF;
+	color: #39BFC3 !important; 
+	border: 2px solid #FFF !important;
+	background-color: #FFF !important;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 24px;
-	font-weight: 600;
+	font-size: 24px !important;
+	text-transform: capitalize !important;
+	font-weight: 700;
 	line-height: 1;
 	cursor: pointer;
+	width: auto !important;
+	padding: 12px 60px !important;
 }
 
 input#nf-field-9:hover {
