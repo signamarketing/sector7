@@ -1767,3 +1767,9 @@ input#nf-field-9:hover {
 .nf-error-msg {
 	text-align: center;
 }
+
+
+::-webkit-input-placeholder {
+	font-size: 18px !important;
+	font-weight: 600 !important;
+}
