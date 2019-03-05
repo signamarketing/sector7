@@ -1102,6 +1102,19 @@ nav.open > div#primary-menu > ul > li > a {
 	text-decoration: none;
 }
 
+nav.open > div#primary-menu > ul > li:last-of-type > a {
+	margin-right: 10px;
+	margin-top: 20px;
+	padding: 12px 0px;
+	font-size: 28px;
+	border-bottom: solid 1px #ccc;
+	text-align: left;
+	font-weight: 600;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
 #open-menu-btn {
 	/* padding-top: 18px; */
 	display: none;
