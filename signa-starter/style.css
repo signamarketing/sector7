@@ -1375,8 +1375,9 @@ h2 {
 }
 
 img.hp-card-image {
-	position: absolute;
-	right: -120px;
+	/* position: absolute;
+	right: -120px; */
+	padding-left: 60px;
 }
 
 @media (max-width:1400px) {
