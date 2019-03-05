@@ -964,29 +964,29 @@ h2 {
 }
 
 /* Placeholders */
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-	font-family: 'Source Sans Pro';
-	color: white;
-	font-weight: 500;
-	font-size: 18px;
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-family: 'Source Sans Pro' !important;
+	color: white !important;
+	font-weight: 500 !important;
+	font-size: 18px !important;
 }
-::-moz-placeholder { /* Firefox 19+ */
-	font-family: 'Source Sans Pro';
-  color: white;
-	font-weight: 500;
-	font-size: 18px;
+input::-moz-placeholder { /* Firefox 19+ */
+	font-family: 'Source Sans Pro' !important;
+  color: white !important;
+	font-weight: 500 !important;
+	font-size: 18px !important;
 }
-:-ms-input-placeholder { /* IE 10+ */
-	font-family: 'Source Sans Pro';
-  color: white;
-	font-weight: 500;
-	font-size: 18px;
+input:-ms-input-placeholder { /* IE 10+ */
+	font-family: 'Source Sans Pro' !important;
+  color: white !important;
+	font-weight: 500 !important;
+	font-size: 18px !important;
 }
-:-moz-placeholder { /* Firefox 18- */
-	font-family: 'Source Sans Pro';
-  color: white;
-	font-weight: 500;
-	font-size: 18px;
+input:-moz-placeholder { /* Firefox 18- */
+	font-family: 'Source Sans Pro' !important;
+  color: white !important;
+	font-weight: 500 !important;
+	font-size: 18px !important;
 }
 
 .ninja-forms-field {
