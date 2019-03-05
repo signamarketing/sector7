@@ -1812,4 +1812,9 @@ select#nf-field-6 {
 	.copyright-section {
 		padding: 0px 25px;
 	}
+
+	.row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 }
