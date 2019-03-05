@@ -1794,6 +1794,13 @@ select#nf-field-6 {
 	font-weight: 400 !important;
 }
 
+p.above-header {
+	margin-bottom: 0px; 
+	font-weight: 700; 
+	font-size: 34px; 
+	letter-spacing: 1px;
+}
+
 /* Mobile Bootstrap */
 @media(max-width: 768px) {
 	.col-12 {
@@ -1816,5 +1823,9 @@ select#nf-field-6 {
 	.row {
 		margin-left: 0px;
 		margin-right: 0px;
+	}
+
+	p.above-header {
+		font-size: 22px;
 	}
 }

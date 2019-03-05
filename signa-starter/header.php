@@ -119,7 +119,7 @@
 			<div id="hp-banner" class="header-banner row no-gutter">
 				<div style="width:1200px; max-width:100%; margin: auto auto; padding-top:40px;">
 					<div class="col-12">
-						<p style="margin-bottom: 0px; font-weight: 700; font-size: 34px; letter-spacing: 1px;">iOS + ANDROID</p>
+						<p class="above-header">iOS + ANDROID</p>
 						<h1 style="margin-top:0px;">Mobile App Development</h1>
 					</div>
 					<div class="col-12">
