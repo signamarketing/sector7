@@ -1769,7 +1769,20 @@ input#nf-field-9:hover {
 }
 
 
+/* Placeholders */
 ::-webkit-input-placeholder {
-	font-size: 18px !important;
-	font-weight: 600 !important;
+	font-size: 20px !important;
+	font-weight: 400 !important;
+}
+::-moz-placeholder {
+  font-size: 20px !important;
+	font-weight: 400 !important;
+}
+:-ms-input-placeholder {
+  font-size: 20px !important;
+	font-weight: 400 !important;
+}
+:-moz-placeholder {
+  font-size: 20px !important;
+	font-weight: 400 !important;
 }
