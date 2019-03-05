@@ -1750,4 +1750,11 @@ input#nf-field-9 {
 	padding: 12px 60px !important;
 	background: #fff !important;
 	color: #39BFC3 !important;
+	font-weight: 700;
+}
+
+input#nf-field-9:hover {
+	background: #39BFC3;
+	color: #fff;
+	border: solid 3px #fff;
 }
