@@ -954,8 +954,12 @@ h2 {
 	}
 }
 
+#nf-field-9 {
+	width: 190px;
+}
 #nf-field-9.ninja-forms-field:hover {
 	min-width: auto !important;
+	max-width: 190px;
 }
 
 /*--------------------------------------------------------------
