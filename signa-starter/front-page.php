@@ -18,41 +18,41 @@ get_header(); ?>
 	<main id="main" class="site-main">
 		<div class="container-fluid no-gutter">
 			<div class="row row-container" style="padding-top: 120px; padding-bottom: 100px;">
-				<div class="row" style="padding-bottom: 124px;">
+				<div class="row" style="padding-bottom: 75px;">
 					<div class="col-md-4 m-b-8 text-center services"><img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/lightbulb.png">
 						<h2>Strategy + Planning</h2>
-						The only way to develop a mobile app that addresses your business goals, and solves current pain points, is by
+						<p>The only way to develop a mobile app that addresses your business goals, and solves current pain points, is by
 						developing a clearly defined goal, strategy, and laying out a plan for a successful launch and execution of your
-						mobile app.
+						mobile app.</p>
 
 					</div>
 					<div class="col-md-4 m-b-8 text-center services"><img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/phone.png">
 						<h2>iOS + Android</h2>
-						Our team of product development strategists, innovative designers, and top-notch developers, specialize in iOS
+						<p>Our team of product development strategists, innovative designers, and top-notch developers, specialize in iOS
 						and Android mobile application design and development. From concept to launch, our team will see your vision and
-						purpose all the way through.
+						purpose all the way through.</p>
 
 					</div>
 					<div class="col-md-4 text-center services"><img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/tool.png">
 						<h2>Optimization</h2>
-						As smart business owners, we all know that this ever-changing market can quickly leave you in the dust. Making
+						<p>As smart business owners, we all know that this ever-changing market can quickly leave you in the dust. Making
 						sure we continue to optimize and enhance your mobile app is extremely important to ensuring you are staying ahead
-						of the curve.
+						of the curve.</p>
 
 					</div>
 				</div>
 				<div class="col-md-6 m-b-8 text-center"><img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/apple.png">
 					<h2>iOS Development</h2>
-					iPhone app development at it’s finest. The Sector 7 Apps team has the experience and business knowledge to make
-					your iPhone app successful.
+					<p>iPhone app development at it’s finest. The Sector 7 Apps team has the experience and business knowledge to make
+					your iPhone app successful.</p>
 
 					<a class="btn black" href="/ios-app-development/">Learn More</a>
 
 				</div>
 				<div class="col-md-6 text-center"><img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/android.png">
 					<h2>Android Development</h2>
-					Sector 7 stays ahead of the game in the Android app development space, and is sure to deliver an app that both you
-					and your audience will love.
+					<p>Sector 7 stays ahead of the game in the Android app development space, and is sure to deliver an app that both you
+					and your audience will love.</p>
 
 					<a class="btn black" href="/android-app-development/">Learn More</a>
 
