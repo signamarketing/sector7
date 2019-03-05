@@ -1091,8 +1091,8 @@ h2 {
 
 nav.open > div#primary-menu > ul > li > a {
 	margin-right: 10px;
-	margin-top: 20px;
-	padding: 12px 0px;
+	margin-top: 20px !important;
+	padding: 12px 0px !important;
 	font-size: 28px;
 	border-bottom: solid 1px #ccc;
 	text-align: left;
