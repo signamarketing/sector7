@@ -1727,3 +1727,10 @@ div#footer-sidebar3 {
 	}
 }
 
+
+/* Ninja Forms */
+input#nf-field-9 {
+	font-size: 18px;
+	width: auto;
+	padding: 12px 60px;
+}
