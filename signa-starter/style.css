@@ -1794,6 +1794,7 @@ select#nf-field-6 {
 	font-weight: 400 !important;
 }
 
+/* Hero */
 p.above-header {
 	margin-bottom: 0px; 
 	font-weight: 700; 
@@ -1801,7 +1802,14 @@ p.above-header {
 	letter-spacing: 1px;
 }
 
-/* Mobile Bootstrap */
+.padding-hero {
+	width: 1200px;
+	max-width: 100%;
+	margin: auto auto;
+	padding-top: 40px;
+}
+
+/* Mobile */
 @media(max-width: 768px) {
 	.col-12 {
 		padding: 0px 25px;
@@ -1827,5 +1835,13 @@ p.above-header {
 
 	p.above-header {
 		font-size: 22px;
+	}
+
+	.m-b-8 {
+		margin-bottom: 100px;
+	}
+
+	.padding-hero {
+		padding-top: 100px;
 	}
 }
