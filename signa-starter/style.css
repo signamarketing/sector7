@@ -1067,6 +1067,7 @@ h2 {
 	padding: 7px 21px;
 	border-radius: 4px;
 	font-weight: 600;
+	transition: ease 300ms;
 }
 
 .scrolled #navbar .menu li:last-of-type a {
