@@ -95,8 +95,7 @@ get_header(); ?>
 			<div class="row row-container">
 				<div class="col-12">
 					<p class="bold-statement text-center" style="padding-bottom: 25px;">
-						Need an App? <br>
-						Let's Chat
+						Need an App?<br>Let's Chat
 					</p>
 					<?php
 						echo do_shortcode('[ninja_form id=2]');
