@@ -17,7 +17,7 @@ get_header(); ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">
 		<div class="container-fluid no-gutter">
-			<div class="row row-container" style="padding-top: 120px; padding-bottom: 100px;">
+			<div class="row row-container padding-medium">
 				<div class="row" style="padding-bottom: 75px;">
 					<div class="col-md-4 m-b-8 text-center services"><img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/lightbulb.png">
 						<h2>Strategy + Planning</h2>

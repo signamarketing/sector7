@@ -1811,6 +1811,10 @@ p.above-header {
 	padding-top: 40px;
 }
 
+.padding-medium {
+	padding: 120px 0px;
+}
+
 /* Mobile */
 @media(max-width: 768px) {
 	.col-12 {
@@ -1849,5 +1853,9 @@ p.above-header {
 
 	img.hp-card-image {
 		padding-left: 0px;
+	}
+
+	.padding-medium {
+		padding: 60px 0px;
 	}
 }
