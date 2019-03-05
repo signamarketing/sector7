@@ -1108,7 +1108,7 @@ h2 {
 @media (max-width:1220px) {
 	.navbar-container {
 		width: 100%;
-		padding: 0 40px;
+		padding: 0 25px;
 	}
 
 	.row-container {
@@ -1801,5 +1801,10 @@ select#nf-field-6 {
 
 	.col, [class*="col-"] {
 		padding: 0px 25px;
+	}
+
+	.container-fluid {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
