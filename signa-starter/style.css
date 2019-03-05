@@ -1816,7 +1816,7 @@ p.above-header {
 }
 
 .bold-statement-box {
-	padding: 60px 0px 0px 0px;
+	padding: 0px;
 }
 
 /* Mobile */
@@ -1864,6 +1864,6 @@ p.above-header {
 	}
 
 	.bold-statement-box {
-		padding: 0px;
+		padding: 60px 0px 0px 0px;
 	}
 }
