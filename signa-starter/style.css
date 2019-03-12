@@ -1270,7 +1270,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 
 .header-banner {
 	text-align: center;
-	height: 85vh;
+	
 	display: flex;
 	color: white;
 	min-height: 610px;

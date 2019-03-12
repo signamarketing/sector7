@@ -60,7 +60,7 @@ get_header(); ?>
 		<div class="container-fluid no-gutter bold-statement-bg">
 			<div class="row row-container bold-statement-box" style="min-height: 354px;">
 				<div class="col-md-5 fo2 text-center">
-					<img class="bold-statement-img" src="/wp-content/uploads/2018/03/bold-statement-banner-img-2.png">
+					<img class="bold-statement-img lazy" data-src="/wp-content/uploads/2018/03/bold-statement-banner-img-2.png">
 				</div>
 				<div class="col-md-4 fo1 f-center" style="align-items: center; display: flex;">
 					<p class="bold-statement">Make a Bold Statement</p>
@@ -83,7 +83,7 @@ get_header(); ?>
 
 					<a class="btn black" href="/start-now/">Schedule A Discovery Meeting</a>
 				</div>
-				<div class="col-lg-6 fo1 f-center"><img class="hp-card-image" src="<?php echo get_template_directory_uri(); ?>/img/scout-perspective-mockup-min.jpg"></div>
+				<div class="col-lg-6 fo1 f-center"><img class="hp-card-image lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/scout-perspective-mockup-min.jpg"></div>
 			</div>
 		</div>
 
