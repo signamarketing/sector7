@@ -62,7 +62,7 @@ get_header(); ?>
 				<div class="col-md-5 fo2 text-center">
 					<img class="bold-statement-img" src="/wp-content/uploads/2018/03/bold-statement-banner-img-2.png">
 				</div>
-				<div class="col-md-5 fo1 f-center" style="align-items: center; display: flex;">
+				<div class="col-md-4 fo1 f-center" style="align-items: center; display: flex;">
 					<p class="bold-statement">Make a Bold Statement</p>
 				</div>
 			</div>
