@@ -19,6 +19,7 @@ get_header(); ?>
 
 		<section class="bg-white padding-medium">
 			<div class="container">
+
 				<div class="row">
 					<div class="col-md-4 text-center services">
 						<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/lightbulb.png">
@@ -41,8 +42,7 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<!-- Button Section -->
-				<div class="row">
+				<div class="row pt2">
 					<div class="col-md-6 text-center">
 						<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/apple.png">
 						<h2>iOS Development</h2>
@@ -56,9 +56,11 @@ get_header(); ?>
 						<a class="btn black" href="/android-app-development/">Learn More</a>
 					</div>
 				</div>
+
 			</div>
 		</section>
 
+		<!-- Bold Statement -->
 		<div class="container-fluid no-gutter bold-statement-bg">
 			<div class="row row-container bold-statement-box" style="min-height: 354px;">
 				<div class="col-md-6 fo2 text-center"><img class="bold-statement-img" src="/wp-content/uploads/2018/03/bold-statement-banner-img-2.png"></div>
@@ -67,6 +69,8 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+
+		<!-- App Development -->
 		<div class="container-fluid no-gutter hp-card-image-spacer">
 			<div class="row row-container">
 				<div class="col-lg-6 fo2 f-center">
@@ -74,34 +78,27 @@ get_header(); ?>
 					<p style="color:#39BFC3; font-weight:700; font-size:22px; line-height:1.3;">We thrive off challenges. Our talented
 						and experienced design and development team are ready for your next big idea.</p>
 
-					<p>You should only want the best of the best to design and build your mobile applications. At Sector 7 Apps, our
-						team is highly capable and experienced in building apps. We’ve utilized and improved upon industry standard
-						processes
-						to develop our own unique and efficient concept-to-launch process. Our hard-boiled processes allow us to quickly
-						build apps that fit in with your overall business strategy. Your app shouldn’t just be functional, it should
-						benefit your company and remain aligned with your brand’s culture and style.
-
-						In this industry, technology is ever-evolving and businesses have to adapt to remain current. So we’ve adopted a
-						positive attitude towards change and we’re constantly looking for new software that can quicken app design, app
-						development, and aid project management.</p>
+					<p>You should only want the best of the best to design and build your mobile applications. At Sector 7 Apps, our team is highly capable and experienced in building apps. We’ve utilized and improved upon industry standard processes to develop our own unique and efficient concept-to-launch process. Our hard-boiled processes allow us to quickly build apps that fit in with your overall business strategy. Your app shouldn’t just be functional, it should benefit your company and remain aligned with your brand’s culture and style.
+					
+					<br/> In this industry, technology is ever-evolving and businesses have to adapt to remain current. So we’ve adopted a positive attitude towards change and we’re constantly looking for new software that can quicken app design, app
+					development, and aid project management.</p>
 
 					<a class="btn black" href="/start-now/">Schedule A Discovery Meeting</a>
 				</div>
 				<div class="col-lg-6 fo1 f-center"><img class="hp-card-image" src="<?php echo get_template_directory_uri(); ?>/img/scout-perspective-mockup-min.jpg"></div>
 			</div>
 		</div>
+
+		<!-- Form CTA -->
 		<div class="container-fluid main-nf-bg" style="position: relative; display: block; background: radial-gradient(#4cced1 19% ,#34bec1);">
 			<div class="row row-container">
 				<div class="col-12">
-					<p class="bold-statement text-center" style="padding-bottom: 25px;">
-						Need an App?<br>Let's Chat
-					</p>
-					<?php
-						echo do_shortcode('[ninja_form id=2]');
-						?>
+					<p class="bold-statement text-center" style="padding-bottom: 25px;">Need an App?<br>Let's Chat</p>
+					<?php echo do_shortcode('[ninja_form id=2]'); ?>
 				</div>
 			</div>
 		</div>
+
 	</main>
 	<!-- #main -->
 </div>
