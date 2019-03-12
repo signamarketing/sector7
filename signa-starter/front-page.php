@@ -42,7 +42,7 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="row pt2">
+				<div class="row" style="padding-top: 75px;">
 					<div class="col-md-6 text-center">
 						<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/apple.png">
 						<h2>iOS Development</h2>
@@ -90,7 +90,7 @@ get_header(); ?>
 		</div>
 
 		<!-- Form CTA -->
-		<div class="container-fluid main-nf-bg" style="position: relative; display: block; background: radial-gradient(#4cced1 19% ,#34bec1);">
+		<div class="container-fluid main-nf-bg" style="position: relative; display: block; background: radial-gradient(#4cced1 19%,#34bec1);">
 			<div class="row row-container">
 				<div class="col-12">
 					<p class="bold-statement text-center" style="padding-bottom: 25px;">Need an App?<br>Let's Chat</p>
@@ -99,14 +99,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-	</main>
-	<!-- #main -->
-</div>
-<!-- #primary -->
+	</main><!-- #main -->
+</div><!-- #primary -->
 
-
-
-
-
-<?php
-get_footer();
+<?php get_footer(); ?>
