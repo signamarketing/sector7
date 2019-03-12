@@ -16,8 +16,9 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">
-		<div class="container">
 
+		<section class="bg-white padding-medium">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-4 text-center services">
 						<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/lightbulb.png">
@@ -55,8 +56,9 @@ get_header(); ?>
 						<a class="btn black" href="/android-app-development/">Learn More</a>
 					</div>
 				</div>
+			</div>
+		</section>
 
-		</div>
 		<div class="container-fluid no-gutter bold-statement-bg">
 			<div class="row row-container bold-statement-box" style="min-height: 354px;">
 				<div class="col-md-6 fo2 text-center"><img class="bold-statement-img" src="/wp-content/uploads/2018/03/bold-statement-banner-img-2.png"></div>
