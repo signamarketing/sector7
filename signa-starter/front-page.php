@@ -17,7 +17,7 @@ get_header(); ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">
 
-		<div class="container-fluid no-gutters">
+		<div class="container">
 			<div class="row row-container">
 				<div class="col-md-4 text-center services">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/lightbulb.png">
