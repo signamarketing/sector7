@@ -1909,10 +1909,12 @@ p.above-header {
 }
 
 @media(max-width: 768px) {
-	.services {
+	.services,
+	.services-buttons {
 		padding-bottom: 62px;
 	}
-	.services:last-of-type {
+	.services:last-of-type,
+	.services-buttons:last-of-type {
 		padding-bottom: 0px;
 	}
 }

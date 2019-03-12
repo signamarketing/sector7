@@ -41,13 +41,13 @@ get_header(); ?>
 			</div>
 
 			<div class="row row-container" style="padding-top: 0px;">
-				<div class="col-md-6 text-center">
+				<div class="col-md-6 text-center services-buttons">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/apple.png">
 					<h2>iOS Development</h2>
 					<p>iPhone app development at it’s finest. The Sector 7 Apps team has the experience and business knowledge to make your iPhone app successful.</p>
 					<a class="btn black" href="/ios-app-development/">Learn More</a>
 				</div>
-				<div class="col-md-6 text-center">
+				<div class="col-md-6 text-center services-buttons">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/android.png">
 					<h2>Android Development</h2>
 					<p>Sector 7 stays ahead of the game in the Android app development space, and is sure to deliver an app that both you and your audience will love.</p>
