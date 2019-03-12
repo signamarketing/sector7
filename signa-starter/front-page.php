@@ -18,9 +18,9 @@ get_header(); ?>
 	<main id="main" class="site-main">
 
 		<section class="bg-white padding-medium">
-			<div class="container">
+			<div class="container-fluid no-gutters">
 
-				<div class="row">
+				<div class="row row-container">
 					<div class="col-md-4 text-center services">
 						<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/lightbulb.png">
 						<h2>Strategy + Planning</h2>
@@ -42,7 +42,7 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="row" style="padding-top: 75px;">
+				<div class="row row-container" style="padding-top: 75px;">
 					<div class="col-md-6 text-center">
 						<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/apple.png">
 						<h2>iOS Development</h2>
