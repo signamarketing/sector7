@@ -72,7 +72,7 @@ get_header(); ?>
 		<div class="container-fluid no-gutter hp-card-image-spacer">
 			<div class="row row-container">
 				<div class="col-lg-6 fo2 f-center">
-					<h2>Expert Mobile App Developers</h2>
+					<h2 class="mt-0">Expert Mobile App Developers</h2>
 					<p style="color:#39BFC3; font-weight:700; font-size:22px; line-height:1.3;">We thrive off challenges. Our talented
 						and experienced design and development team are ready for your next big idea.</p>
 
