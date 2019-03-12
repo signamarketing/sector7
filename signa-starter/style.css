@@ -1855,6 +1855,7 @@ p.above-header {
 
 .bold-statement-box {
 	padding: 0px;
+	justify-content: center;
 }
 
 /* Mobile */
