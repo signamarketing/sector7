@@ -1912,6 +1912,9 @@ p.above-header {
 
 @media(max-width: 768px) {
 	.services {
-		padding: 62px 0px 0px 0px;
+		padding-bottom: 62px;
+	}
+	.service:last-of-type {
+		padding-bottom: 0px;
 	}
 }
