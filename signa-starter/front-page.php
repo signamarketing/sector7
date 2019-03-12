@@ -59,10 +59,10 @@ get_header(); ?>
 		<!-- Bold Statement -->
 		<div class="container-fluid no-gutter bold-statement-bg">
 			<div class="row row-container bold-statement-box" style="min-height: 354px;">
-				<div class="col-md-5 offset-md-1 fo2 text-center">
+				<div class="col-md-5 fo2 text-center">
 					<img class="bold-statement-img" src="/wp-content/uploads/2018/03/bold-statement-banner-img-2.png">
 				</div>
-				<div class="col-md-5 offset-md-1 fo1 f-center" style="align-items: center; display: flex;">
+				<div class="col-md-5 fo1 f-center" style="align-items: center; display: flex;">
 					<p class="bold-statement">Make a Bold Statement</p>
 				</div>
 			</div>
