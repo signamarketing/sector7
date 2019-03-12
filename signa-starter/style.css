@@ -1908,13 +1908,11 @@ p.above-header {
 	}
 }
 
-
-
 @media(max-width: 768px) {
 	.services {
 		padding-bottom: 62px;
 	}
-	.service:last-of-type {
+	.services:last-of-type {
 		padding-bottom: 0px;
 	}
 }
