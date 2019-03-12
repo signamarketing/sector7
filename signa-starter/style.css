@@ -1270,14 +1270,13 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 
 .header-banner {
 	text-align: center;
-	
 	display: flex;
 	color: white;
 	min-height: 610px;
+	padding: 250px 0px;
 }
 
 .header-banner-bg {
-
 	background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2.jpg);
 	background-size: cover;
 	background-position: top center;
