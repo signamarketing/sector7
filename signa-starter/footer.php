@@ -40,11 +40,11 @@
 		</footer><!-- #colophon -->
 		</div><!-- #page -->
 
-		<script src="https://use.fontawesome.com/52dda3483b.js"></script>	
-		<script src="/wp-content/themes/signa-starter/js/master-js.js"></script>
-
 		<!-- Lazy Loading -->
 		<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.5/dist/lazyload.min.js"></script>
+
+		<script src="https://use.fontawesome.com/52dda3483b.js"></script>	
+		<script src="/wp-content/themes/signa-starter/js/master-js.js"></script>
 
 		<?php wp_footer(); ?>
 
