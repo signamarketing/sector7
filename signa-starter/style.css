@@ -1912,6 +1912,6 @@ p.above-header {
 
 @media(max-width: 768px) {
 	.services {
-		padding: 62px 0px;
+		padding: 62px 0px 0px 0px;
 	}
 }
