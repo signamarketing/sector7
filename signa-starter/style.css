@@ -1907,3 +1907,11 @@ p.above-header {
 		padding: 60px 0px 0px 0px;
 	}
 }
+
+
+
+@media(max-width: 768px) {
+	.services {
+		padding: 62px 0px;
+	}
+}
