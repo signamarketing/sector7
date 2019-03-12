@@ -40,7 +40,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="row row-container">
+			<div class="row row-container" style="padding-top: 0px;">
 				<div class="col-md-6 text-center">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/apple.png">
 					<h2>iOS Development</h2>
