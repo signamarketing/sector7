@@ -16,14 +16,14 @@
 
 			<div id="colophon" class="site-footer container-fluid no-gutter">
 				<div id="main-footer-section" class="row row-container">
-					<div id="footer-sidebar3" class="col-md-6 f-center" style="align-items: center; display: flex; margin-right:auto;">
+					<div id="footer-sidebar3" class="col-md-6 col-sm-12" style="align-items: center; display: flex; margin-right:auto;">
 						<?php if(is_active_sidebar('footer-sidebar-3')){ dynamic_sidebar('footer-sidebar-3');}?>
 					</div>
-					<div id="footer-sidebar1" class="col-md-3 col-lg-3 f-center">
+					<div id="footer-sidebar1" class="col-sm-6 col-md-3 col-lg-3">
 						<?php if(is_active_sidebar('footer-sidebar-1')){ dynamic_sidebar('footer-sidebar-1');}?>
 					</div>
 
-					<div id="footer-sidebar2" class="col-md-3 col-lg-3 f-center">
+					<div id="footer-sidebar2" class="col-sm-6 col-md-3 col-lg-3">
 						<?php if(is_active_sidebar('footer-sidebar-2')){ dynamic_sidebar('footer-sidebar-2');}?>
 					</div>
 				</div><!-- .site-info -->
