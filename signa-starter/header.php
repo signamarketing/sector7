@@ -32,7 +32,14 @@
 		})(window, document, 'script', 'dataLayer', 'GTM-KQ2747V');
 	</script>
 	<!-- End Google Tag Manager -->
+
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+	<?php wp_head(); ?>
+
 	<script type="application/ld+json">
 		{
 			"@context": "http://schema.org",
@@ -72,10 +79,6 @@
 			}]
 		}
 	</script>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<?php wp_head(); ?>
 
 </head>
 
