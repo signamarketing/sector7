@@ -1862,7 +1862,7 @@ p.above-header {
 	min-height: 354px;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 768px) {
 	.bold-statement-box {
 		min-height: auto;
 	}
