@@ -1859,6 +1859,13 @@ p.above-header {
 .bold-statement-box {
 	padding: 0px;
 	justify-content: center;
+	min-height: 354px;
+}
+
+@media(max-width: 992px) {
+	.bold-statement-box {
+		min-height: auto;
+	}
 }
 
 /* Mobile */
