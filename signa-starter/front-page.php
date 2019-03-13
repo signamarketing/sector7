@@ -19,21 +19,21 @@ get_header(); ?>
 
 		<div class="container-fluid no-gutters">
 			<div class="row row-container">
-				<div class="col-md-4 text-center services">
+				<div class="col-lg-4 text-center services">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/lightbulb.png">
 					<h2>Strategy + Planning</h2>
 					<p>The only way to develop a mobile app that addresses your business goals, and solves current pain points, is by
 						developing a clearly defined goal, strategy, and laying out a plan for a successful launch and execution of your
 						mobile app.</p>
 				</div>
-				<div class="col-md-4 text-center services">
+				<div class="col-lg-4 text-center services">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/phone.png">
 					<h2>iOS + Android</h2>
 					<p>Our team of product development strategists, innovative designers, and top-notch developers, specialize in iOS
 						and Android mobile application design and development. From concept to launch, our team will see your vision and
 						purpose all the way through.</p>
 				</div>
-				<div class="col-md-4 text-center services">
+				<div class="col-lg-4 text-center services">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/tool.png">
 					<h2>Optimization</h2>
 					<p>As smart business owners, we all know that this ever-changing market can quickly leave you in the dust. Making sure we continue to optimize and enhance your mobile app is extremely important to ensuring you are staying ahead of the curve.</p>
@@ -41,13 +41,13 @@ get_header(); ?>
 			</div>
 
 			<div class="row row-container" style="padding-top: 0px;">
-				<div class="col-md-6 text-center services-buttons">
+				<div class="col-lg-6 text-center services-buttons">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/apple.png">
 					<h2>iOS Development</h2>
 					<p>iPhone app development at it’s finest. The Sector 7 Apps team has the experience and business knowledge to make your iPhone app successful.</p>
 					<a class="btn black" href="/ios-app-development/">Learn More</a>
 				</div>
-				<div class="col-md-6 text-center services-buttons">
+				<div class="col-lg-6 text-center services-buttons">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/android.png">
 					<h2>Android Development</h2>
 					<p>Sector 7 stays ahead of the game in the Android app development space, and is sure to deliver an app that both you and your audience will love.</p>
@@ -59,10 +59,10 @@ get_header(); ?>
 		<!-- Bold Statement -->
 		<div class="container-fluid no-gutter bold-statement-bg">
 			<div class="row row-container bold-statement-box" style="min-height: 354px;">
-				<div class="col-md-5 fo2 text-center">
+				<div class="col-lg-5 fo2 text-center">
 					<img class="bold-statement-img lazy" data-src="/wp-content/uploads/2018/03/bold-statement-banner-img-2.png">
 				</div>
-				<div class="col-md-4 fo1 f-center" style="align-items: center; display: flex;">
+				<div class="col-lg-4 fo1 f-center" style="align-items: center; display: flex;">
 					<p class="bold-statement">Make a Bold Statement</p>
 				</div>
 			</div>
