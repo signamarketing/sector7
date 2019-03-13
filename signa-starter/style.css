@@ -1480,6 +1480,12 @@ img.hp-card-image {
 	background-color: #fff;
 }
 
+@media(max-width: 768px) {
+	.site-footer {
+		text-align: center;
+	}
+}
+
 .copyright-section {
 	background-color: #0c0d0c;
 	width: 100%;

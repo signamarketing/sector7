@@ -30,7 +30,7 @@
 					</div>
 
 				</div><!-- .site-info -->
-			</div>
+			</div><!-- #colophon -->
 
 			<div class="copyright-section">
 				<div class="row row-container text-center" style="padding:0px;">
@@ -40,7 +40,7 @@
 				</div>
 			</div>
 
-		</footer><!-- #colophon -->
+		</footer>
 		</div><!-- #page -->
 
 		<!-- Lazy Loading -->
