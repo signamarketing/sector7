@@ -14,8 +14,37 @@ get_header('inner'); ?>
           <div class="row row-container">
 
             <!-- Search and cats -->
+            <div class="blog-bar">
+              <div class="blog-tabs hidden-screen-sm">
+                <span>TOPICS: </span>
+                <a href="/blog/">All</a>
+                <a href="/category/branding/">Branding</a>
+                <a href="/category/digital-marketing/">Digital Marketing</a>
+                <a href="/category/websites/">Websites</a>
+              </div>
 
-
+              <ul class="mobile-tabs visible-screen-sm menu-left">
+                <li>TOPICS: <a href="javascript:"><?php if(is_archive() || is_home()) { echo 'All'; } else { echo single_cat_title(); } ?> <img src="<?php echo get_template_directory_uri(); ?>/images/icons/sort-solid.svg" aria-hidden="true" width="10"></a>
+                  <ol class="mobile-tabs-items">
+                    <li><a href="/blog/">All</a></li>
+                    <li><a href="/category/branding/">Branding</a></li>
+                    <li><a href="/category/digital-marketing/">Digital Marketing</a></li>
+                    <li><a href="/category/websites/">Websites</a></li>
+                  </ol>
+                </li>
+              </ul>
+              
+              <div class="blog-sidebar">
+                <form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+                  <label>
+                    <input type="image" class="search-submit" src="/images/search-bar-icon.png" alt="Submit Form" />
+                    <span class="screen-reader-text">Search for:</span>
+                    <input type="search" class="search-field" placeholder="Search" value="" name="s" title="Search for:" />
+                    <input type="hidden" name="post_type" value="post" />
+                  </label>
+                </form>
+              </div><!-- blog-sidebar -->
+            </div><!-- blog-bar -->
 
             <!-- WP Query -->
             <?php 
