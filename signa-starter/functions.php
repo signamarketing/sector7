@@ -216,6 +216,6 @@ function custom_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 function new_excerpt_more($more) {
 	global $post;
-	return '<a class="moretag" href="'. get_permalink($post->ID) . '">...</a>';
+	return '<a class="nostyle" href="'. get_permalink($post->ID) . '">...</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
