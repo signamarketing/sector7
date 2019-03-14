@@ -1961,3 +1961,6 @@ p.date-text {
 	text-transform: uppercase;
 }
 
+.blog-post-container {
+	height: 475px;
+}

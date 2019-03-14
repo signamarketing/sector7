@@ -40,7 +40,7 @@ get_header('inner'); ?>
               ?>
 
               <div class="col-md-4 text-center">
-                <article>
+                <article class="blog-post-container">
                   <header class="entry-header">
                     <div class="post-img-box">
                       <a href="<?php echo the_permalink(); ?>">
@@ -58,8 +58,7 @@ get_header('inner'); ?>
                     </div>
                   </header>
                 </article>
-              </div>
-              
+              </div>    
 
             <?php endwhile; ?>
 
