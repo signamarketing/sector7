@@ -9,7 +9,6 @@ get_header('inner'); ?>
 		<main id="main" class="site-main">
       <?php while ( have_posts() ) : the_post(); ?>
 
-        <!-- Blog Archive -->
         <div class="container-fluid no-gutters">
           <div class="row row-container">
 
@@ -45,6 +44,13 @@ get_header('inner'); ?>
                 </form>
               </div><!-- blog-sidebar -->
             </div><!-- blog-bar -->
+            
+          </div>
+        </div>
+
+        <!-- Blog Archive -->
+        <div class="container-fluid no-gutters">
+          <div class="row row-container">
 
             <!-- WP Query -->
             <?php 
