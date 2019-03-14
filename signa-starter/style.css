@@ -1944,6 +1944,11 @@ a.nostyle {
 	color: inherit;
 }
 
+.post-img-box img {
+	height: auto;
+	max-width: 100%;
+}
+
 h2.post-title {
 	font-size: 18px;
 	line-height: 27px;
