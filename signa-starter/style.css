@@ -630,13 +630,11 @@ a:active {
 --------------------------------------------------------------*/
 .alignleft {
 	display: inline;
-	float: left;
 	margin-right: 1.5em;
 }
 
 .alignright {
 	display: inline;
-	float: right;
 	margin-left: 1.5em;
 }
 
@@ -1575,7 +1573,7 @@ div#footer-sidebar3 {
 	font-weight: 700;
 }
 
-@media {
+@media(max-width: 768px) {
 	#main-footer-section {
 		padding-bottom: 10px;
 	}
