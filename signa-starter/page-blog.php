@@ -48,7 +48,7 @@ get_header('inner'); ?>
                       </a>
                     </div>
                     <div class="blog-date-text">
-                      <p class="date-text"><?php ?></p>
+                      <p class="date-text"><?php the_time('F, j, Y'); ?></p>
                     </div>
                     <a href="<?php echo the_permalink(); ?>">
                       <h2 class="post-title"><?php the_title(); ?></h2>
