@@ -18,7 +18,45 @@ get_header('inner'); ?>
 
 
             <!-- WP Query -->
-            
+            <?php 
+              $args_ads = array(
+                'post_type' => 'post',
+                'posts_per_page' => -1,
+                'orderby' => 'DESC',
+              );
+              $loop = new WP_Query( $args_ads );
+              while ( $loop->have_posts() ) : $loop->the_post(); 
+
+              if ( has_post_thumbnail() ) {
+                $large_image = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
+                $large_image = $large_image[0];
+              } else {
+                $large_image = false;
+              } 
+
+              // vars date
+
+
+              ?>
+
+              <div class="col-md-4">
+                <article>
+                  <header class="entry-header">
+                    <div class="post-img-box">
+                      <a href="<?php echo the_permalink(); ?>">
+                        <img src="<?php echo $large_image; ?>" alt="">
+                      </a>
+                    </div>
+                    <div class="blog-date-text">
+                      <p class="date-text"><?php ?></p>
+                    </div>
+                    <h2 class="post-title"><?php the_title(); ?></h2>
+                  </header>
+                </article>
+              </div>
+              
+
+            <?php endwhile; ?>
 
           </div>
         </div>
