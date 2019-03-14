@@ -14,32 +14,36 @@ get_header('inner'); ?>
 
             <!-- Search and cats -->
             <div class="blog-bar">
-              <div class="blog-tabs hidden-screen-sm">
-                <span>TOPICS: </span>
-                <ul>
-                  <li><a href="/blog/">All</a></li>
-
-                </ul>
-              </div>
-
-              <ul class="mobile-tabs visible-screen-sm menu-left">
-                <li>TOPICS: <a href="javascript:"><?php if(is_archive() || is_home()) { echo 'All'; } else { echo single_cat_title(); } ?> <img src="<?php echo get_template_directory_uri(); ?>/images/icons/sort-solid.svg" aria-hidden="true" width="10"></a>
-                  <ol class="mobile-tabs-items">
+              <div class="col-sm-8">
+                <div class="blog-tabs hidden-screen-sm">
+                  <span>TOPICS: </span>
+                  <ul>
                     <li><a href="/blog/">All</a></li>
-                  </ol>
-                </li>
-              </ul>
+
+                  </ul>
+                </div>
+
+                <ul class="mobile-tabs visible-screen-sm menu-left">
+                  <li>TOPICS: <a href="javascript:"><?php if(is_archive() || is_home()) { echo 'All'; } else { echo single_cat_title(); } ?> <img src="<?php echo get_template_directory_uri(); ?>/images/icons/sort-solid.svg" aria-hidden="true" width="10"></a>
+                    <ol class="mobile-tabs-items">
+                      <li><a href="/blog/">All</a></li>
+                    </ol>
+                  </li>
+                </ul>
+              </div><!-- col -->
               
-              <div class="blog-sidebar">
-                <form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
-                  <label>
-                    <input type="image" class="search-submit" src="/images/search-bar-icon.png" alt="Submit Form" />
-                    <span class="screen-reader-text">Search for:</span>
-                    <input type="search" class="search-field" placeholder="Search" value="" name="s" title="Search for:" />
-                    <input type="hidden" name="post_type" value="post" />
-                  </label>
-                </form>
-              </div><!-- blog-sidebar -->
+              <div class="col-sm-4">
+                <div class="blog-sidebar">
+                  <form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+                    <label>
+                      <input type="image" class="search-submit" src="/images/search-bar-icon.png" alt="Submit Form" />
+                      <span class="screen-reader-text">Search for:</span>
+                      <input type="search" class="search-field" placeholder="Search" value="" name="s" title="Search for:" />
+                      <input type="hidden" name="post_type" value="post" />
+                    </label>
+                  </form>
+                </div><!-- blog-sidebar -->
+              </div><!-- col -->
             </div><!-- blog-bar -->
 
           </div>

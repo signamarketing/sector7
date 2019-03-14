@@ -1964,3 +1964,35 @@ p.date-text {
 .blog-post-container {
 	height: 500px;
 }
+
+.blog-tabs a {
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+	text-align: center;
+	color: #646464;
+	transition: .3s;
+	text-decoration: none;
+}
+
+.blog-tabs span {
+	float: left;
+	font-weight: bold;
+	padding: 10px 10px 10px 0px;
+}
+
+.search-form .search-submit {
+	width: 32px;
+	float: left;
+	padding-right: 5px;
+}
+
+.search-form .search-field {
+	box-shadow: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-bottom: 0px;
+	letter-spacing: 1px;
+	width: calc(100% - 32px);
+	border-bottom: solid 1px #000;
+}
