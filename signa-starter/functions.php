@@ -159,7 +159,7 @@ add_action( 'widgets_init', 'signa_starter_widgets_init' );
  */
 function signa_starter_scripts() {
 	wp_enqueue_style( 'bootstrap-grid-style', get_template_directory_uri() . '/bootstrap-4/css/bootstrap-grid.min.css' );
-	wp_enqueue_style( 'signa-starter-style', get_template_directory_uri() . 'style.mins.css' );
+	wp_enqueue_style( 'signa-starter-style', get_template_directory_uri() . 'style.min.css' );
 	wp_enqueue_style( 'ninjaform-css', get_template_directory_uri() . '/main-contact-style.css' );
 	wp_enqueue_script( 'signa-starter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
