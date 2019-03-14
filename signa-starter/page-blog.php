@@ -39,7 +39,7 @@ get_header('inner'); ?>
 
               ?>
 
-              <div class="col-md-4">
+              <div class="col-md-4 text-center">
                 <article>
                   <header class="entry-header">
                     <div class="post-img-box">
