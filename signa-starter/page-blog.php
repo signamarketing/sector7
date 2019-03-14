@@ -50,7 +50,13 @@ get_header('inner'); ?>
                     <div class="blog-date-text">
                       <p class="date-text"><?php ?></p>
                     </div>
-                    <h2 class="post-title"><?php the_title(); ?></h2>
+                    <a href="<?php echo the_permalink(); ?>">
+                      <h2 class="post-title"><?php the_title(); ?></h2>
+                    </a>
+                    <div class="excerpt-text">
+                      <p><?php the_excerpt(); ?></p>
+                    </div>
+                    
                   </header>
                 </article>
               </div>
