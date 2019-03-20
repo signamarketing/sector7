@@ -10,8 +10,8 @@ get_header('inner'); ?>
       <?php while ( have_posts() ) : the_post(); ?>
 
 
-        <div class="container">
-          <div class="row">
+        <div class="container-fluid no-gutters">
+          <div class="row row-container">
 
             <div class="col-sm-8">
               <div class="blog-tabs hidden-screen-sm">
