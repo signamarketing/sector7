@@ -1469,6 +1469,16 @@ img.hp-card-image {
 	color: #ff783b !important;
 }
 
+input.search-field::-webkit-input-placeholder {
+	color: #6a6a6a !important;
+}
+input.search-field::-moz-placeholder {
+	color: #6a6a6a !important;
+}
+input.search-field:-ms-input-placeholder {
+	color: #6a6a6a !important;
+}
+
 /* -------------------------------
 ## FOOTER
 ----------------------- */
