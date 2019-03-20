@@ -40,7 +40,7 @@ get_header('inner'); ?>
 
         <!-- Blog Archive -->
         <div class="container-fluid no-gutters">
-          <div class="row row-container">
+          <div class="row row-container" style="padding-top: 0px;">
 
             <!-- WP Query -->
             <?php 
