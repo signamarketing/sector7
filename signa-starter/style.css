@@ -1949,6 +1949,10 @@ p.above-header {
 
 
 /* Blog Page */
+.blog-cat-list li {
+	list-style: none;
+}
+
 a.nostyle {
 	text-decoration: none;
 	color: inherit;
