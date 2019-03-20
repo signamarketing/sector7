@@ -9,6 +9,18 @@ get_header('inner'); ?>
 		<main id="main" class="site-main">
       <?php while ( have_posts() ) : the_post(); ?>
 
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              test
+            </div>
+            <div class="col-sm-4">
+              test
+            </div>
+          </div>
+        </div>
+
         <div class="container-fluid no-gutters">
           <div class="row row-container">
 
