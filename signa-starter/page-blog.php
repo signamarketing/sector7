@@ -25,7 +25,7 @@ get_header('inner'); ?>
               <div class="blog-sidebar">
                 <form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
                   <label>
-                    <input type="image" class="search-submit" src="/img/search-icon-blog.png" alt="Submit Form" />
+                    <input type="image" class="search-submit" src="<?php echo get_template_directory_uri(); ?>/img/search-icon-blog.png" alt="Submit Form" />
                     <span class="screen-reader-text">Search for:</span>
                     <input type="search" class="search-field" placeholder="Search" value="" name="s" title="Search for:" />
                     <input type="hidden" name="post_type" value="post" />
