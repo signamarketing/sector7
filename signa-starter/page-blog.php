@@ -29,9 +29,6 @@ get_header('inner'); ?>
 
                   <ol class="mobile-tabs-items">
                     <li><a href="/blog/">All</a></li>
-                    <li><a href="/category/branding/">Branding</a></li>
-                    <li><a href="/category/digital-marketing/">Digital Marketing</a></li>
-                    <li><a href="/category/websites/">Websites</a></li>
                   </ol>
 
                 </li>
