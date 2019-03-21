@@ -35,7 +35,7 @@ var lazyLoadInstance = new LazyLoad({
  * Mobile blog navigation
  */
 var btn = document.querySelectorAll('ul.mobile-tabs li a'),
-    drp = document.querySelector('ol'),
+    drp = document.querySelector('ol');
     //icon = document.querySelector('.fa-sort-down');
 
 for(var b = 0; b < btn.length; b++) {

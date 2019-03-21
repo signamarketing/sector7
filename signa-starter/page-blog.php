@@ -21,13 +21,19 @@ get_header('inner'); ?>
               </div>
               
               <ul class="mobile-tabs visible-screen-sm menu-left">
-                <li>TOPICS: <a href="javascript:"><?php if(is_archive() || is_home()) { echo 'All'; } else { echo single_cat_title(); } ?> <img src="<?php echo get_template_directory_uri(); ?>/images/icons/sort-solid.svg" aria-hidden="true" width="10"></a>
+                <li>TOPICS: 
+
+                  <a href="javascript:"><?php if(is_archive() || is_home()) { echo 'All'; } else { echo single_cat_title(); } ?> 
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/icons/sort-solid.svg" aria-hidden="true" width="10">
+                  </a>
+
                   <ol class="mobile-tabs-items">
                     <li><a href="/blog/">All</a></li>
                     <li><a href="/category/branding/">Branding</a></li>
                     <li><a href="/category/digital-marketing/">Digital Marketing</a></li>
                     <li><a href="/category/websites/">Websites</a></li>
                   </ol>
+                  
                 </li>
               </ul>
             </div>
