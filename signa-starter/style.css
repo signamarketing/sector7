@@ -2048,3 +2048,11 @@ p.date-text {
 	width: calc(100% - 32px);
 	border-bottom: solid 1px #000;
 }
+
+.blog-entry-meta {
+	margin-top: 25px;
+}
+
+.wpb_gravatar {
+	border-radius: 50%;
+}

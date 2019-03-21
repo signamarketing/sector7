@@ -127,7 +127,7 @@ $thumb_url = $thumb_url_array[0];?>
 						</h1>
 
 						<?php if ( 'post' === get_post_type() ) : ?>
-                <div class="entry-meta">
+                <div class="entry-meta blog-entry-meta">
               
                   <div>
                     <?php 
