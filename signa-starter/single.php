@@ -42,12 +42,10 @@ get_header('inner'); ?>
 		<section class="bg-ltgrey">
 			<div class="container-fluid no-gutters">
 				<div class="row row-container">
-					<div class="col-sm-8">
+					<div class="col-sm-8 col-sm-offset-2">
 						<div class="after-post-meta">
-							<br>
 							<div class="end-of-post-categories">
 								<div class="end-of-post-categories-text">Previous & Next Posts</div>
-								<div class="end-of-post-categories-separator"></div>
 							</div>
 							<div class="row">
 

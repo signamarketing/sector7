@@ -2062,3 +2062,13 @@ p.date-text {
 	height: auto;
 	margin-bottom: 50px;
 }
+
+.end-of-post-categories-text {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.bg-ltgrey {
+	background: #eee;
+}
