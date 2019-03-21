@@ -1967,12 +1967,12 @@ p.above-header {
 
 ul.mobile-tabs {
 	padding-left: 0px;
+	margin-bottom: 50px;
 }
 
 ul.mobile-tabs li {
 	list-style: none;
 	text-align: center;
-	margin-bottom: 25px;
 }
 
 .mobile-tabs-items {
