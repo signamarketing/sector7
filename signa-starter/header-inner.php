@@ -146,19 +146,6 @@ $thumb_url = $thumb_url_array[0];?>
                   <div><?php echo the_author_meta('display_name'); ?></div>
                   <div>
                     Published: <?php $post_date = get_the_date( 'F j, Y' ); echo $post_date; ?>
-                    <?php
-                      // vars	
-                      $lastupdated = get_field('display-last-updated');
-                      // check
-                      if( $lastupdated ) {
-                        $u_time = get_the_time('U'); 
-                        $u_modified_time = get_the_modified_time('U');
-                        if ($u_modified_time >= $u_time + 86400) { 
-                          echo "<br> Last Updated: "; 
-                          the_modified_time('F jS, Y'); 
-                        } 
-                      }	
-                    ?>
                   </div>
 
                   <div>
