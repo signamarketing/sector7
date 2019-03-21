@@ -2056,3 +2056,8 @@ p.date-text {
 .wpb_gravatar {
 	border-radius: 50%;
 }
+
+.img-fit {
+	max-width: 100%;
+	height: auto;
+}
