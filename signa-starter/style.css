@@ -1965,6 +1965,10 @@ p.above-header {
 	}
 }
 
+ul.mobile-tabs {
+	padding-left: 0px;
+}
+
 ul.mobile-tabs li {
 	list-style: none;
 	text-align: center;
