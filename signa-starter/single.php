@@ -19,7 +19,7 @@ get_header('inner'); ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-						<h2><?php the_title(); ?></h2>
+						<img src="<?php echo $large_image; ?>" alt="">
 
 						<?php the_content();
 

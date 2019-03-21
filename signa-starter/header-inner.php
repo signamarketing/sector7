@@ -125,6 +125,51 @@ $thumb_url = $thumb_url_array[0];?>
 						<h1>
 							<?php the_title(); ?>
 						</h1>
+
+						<?php if(is_singular('post')): ?>
+
+							<div class="entry-meta">
+              
+								<div>
+									<?php 
+										function my_display_gravatar() { 
+											// Get User Email Address
+											$getuseremail = get_the_author_meta('user_email');
+								
+											// Convert email into md5 hash and set image size to 200 px
+											$usergravatar = 'https://www.gravatar.com/avatar/' . md5($getuseremail) . '?s=40';
+											echo '<img src="' . $usergravatar . '" class="wpb_gravatar" />';
+										} 
+										echo my_display_gravatar();
+									?>
+								</div>
+
+								<div><?php echo the_author_meta('display_name'); ?></div>
+								<div>
+									Published: <?php $post_date = get_the_date( 'F j, Y' ); echo $post_date; ?>
+									<?php
+										// vars	
+										$lastupdated = get_field('display-last-updated');
+										// check
+										if( $lastupdated ) {
+											$u_time = get_the_time('U'); 
+											$u_modified_time = get_the_modified_time('U');
+											if ($u_modified_time >= $u_time + 86400) { 
+												echo "<br> Last Updated: "; 
+												the_modified_time('F jS, Y'); 
+											} 
+										}	
+									?>
+								</div>
+
+								<div>
+									<div class="reading-time"></div>
+								</div>
+
+							</div><!-- entry meta -->
+
+
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>
