@@ -1948,6 +1948,24 @@ p.above-header {
 }
 
 
+.hidden-screen-sm {
+	display: block;
+}
+
+.visible-screen-sm {
+	display: none;
+}
+
+@media(max-width: 768px) {
+	.hidden-screen-sm {
+		display: none;
+	}
+	.visible-screen-sm {
+		display: block;
+	}
+}
+
+
 /* Blog Page */
 .blog-cat-list li {
 	list-style: none;
