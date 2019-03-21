@@ -17,15 +17,15 @@ get_header('inner'); ?>
 
 				<div class="col-sm-8 offset-sm-2">
 
-				<?php
-					while ( have_posts() ) : the_post();
+				<?php while ( have_posts() ) : the_post(); ?>
 
-						the_content();
+						<h2><?php the_title(); ?></h2>
 
-						the_post_navigation();
+						<?php the_content();
 
-					endwhile; // End of the loop.
-				?>
+						the_post_navigation(); ?>
+
+					<?php endwhile; // End of the loop. ?>
 
 				</div>
 
