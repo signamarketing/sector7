@@ -1972,6 +1972,8 @@ ul.mobile-tabs li {
 
 .mobile-tabs-items {
 	display: none;
+	padding-left: 0px;
+	margin-left: 0px;
 }
 
 .drop {
