@@ -1965,6 +1965,11 @@ p.above-header {
 	}
 }
 
+ul.mobile-tabs li {
+	list-style: none;
+	text-align: center;
+}
+
 .mobile-tabs-items {
 	display: none;
 }
