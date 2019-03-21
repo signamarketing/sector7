@@ -1965,6 +1965,10 @@ p.above-header {
 	}
 }
 
+.mobile-tabs-items {
+	display: none;
+}
+
 .drop {
 	display: block;
 }
