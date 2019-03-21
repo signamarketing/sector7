@@ -1965,6 +1965,10 @@ p.above-header {
 	}
 }
 
+.drop {
+	display: block;
+}
+
 
 /* Blog Page */
 .blog-cat-list li {
