@@ -30,3 +30,21 @@ function closeMenu() {
 var lazyLoadInstance = new LazyLoad({
   elements_selector: ".lazy"
 });
+
+/**
+ * Mobile blog navigation
+ */
+var btn = document.querySelectorAll('ul.mobile-tabs li a');
+var drp = document.querySelector('ol');
+var icon = document.querySelector('.fa-sort-down');
+
+for(var b = 0; b < btn.length; b++) {
+  btn[b].onclick = function() {
+
+    if(this.parentNode.querySelector('ol') != null) {
+      this.parentNode.querySelector('ol').classList.toggle('drop');
+		}
+		
+		icon.classList.toggle('fa-sort-up');
+  }
+}
