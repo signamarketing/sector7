@@ -1968,6 +1968,7 @@ p.above-header {
 ul.mobile-tabs li {
 	list-style: none;
 	text-align: center;
+	margin-bottom: 25px;
 }
 
 .mobile-tabs-items {
