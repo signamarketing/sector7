@@ -15,20 +15,21 @@ get_header('inner'); ?>
 		<div class="container-fluid no-gutters">
 			<div class="row row-container">
 
-			<?php
-			while ( have_posts() ) : the_post();
+				<div class="col-sm-8 offset-sm-2">
 
-				the_content();
+				<?php
+					while ( have_posts() ) : the_post();
 
-				the_post_navigation();
+						the_content();
 
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
+						the_post_navigation();
 
-			endwhile; // End of the loop.
-			?>
+					endwhile; // End of the loop.
+				?>
+
+				</div>
+
+			
 
 			</div>
 		</div>
