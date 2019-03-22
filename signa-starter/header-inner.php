@@ -123,7 +123,7 @@ $thumb_url = $thumb_url_array[0];?>
 				<div class="row" style="width:1200px; margin: auto;">
 					<div class="col-12" style="display: block; position: relative; padding: 234px 0 56px; width: 100%;">
 						<h1>
-							<?php the_title(); ?>
+							<?php if(!is_category()) { the_title(); } else { single_cat_title('Category: '); } ?>
 						</h1>
 
 						<?php if ( 'post' === get_post_type() ) : ?>
@@ -154,11 +154,7 @@ $thumb_url = $thumb_url_array[0];?>
 
 
                 </div><!-- .entry-meta -->
-              <?php elseif(is_category()): ?>
-
-								<h1><?php single_cat_title(); ?></h1>
-
-							<?php endif; ?>
+              <?php endif; ?>
 					</div>
 				</div>
 			</div>
