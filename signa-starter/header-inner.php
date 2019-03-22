@@ -154,7 +154,11 @@ $thumb_url = $thumb_url_array[0];?>
 
 
                 </div><!-- .entry-meta -->
-              <?php endif; ?>
+              <?php elseif(is_category()): ?>
+
+								<h1><?php single_cat_title(); ?></h1>
+
+							<?php endif; ?>
 					</div>
 				</div>
 			</div>
