@@ -9,7 +9,6 @@ get_header('inner'); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-      <?php while ( have_posts() ) : the_post(); ?>
 
         <div class="container-fluid no-gutters">
           <div class="row row-container">
@@ -67,17 +66,14 @@ get_header('inner'); ?>
           <div class="row row-container" style="padding-top: 0px;">
 
             <!-- WP Query -->
-            <?php 
-              while ( have_posts() ) : the_post();
+            <?php  while ( have_posts() ) : the_post();
 
               if ( has_post_thumbnail() ) {
                 $large_image = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
                 $large_image = $large_image[0];
               } else {
                 $large_image = false;
-              } 
-
-              // vars date
+              }
 
 
               ?>
@@ -108,17 +104,6 @@ get_header('inner'); ?>
           </div>
         </div>
 
-        <!-- Form CTA -->
-        <div class="container-fluid main-nf-bg" style="position: relative; display: block; background: radial-gradient(#4cced1 19%,#34bec1);">
-          <div class="row row-container">
-            <div class="col-12">
-              <p class="bold-statement text-center" style="padding-bottom: 25px;">Need an App?<br>Let's Chat</p>
-              <?php echo do_shortcode('[ninja_form id=2]'); ?>
-            </div>
-          </div>
-        </div>
-
-      <?php endwhile; ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
