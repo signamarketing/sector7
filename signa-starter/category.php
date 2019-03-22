@@ -4,10 +4,6 @@
  * The template for displaying Category pages
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
  */
 get_header('inner'); ?>
 
