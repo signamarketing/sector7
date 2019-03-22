@@ -17,6 +17,15 @@ get_header('inner'); ?>
                 <span>TOPICS: </span>
                 <ul class="blog-cat-list">
                   <li><a href="/blog/">All</a></li>
+                  <?php
+                  
+                    $categories = get_categories();
+                    foreach($categories as $category) {
+                      echo '<li><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
+                    }
+                  
+                  
+                  ?>
                 </ul>
               </div>
               

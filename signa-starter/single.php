@@ -39,7 +39,7 @@ get_header('inner'); ?>
 		</div>
 
 		<!-- After post content -->
-		<section class="bg-ltgrey">
+		<section class="bg-white">
 			<div class="container-fluid no-gutters">
 				<div class="row row-container">
 					<div class="col-sm-8 offset-sm-2">
