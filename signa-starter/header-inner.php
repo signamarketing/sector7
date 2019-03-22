@@ -126,7 +126,7 @@ $thumb_url = $thumb_url_array[0];?>
 							<?php if(!is_category()) { the_title(); } else { single_cat_title('Category: '); } ?>
 						</h1>
 
-						<?php if ( 'post' === get_post_type() ) : ?>
+						<?php if ( 'post' === get_post_type() && !is_category() ) : ?>
                 <div class="entry-meta blog-entry-meta">
               
                   <div>
