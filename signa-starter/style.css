@@ -2046,6 +2046,7 @@ p.date-text {
 	padding-bottom: 0px;
 	letter-spacing: 1px;
 	width: calc(100% - 32px);
+	border: 0px;
 	border-bottom: solid 1px #000;
 }
 
