@@ -68,7 +68,7 @@ get_header('inner'); ?>
 
 							<div class="end-of-post-categories" style="margin-top: 75px">
 								<div class="end-of-post-categories-text">Previous & Next Posts</div>
-								<div class="end-of-post-categories-sepatator"></div>
+								<div class="end-of-post-categories-separator"></div>
 							</div>
 							<div class="row">
 
