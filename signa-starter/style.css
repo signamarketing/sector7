@@ -2092,3 +2092,10 @@ p.date-text {
 	max-width: 100%;
 	vertical-align: middle;
 }
+
+.end-of-post-categories-separator {
+	margin-top: 13px;
+	padding-top: 20px;
+	border-bottom: solid 1px #c4c4c4;
+	overflow: hidden;
+}
