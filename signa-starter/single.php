@@ -76,7 +76,7 @@ get_header('inner'); ?>
 								
 								<div class="end-of-post-categories-separator"></div>
 							</div>
-							<div class="row">
+							<div class="row no-gutters-mobile">
 
 								<div class="single-nav-column post-33-container col-12 col-sm-6">
 								<?php $prevPost = get_previous_post(false);

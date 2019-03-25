@@ -2110,3 +2110,10 @@ div.end-of-post-categories {
 	align-items: center;
 	margin-bottom: 25px;
 }
+
+@media(max-width: 768px) {
+	.no-gutters-mobile {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
