@@ -80,10 +80,7 @@ get_header('inner'); ?>
               } else {
                 $large_image = false;
               } 
-
-              // vars date
-
-
+              
               ?>
 
               <div class="col-12 col-sm-6 col-lg-4 text-center">

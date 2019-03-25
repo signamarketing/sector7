@@ -2079,3 +2079,17 @@ p.date-text {
 .bg-ltgrey {
 	background: #eee;
 }
+
+
+
+.post-img-box {
+	height: 225px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.post-img-box img {
+	border: 0;
+	height: auto;
+	max-width: 100%;
+}
