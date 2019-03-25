@@ -78,7 +78,7 @@ get_header('inner'); ?>
 							</div>
 							<div class="row">
 
-								<div class="single-nav-column post-33-container col">
+								<div class="single-nav-column post-33-container col-12 col-sm-6">
 								<?php $prevPost = get_previous_post(false);
 									if ($prevPost) {?>
 									<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -97,7 +97,7 @@ get_header('inner'); ?>
 									</article><?php } ?>
 								</div>
 
-								<div class="single-nav-column post-33-container col">
+								<div class="single-nav-column post-33-container col-12 col-sm-6">
 								<?php $nextPost = get_next_post(false);
 									if ($nextPost) {?>
 									<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
