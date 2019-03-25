@@ -2027,6 +2027,10 @@ p.date-text {
 	text-decoration: none;
 }
 
+.blog-tabs a:hover {
+	color: #39bfc3;
+}
+
 .blog-tabs span {
 	float: left;
 	font-weight: bold;
