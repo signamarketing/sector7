@@ -2116,4 +2116,8 @@ div.end-of-post-categories {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+	.no-gutters-mobile>.col, .no-gutters-mobile>[class*=col-] {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 }
