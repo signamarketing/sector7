@@ -2102,6 +2102,7 @@ p.date-text {
 
 div.end-of-post-categories-text {
 	white-space: nowrap;
+	padding-right: 7px;
 }
 
 div.end-of-post-categories {
