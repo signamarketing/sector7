@@ -55,11 +55,9 @@ get_header('inner'); ?>
 							<div class="end-of-post-categories-separator"></div>
 						</div>
 						<div class="end-of-post-categories-2">
-							<?php	
+							<?php
 								$category = get_the_category();
-								$firstCategory = $category[0]->cat_name;
-
-								echo $firstCategory;
+								echo '<a href="'.get_category_link($category[0]->cat_ID).'">News su ' . $category[0]->cat_name . '</a>';
 							?>
 						</div>
 
