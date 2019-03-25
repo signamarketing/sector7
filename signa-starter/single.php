@@ -57,7 +57,7 @@ get_header('inner'); ?>
 						<div class="end-of-post-categories-2">
 							<?php
 								$category = get_the_category();
-								echo '<a href="'.get_category_link($category[0]->cat_ID).'">News su ' . $category[0]->cat_name . '</a>';
+								echo '<a href="'.get_category_link($category[0]->cat_ID).'">' . $category[0]->cat_name . '</a>';
 							?>
 						</div>
 
