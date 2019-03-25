@@ -56,23 +56,10 @@ get_header('inner'); ?>
 						</div>
 						<div class="end-of-post-categories-2">
 							<?php	
-							
-								if ( 'post' === get_post_type() ) {
-								
-									/* translators: used between list items, there is a space after the comma */
-									$categories_list = get_the_category_list( esc_html__( ', ', 'signa-2017' ) );
-									if ( $categories_list && signa_2017_categorized_blog() ) {
-										printf($categories_list ); // WPCS: XSS OK.
-									}
+								$category = get_the_category();
+								$firstCategory = $category[0]->cat_name;
 
-									/* translators: used between list items, there is a space after the comma */
-									$tags_list = get_the_tag_list( '', esc_html__( ', ', 'signa-2017' ) );
-									if ( $tags_list ) {
-										printf('<span class="tags-links">' . esc_html__( ',  %1$s', 'signa-2017' ) . '</span>', $tags_list); // WPCS: XSS OK.
-									}
-
-								} 
-							
+								echo $firstCategory;
 							?>
 						
 						</div>
