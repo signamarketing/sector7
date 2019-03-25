@@ -41,37 +41,44 @@ get_header('inner'); ?>
 		<!-- After post content -->
 		<section class="bg-white">
 			<div class="container-fluid no-gutters">
-				<div class="row row-container">
 
-					<div class="end-of-post-categories">
-						<div class="end-of-post-categories-text">Categories & Tags</div>
-						<div class="end-of-post-categories-separator"></div>
-					</div>
-					<div class="end-of-post-categories-2">
-						<?php	
-						// 	if ( 'post' === get_post_type() ) {
-						// /* translators: used between list items, there is a space after the comma */
-						// $categories_list = get_the_category_list( esc_html__( ', ', 'signa-2017' ) );
-						// if ( $categories_list && signa_2017_categorized_blog() ) {
-						// 	printf($categories_list ); // WPCS: XSS OK.
-						// }
 
-						// /* translators: used between list items, there is a space after the comma */
-						// $tags_list = get_the_tag_list( '', esc_html__( ', ', 'signa-2017' ) );
-						// if ( $tags_list ) {
-						// 	printf('<span class="tags-links">' . esc_html__( ',  %1$s', 'signa-2017' ) . '</span>', $tags_list); // WPCS: XSS OK.
-						// }
-						// }
-						?>
-					
-					</div>
-					
-				</div>
 
-				<!-- Pagination -->
+
 				<div class="row row-container">
 					<div class="col-sm-8 offset-sm-2">
 						<div class="after-post-meta">
+
+
+						<div class="end-of-post-categories">
+							<div class="end-of-post-categories-text">Categories & Tags</div>
+							<div class="end-of-post-categories-separator"></div>
+						</div>
+						<div class="end-of-post-categories-2">
+							<?php	
+							
+								if ( 'post' === get_post_type() ) {
+								
+									/* translators: used between list items, there is a space after the comma */
+									$categories_list = get_the_category_list( esc_html__( ', ', 'signa-2017' ) );
+									if ( $categories_list && signa_2017_categorized_blog() ) {
+										printf($categories_list ); // WPCS: XSS OK.
+									}
+
+									/* translators: used between list items, there is a space after the comma */
+									$tags_list = get_the_tag_list( '', esc_html__( ', ', 'signa-2017' ) );
+									if ( $tags_list ) {
+										printf('<span class="tags-links">' . esc_html__( ',  %1$s', 'signa-2017' ) . '</span>', $tags_list); // WPCS: XSS OK.
+									}
+
+								} 
+							
+							?>
+						
+						</div>
+
+
+
 							<div class="end-of-post-categories">
 								<div class="end-of-post-categories-text">Previous & Next Posts</div>
 							</div>
