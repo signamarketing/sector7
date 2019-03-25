@@ -2037,6 +2037,8 @@ p.date-text {
 	width: 28px;
 	float: left;
 	padding-right: 5px;
+	position: relative;
+	top: 5px;
 }
 
 .search-form .search-field {
