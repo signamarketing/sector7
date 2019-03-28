@@ -118,6 +118,13 @@ $thumb_url = $thumb_url_array[0];?>
 				</nav>
 			</div>
 
+			<!-- Page progress bar -->
+			<?php if(is_singular('post')): ?>
+				<div class="progress-container">
+					<div class="progress-bar"></div>
+				</div>
+			<?php endif; ?>
+
 			<div id="inner-banner" class="header-banner container-fluid no-gutter">
 
 				<div class="row" style="width:1200px; margin: auto;">
