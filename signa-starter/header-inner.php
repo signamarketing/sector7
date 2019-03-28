@@ -119,7 +119,7 @@ $thumb_url = $thumb_url_array[0];?>
 			</div>
 
 			<!-- Page progress bar -->
-			<?php if(is_singular('post')): ?>
+			<?php if('post' === get_post_type()): ?>
 				<div class="progress-container">
 					<div class="progress-bar"></div>
 				</div>
