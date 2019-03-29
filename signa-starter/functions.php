@@ -165,7 +165,7 @@ function signa_starter_scripts() {
 	wp_enqueue_style( 'ninjaform-css', get_template_directory_uri() . '/main-contact-style.css' );
 
 	// Scripts
-	wp_enqueue_script( 'countable', get_template_directory_uri() . '/js/countable.js', array(), '20190327', true);
+	wp_enqueue_script( 'countable', get_template_directory_uri() . '/js/countable.js', array(), '', true);
 	wp_enqueue_script( 'signa-starter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 	wp_enqueue_script( 'signa-starter-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

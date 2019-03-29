@@ -15,7 +15,7 @@ get_header('inner'); ?>
 		<div class="container-fluid no-gutters">
 			<div class="row row-container">
 
-				<div class="col-md-8 offset-md-2">
+				<div class="col-md-8 offset-md-2 blog-entry-content">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
