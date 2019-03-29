@@ -2126,3 +2126,19 @@ div.end-of-post-categories {
 		padding-right: 0px;
 	}
 }
+
+
+.progress-container {
+	position: fixed;
+	top: 100px;
+	height: 10px;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+.progress-bar {
+	height: 10px;
+	background: #39bfc3;
+	z-index: 999;
+}
