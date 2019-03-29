@@ -15,7 +15,7 @@ get_header('inner'); ?>
 		<div class="container-fluid no-gutters">
 			<div class="row row-container">
 
-				<div class="col-sm-8 offset-sm-2">
+				<div class="col-md-8 offset-md-2">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -46,7 +46,7 @@ get_header('inner'); ?>
 
 
 				<div class="row row-container">
-					<div class="col-sm-8 offset-sm-2">
+					<div class="col-md-8 offset-md-2">
 						<div class="after-post-meta">
 
 
