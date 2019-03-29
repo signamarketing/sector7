@@ -118,13 +118,50 @@ $thumb_url = $thumb_url_array[0];?>
 				</nav>
 			</div>
 
+			<!-- Page progress bar -->
+			<?php if('post' === get_post_type()): ?>
+				<div class="progress-container">
+					<div class="progress-bar"></div>
+				</div>
+			<?php endif; ?>
+
 			<div id="inner-banner" class="header-banner container-fluid no-gutter">
 
 				<div class="row" style="width:1200px; margin: auto;">
-					<div class="col-12" style="display: block; position: relative; padding: 234px 0 56px; width: 100%;">
+					<div class="col-12" style="display: block; position: relative; padding: 234px 40px 56px 40px; width: 100%;">
 						<h1>
-							<?php the_title(); ?>
+							<?php if(!is_category()) { the_title(); } else { single_cat_title('Category: '); } ?>
 						</h1>
+
+						<?php if ( 'post' === get_post_type() && !is_category() ) : ?>
+                <div class="entry-meta blog-entry-meta">
+              
+                  <div>
+                    <?php 
+                      function my_display_gravatar() { 
+                        // Get User Email Address
+                        $getuseremail = get_the_author_meta('user_email');
+                  
+                        // Convert email into md5 hash and set image size to 200 px
+                        $usergravatar = 'https://www.gravatar.com/avatar/' . md5($getuseremail) . '?s=40';
+                        echo '<img src="' . $usergravatar . '" class="wpb_gravatar" />';
+                      } 
+                      echo my_display_gravatar();
+                    ?>
+                  </div>
+
+                  <div><?php echo the_author_meta('display_name'); ?></div>
+                  <div>
+                    Published: <?php $post_date = get_the_date( 'F j, Y' ); echo $post_date; ?>
+                  </div>
+
+                  <div>
+                    <div class="reading-time"></div>
+                  </div>
+
+
+                </div><!-- .entry-meta -->
+              <?php endif; ?>
 					</div>
 				</div>
 			</div>
