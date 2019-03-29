@@ -66,7 +66,7 @@ if(blogContent) {
     
     var effectiveTime = (minutes < 1) ? "a couple of seconds" : minutes + " minute read";
 
-    //console.log(effectiveTime);
+    console.log(effectiveTime);
     document.querySelector('.reading-time').append(effectiveTime);
   }
 }
