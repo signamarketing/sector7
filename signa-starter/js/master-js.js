@@ -47,6 +47,8 @@ for(var b = 0; b < btn.length; b++) {
   }
 }
 
+console.log('hello world');
+
 /**
  * Calculate Reading Time to element with ".reading-time"
  * where content is surrounded by ".blog-entry-content"
