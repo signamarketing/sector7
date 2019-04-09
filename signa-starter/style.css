@@ -1304,7 +1304,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 
 .header-banner p {
 	font-size: 30px;
-	width: 637px;
+	width: 100%;
 	max-width: 100%;
 	margin: -31px auto 40px;
 	line-height: 1.5;
