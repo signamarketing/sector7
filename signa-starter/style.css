@@ -1271,14 +1271,14 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 	display: flex;
 	color: white;
 	min-height: 610px;
-	padding: 300px 0px;
+	height: 100vh;
 }
 
-@media(max-width: 992px) {
+/* @media(max-width: 992px) {
 	.header-banner {
 		padding: 200px 0px;
 	}
-}
+} */
 
 .header-banner-bg {
 	background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2.jpg);
@@ -1304,7 +1304,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 
 .header-banner p {
 	font-size: 30px;
-	width: 637px;
+	width: 100%;
 	max-width: 100%;
 	margin: -31px auto 40px;
 	line-height: 1.5;
