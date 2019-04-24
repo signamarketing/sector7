@@ -37,7 +37,11 @@ get_header('single'); ?>
 
                 <div class="blog-author-name"><?php echo the_author_meta('display_name'); ?></div>
                 <div class="blog-post-date">
-
+								<?php 
+										$lastupdated = get_the_modified_time('F j, Y');
+										echo $lastupdated;
+								?>
+                   
                 </div>
 
                 <div>
