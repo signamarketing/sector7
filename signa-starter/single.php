@@ -37,11 +37,10 @@ get_header('single'); ?>
 
                 <div class="blog-author-name"><?php echo the_author_meta('display_name'); ?></div>
                 <div class="blog-post-date">
-								<?php 
-										$lastupdated = get_the_modified_time('F j, Y');
-										echo $lastupdated;
-								?>
-                   
+									<?php 
+											$lastupdated = get_the_modified_time('F j, Y');
+											echo $lastupdated;
+									?>
                 </div>
 
                 <div>
@@ -55,10 +54,10 @@ get_header('single'); ?>
         </div>
         <div class="blog-half">
 				<?php
-						$thumb_id = get_post_thumbnail_id();
-						$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
-						$thumb_url = $thumb_url_array[0];
-					?>
+					$thumb_id = get_post_thumbnail_id();
+					$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
+					$thumb_url = $thumb_url_array[0];
+				?>
 
 						<img src="<?php echo $thumb_url; ?>" alt="<?php the_title(); ?>" class="img-fit img-fluid" loading="lazy">
         </div>

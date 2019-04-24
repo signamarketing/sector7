@@ -2011,7 +2011,12 @@ ul.mobile-tabs li {
     margin: 0px 7.5%;
   }
 }
-
+@media(max-width:1120px) {
+	.blog-half:first-of-type {
+		padding-right: 50px;
+		min-width: 500px;
+	}
+}
 .blog-row {
   display: flex;
   align-items: center;
@@ -2041,6 +2046,32 @@ ul.mobile-tabs li {
   line-height: 1.2;
   margin-top: 0px;
 }
+
+@media(max-width: 1024px) {
+  .blog-half {
+    flex: 0 0 100%;
+  }
+
+  div#comments {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+
+  .blog-entry-meta {
+    margin-bottom: 50px;
+  }
+
+  .blog-entry-title {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+
+  .blog-half:first-of-type {
+    padding-right: 0px;
+  }
+}
+
+
 
 .blog-author-name {
   font-size: 20px;
