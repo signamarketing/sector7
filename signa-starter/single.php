@@ -7,13 +7,10 @@
  * @package signa-starter
  */
 
-get_header('inner'); ?>
+get_header('single'); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-<section>
-
-<div class="blog-container">
+<section class="bg-blog-hero padding-medium margin-header">
+    <div class="blog-container">
 
       <?php 
         if(is_singular('post')) {
@@ -85,9 +82,10 @@ get_header('inner'); ?>
         </div>
       </div>
     </div>
+  </section>
 
-
-
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
 
 		<div class="container-fluid no-gutters">
 			<div class="row row-container">
@@ -95,14 +93,6 @@ get_header('inner'); ?>
 				<div class="col-md-8 offset-md-2 blog-entry-content">
 
 				<?php while ( have_posts() ) : the_post(); ?>
-
-					<?php
-						$thumb_id = get_post_thumbnail_id();
-						$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
-						$thumb_url = $thumb_url_array[0];
-					?>
-
-						<img src="<?php echo $thumb_url; ?>" alt="" class="img-fit">
 
 						<?php the_content(); ?>
 
@@ -114,10 +104,6 @@ get_header('inner'); ?>
 
 			</div>
 		</div>
-
-
-		
-</section>
 
 		<!-- After post content -->
 		<section class="bg-white">
