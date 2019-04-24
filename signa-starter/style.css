@@ -1987,6 +1987,7 @@ ul.mobile-tabs li {
 
 
 /* Blog Page */
+.bg-black{background-color:#000;}
 .blog-container {
   padding: 50px 0px;
   margin: 0px 20%;
