@@ -37,7 +37,23 @@ get_header('single'); ?>
 
                 <div class="blog-author-name"><?php echo the_author_meta('display_name'); ?></div>
                 <div class="blog-post-date">
-                 
+								<?php 
+                    $post_date = get_the_date( 'F j, Y' ); 
+                    $lastupdated = get_field('display-last-updated');
+
+                    if($lastupdated) {
+
+                      // show last updated date
+                      $u_time = get_the_time('U'); 
+                      $u_modified_time = get_the_modified_time('U');
+                      if ($u_modified_time >= $u_time + 86400) {
+                        the_modified_time('F jS, Y'); 
+                      }
+
+                    } else {
+                      echo $post_date;
+                    }
+                  ?>
                 </div>
 
                 <div>
