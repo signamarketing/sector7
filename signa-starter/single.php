@@ -56,8 +56,7 @@ get_header('single'); ?>
 						$thumb_url = $thumb_url_array[0];
 					?>
 
-						<img src="<?php echo $thumb_url; ?>" alt="" class="img-fit">
-          <img src="<?php $thumb_url ?>" alt="<?php the_title(); ?>" class="img-fluid" loading="lazy">
+						<img src="<?php echo $thumb_url; ?>" alt="<?php the_title(); ?>" class="img-fit img-fluid" loading="lazy">
         </div>
       </div>
     </div>
@@ -83,7 +82,7 @@ get_header('single'); ?>
 		<main id="main" class="site-main">
 
 		<div class="container-fluid no-gutters">
-			<div class="row row-container">
+			<div class="row row-container pt-0">
 
 				<div class="col-md-8 offset-md-2 blog-entry-content">
 

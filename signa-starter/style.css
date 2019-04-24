@@ -2073,7 +2073,9 @@ p.date-text {
 	font-weight: bold;
 	text-transform: uppercase;
 }
-
+.margin-header {
+	margin-top: 110px;
+}
 .blog-post-container {
 	height: 500px;
 }
@@ -2091,7 +2093,9 @@ p.date-text {
 .blog-tabs a:hover {
 	color: #39bfc3;
 }
-
+.pt-0 {
+	padding-top:0px;
+}
 .blog-tabs span {
 	float: left;
 	font-weight: bold;

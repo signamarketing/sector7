@@ -1,7 +1,7 @@
 <?php 
 /**
- * The header for our theme
- *
+ * ATTENTION: This header is used for single blog post pages and does not have hero section with background image at the top like the other pages. This header only contains the navbar.
+ * 
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
@@ -90,8 +90,7 @@
 		</a>
 
 
-		<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg" style="background:url(' <?php echo $thumb_url ?> ');     background-size: cover;">
-			<div class="inner-page-banner-filter"></div>
+		<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg">
 			<div id="navbar">
 				<nav class="row navbar-container">
 
