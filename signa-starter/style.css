@@ -1987,6 +1987,9 @@ ul.mobile-tabs li {
 
 
 /* Blog Page */
+.single-nav-title-text a {
+	text-decoration:none;
+}
 .bg-black{background-color:#000;}
 .blog-container {
   padding: 50px 0px;
