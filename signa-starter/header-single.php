@@ -129,9 +129,9 @@
     <div class="blog-container">
 
       <?php 
-        if(is_singular('post')) {
-          get_template_part('template-parts/content', 'socialshare');
-        }
+        // if(is_singular('post')) {
+        //   get_template_part('template-parts/content', 'socialshare');
+        // }
       ?>
 
       <div class="blog-row">
