@@ -91,7 +91,7 @@
 
 
 		<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg">
-			<div id="navbar bg-black">
+			<div id="navbar" class="bg-black">
 				<nav class="row navbar-container">
 
 					<a class="logo-container" alt="Sector 7 logo and homepage link" href="<?php echo esc_url( home_url( '/' ) ); ?>"
