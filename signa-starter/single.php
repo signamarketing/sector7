@@ -11,7 +11,7 @@ get_header('single'); ?>
 
 
 
-<section class="bg-blog-hero padding-medium margin-header">
+<section class="bg-blog-hero margin-header">
     <div class="blog-container">
 
       <?php 
