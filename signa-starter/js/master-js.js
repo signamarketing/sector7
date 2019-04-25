@@ -87,3 +87,20 @@ function blogScroll() {
 
   document.querySelector(".progress-bar").style.width = scrolled + "%";
 }
+
+/**
+ * social share fixed scroll
+ */
+window.addEventListener('scroll', function () {
+
+  var socialShare = document.getElementById("socialShare");
+  
+  if(socialShare) {
+
+    socialShare.classList[
+      document.documentElement.scrollTop > 545 ? 'add': 'remove'
+    ]('fixed-social-share');
+
+  }
+  
+});
