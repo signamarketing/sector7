@@ -1220,6 +1220,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 		background-color: #fff;
 	}
 	#navbar.bg-black {background-color:#000;}
+	.bg-black #open-menu-btn .fa-bars { color: #fff !important; }
 	.logo {
 		display: block;
 	}
@@ -1232,13 +1233,19 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 		color: #000;
 	}
 
-	.scrolled #open-menu-btn .fa-bars {
+	.bg-black #open-menu-btn .fa-bars {
 		color: #fff;
 	}
 
 	#navbar .menu li:last-of-type a {
 		margin-right: 10px;
 		padding: 13px;
+	}
+}
+@max-width (width:630px) {
+	.blog-container {
+		margin:0 50px;
+		padding: 25px 0px;
 	}
 }
 
