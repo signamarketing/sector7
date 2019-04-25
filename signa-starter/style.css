@@ -1814,9 +1814,9 @@ div#footer-sidebar3 {
 
 /* Ninja Forms */
 input#nf-field-9 {
-	color: #39BFC3 !important; 
+	color: #FFF !important; 
 	border: 2px solid #FFF !important;
-	background-color: #FFF !important;
+	background-color: #39BFC3 !important;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 24px !important;
 	text-transform: capitalize !important;
@@ -1828,8 +1828,8 @@ input#nf-field-9 {
 }
 
 input#nf-field-9:hover {
-	background-color: #39BFC3 !important;
-	color: #fff !important;
+	background-color: #FFF !important;
+	color: #39BFC3 !important;
 	border: solid 3px #fff !important;
 }
 
