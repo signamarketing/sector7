@@ -29,8 +29,18 @@ get_header('single'); ?>
           <?php if ( 'post' === get_post_type() ) : ?>
             <div class="entry-meta blog-entry-meta">
           
-              <div class="blog-photo-meta">
-
+						<div class="blog-photo-meta">
+                <?php 
+                  function my_display_gravatar() { 
+                    // Get User Email Address
+                    $getuseremail = get_the_author_meta('user_email');
+              
+                    // Convert email into md5 hash and set image size to 200 px
+                    $usergravatar = 'https://www.gravatar.com/avatar/' . md5($getuseremail) . '?s=90';
+                    echo '<img src="' . $usergravatar . '" class="wpb_gravatar blog-gravatar" />';
+                  } 
+                  echo my_display_gravatar();
+                ?>
               </div>
 
               <div class="blog-text-meta">
