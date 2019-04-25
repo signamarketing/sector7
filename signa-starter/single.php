@@ -7,27 +7,101 @@
  * @package signa-starter
  */
 
-get_header('inner'); ?>
+get_header('single'); ?>
+
+
+
+<section class="bg-blog-hero margin-header">
+    <div class="blog-container">
+
+      <?php 
+        if(is_singular('post')) {
+          get_template_part('template-parts/content', 'socialshare');
+        }
+      ?>
+
+      <div class="blog-row">
+        <div class="blog-half">
+          <?php the_title( '<h1 class="blog-entry-title">', '</h1>' ); ?>
+
+          <!-- author meta -->
+
+          <?php if ( 'post' === get_post_type() ) : ?>
+            <div class="entry-meta blog-entry-meta">
+          
+						<div class="blog-photo-meta">
+                <?php 
+                  function my_display_gravatar() { 
+                    // Get User Email Address
+                    $getuseremail = get_the_author_meta('user_email');
+              
+                    // Convert email into md5 hash and set image size to 200 px
+                    $usergravatar = 'https://www.gravatar.com/avatar/' . md5($getuseremail) . '?s=90';
+                    echo '<img src="' . $usergravatar . '" class="wpb_gravatar blog-gravatar" />';
+                  } 
+                  echo my_display_gravatar();
+                ?>
+              </div>
+
+              <div class="blog-text-meta">
+
+                <div class="blog-author-name"><?php echo the_author_meta('display_name'); ?></div>
+                <div class="blog-post-date">
+									<?php 
+											$lastupdated = get_the_modified_time('F j, Y');
+											echo $lastupdated;
+									?>
+                </div>
+
+                <div>
+                  <div class="reading-time"></div>
+								</div>
+								
+              </div>
+            </div><!-- .entry-meta -->
+          <?php endif; ?>
+
+        </div>
+        <div class="blog-half">
+				<?php
+					$thumb_id = get_post_thumbnail_id();
+					$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
+					$thumb_url = $thumb_url_array[0];
+				?>
+
+						<img src="<?php echo $thumb_url; ?>" alt="<?php the_title(); ?>" class=" img-fluid" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
 		<div class="container-fluid no-gutters">
-			<div class="row row-container">
+			<div class="row row-container pt-0">
 
 				<div class="col-md-8 offset-md-2 blog-entry-content">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php
-						$thumb_id = get_post_thumbnail_id();
-						$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
-						$thumb_url = $thumb_url_array[0];
-					?>
-
-						<img src="<?php echo $thumb_url; ?>" alt="" class="img-fit">
-
-						<?php the_content(); ?>
+						<?php the_content() ?>
 
 					<?php endwhile; // End of the loop. ?>
 
