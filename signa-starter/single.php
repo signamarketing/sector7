@@ -69,7 +69,7 @@ get_header('single'); ?>
 					$thumb_url = $thumb_url_array[0];
 				?>
 
-						<img src="<?php echo $thumb_url; ?>" alt="<?php the_title(); ?>" class="img-fit img-fluid" loading="lazy">
+						<img src="<?php echo $thumb_url; ?>" alt="<?php the_title(); ?>" class=" img-fluid" loading="lazy">
         </div>
       </div>
     </div>
