@@ -98,7 +98,7 @@ window.addEventListener('scroll', function () {
   if(socialShare) {
 
     socialShare.classList[
-      document.documentElement.scrollTop > 545 ? 'add': 'remove'
+      document.documentElement.scrollTop > 710 ? 'add': 'remove'
     ]('fixed-social-share');
 
   }
