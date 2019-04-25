@@ -2022,7 +2022,7 @@ ul.mobile-tabs li {
     margin: 0px 7.5%;
   }
 }
-@media(max-width:1024px) {
+@media(min-width:1024px) {
 	.blog-half:first-of-type {
 		padding-right: 50px;
 		min-width: 500px;
@@ -2031,7 +2031,8 @@ ul.mobile-tabs li {
 .blog-row {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+	flex-wrap: wrap;
+	width:100%;
 }
 
 .blog-half {
@@ -2266,24 +2267,24 @@ object {
   position: absolute;
   bottom: -200px;
   right: 0px;
-
-  ul.social-share-list li {
+}
+  .social-share-fixed ul.social-share-list li {
     height: 40px;
     width: 40px;
     display: block;
-
-    &.social-share-hide {
+	}
+    .social-share-fixed ul.social-share-list li .social-share-hide {
       color: $black;
       cursor: pointer;
     }
 
-    a img {
+    .social-share-fixed ul.social-share-list li a img {
       width: 40px;
       margin: 0;
       padding: 0;
     }
-  }
-}
+ 
+
 
 .img-clutch {
   margin-top: 15px;
@@ -2334,8 +2335,7 @@ object {
 	width: 40px;
 	display: block;
 }
-
-// social share mobile 
+/* social share mobile */
 
 .social-share-mobile {
   display: none;
@@ -2355,40 +2355,41 @@ object {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    li {
+	}
+	ul.ss-list-mobile li {
       flex: 1 1 0;
       list-style: none;
-      height: 35px;
+			height: 35px;
+	}
 
-      a {
+	ul.ss-list-mobile li a {
         width: 100%;
         display: block;
       }
 
-      &:nth-child(2) {
+      ul.ss-list-mobile li:nth-child(2) {
         background: #598DCA;
       }
 
-      &:nth-child(3) {
+      ul.ss-list-mobile li:nth-child(3) {
         background: #527FA4;
       }
 
-      &:nth-child(4) {
+			ul.ss-list-mobile li:nth-child(4) {
         background: #D95032;
       }
 
-      &:first-of-type {
+      ul.ss-list-mobile li:first-of-type {
         background: #3A589B;
       }
 
-      &:last-of-type {
+      ul.ss-list-mobile li:last-of-type {
         background: #007AB9;
       }
 
-      img {
+      ul.ss-list-mobile li img {
         width: 35px;
       }
     }
-  }
+
 }
