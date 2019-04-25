@@ -2022,7 +2022,7 @@ ul.mobile-tabs li {
     margin: 0px 7.5%;
   }
 }
-@media(max-width:1120px) {
+@media(max-width:1024px) {
 	.blog-half:first-of-type {
 		padding-right: 50px;
 		min-width: 500px;
