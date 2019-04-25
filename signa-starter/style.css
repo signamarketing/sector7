@@ -2054,8 +2054,9 @@ ul.mobile-tabs li {
 }
 
 .blog-entry-title {
-  line-height: 1.2;
-  margin-top: 0px;
+  line-height: 1.1;
+	margin-top: 0px;
+	margin-bottom: .5em;
 }
 
 @media(max-width: 1024px) {
