@@ -76,9 +76,9 @@ get_header(); ?>
 					<p style="color:#39BFC3; font-weight:700; font-size:22px; line-height:1.3;">We thrive off challenges. Our talented
 						and experienced design and development team are ready for your next big idea.</p>
 
-					<p>You should only want the best of the best to design and build your mobile applications. At Sector 7 Apps, our team is highly capable and experienced in building apps. We’ve utilized and improved upon industry standard processes to develop our own unique and efficient concept-to-launch process. Our hard-boiled processes allow us to quickly build apps that fit in with your overall business strategy. Your app shouldn’t just be functional, it should benefit your company and remain aligned with your brand’s culture and style.
+					<p>You should only want the best of the best to design and build your mobile applications. At Sector 7 Apps, our team is highly capable and experienced in building apps. We’ve utilized and improved upon industry standard processes to develop our own unique and efficient concept-to-launch process. Our hard-boiled processes allow us to quickly build apps that fit in with your overall business strategy. Your app shouldn’t just be functional, it should benefit your company and remain aligned with your brand’s culture and style.</p>
 					
-					<br/> In this industry, technology is ever-evolving and businesses have to adapt to remain current. So we’ve adopted a positive attitude towards change and we’re constantly looking for new software that can quicken app design, app
+					 <p>In this industry, technology is ever-evolving and businesses have to adapt to remain current. So we’ve adopted a positive attitude towards change and we’re constantly looking for new software that can quicken app design, app
 					development, and aid project management.</p>
 
 					<a class="btn black" href="/start-now/">Schedule A Discovery Meeting</a>
