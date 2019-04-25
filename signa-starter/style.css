@@ -1219,7 +1219,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 	#navbar {
 		background-color: #fff;
 	}
-
+	#navbar.bg-black {background-color:#000;}
 	.logo {
 		display: block;
 	}
@@ -1230,6 +1230,10 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 
 	#open-menu-btn .fa-bars {
 		color: #000;
+	}
+
+	.scrolled #open-menu-btn .fa-bars {
+		color: #fff;
 	}
 
 	#navbar .menu li:last-of-type a {
