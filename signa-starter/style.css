@@ -1894,6 +1894,11 @@ p.above-header {
 	justify-content: center;
 	min-height: 354px;
 }
+@media(min-width:992px) {
+	.hero-title-padding{ 
+		padding: 234px 40px 56px 40px;
+	}
+}
 .hero-title-padding{
 	display: block;
 	position: relative;
