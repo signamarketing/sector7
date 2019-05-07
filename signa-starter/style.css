@@ -1894,17 +1894,18 @@ p.above-header {
 	justify-content: center;
 	min-height: 354px;
 }
-@media(min-width:992px) {
-	.hero-title-padding{ 
-		padding: 234px 40px 56px 40px;
-	}
-}
-.hero-title-padding{
+#inner-banner .hero-title-padding{
 	display: block;
 	position: relative;
 	padding: 162px 40px 56px 40px;
 	width: 100%;
 }
+@media(min-width:992px) {
+	#inner-banner .hero-title-padding{ 
+		padding: 234px 40px 56px 40px;
+	}
+}
+
 
 @media(max-width: 768px) {
 	.bold-statement-box {
