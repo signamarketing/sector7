@@ -882,6 +882,12 @@ h2 {
 .text-center {
 	text-align: center
 }
+.text-left {
+	text-align:center;
+}
+.text-right {
+	text-align: right;
+}
 
 .row-container {
 	width: 1200px;
@@ -1911,12 +1917,12 @@ p.above-header {
 #inner-banner .hero-title-padding{
 	display: block;
 	position: relative;
-	padding: 162px 40px 56px 40px;
+	padding: 162px 0px 56px 0px;
 	width: 100%;
 }
 @media(min-width:992px) {
 	#inner-banner .hero-title-padding{ 
-		padding: 234px 0px 56px 0px;
+		padding: 234px 40px 56px 40px;
 	}
 }
 
