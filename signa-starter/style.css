@@ -55,6 +55,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: 'Source Sans Pro', sans-serif;
+	overflow-x:hidden;
 }
 
 h1, h2, h3, h4, p, a, div {
@@ -1712,7 +1713,7 @@ div#footer-sidebar3 {
 
 @media(max-width:768px) {
 	.fixed-phone-clip {
-		top: 263px;
+		top: 153px;
 		position: relative;
 	}
 
@@ -1724,7 +1725,20 @@ div#footer-sidebar3 {
 		top: 63%;
 		width: 100%;
 	}
-
+	.fixed-phone-position .fixed-phone-all-sizing {
+    margin: 0 auto;
+    width: 180px;
+	}
+	.fixed-phone-frame-sizing {
+		width: 180px;
+	}
+	.fixed-phone-inner-img {
+    height: 282px;
+    left: 0;
+    position: absolute;
+    top: 35px;
+    width: 172px;
+	}
 	.bold-statement {
 		margin: 15px 0px 45px 0px;
 	}
@@ -1902,7 +1916,7 @@ p.above-header {
 }
 @media(min-width:992px) {
 	#inner-banner .hero-title-padding{ 
-		padding: 234px 40px 56px 40px;
+		padding: 234px 0px 56px 0px;
 	}
 }
 
