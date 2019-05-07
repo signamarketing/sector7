@@ -1016,7 +1016,9 @@ h2 {
 .scrolled .logo-2 {
 	display: none;
 }
-
+.scrolled #open-menu-btn .fa-bars {
+	color:#000;
+}
 .nav-menu .menu ul {
 	display: flex;
 	list-style: none;
@@ -1813,17 +1815,23 @@ div#footer-sidebar3 {
 }
 
 /* Ninja Forms */
+@media (max-width:767px) {
+	input#nf-field-9 {
+		width: auto !important;
+	}
+}
+
 input#nf-field-9 {
 	color: #FFF !important; 
 	border: 2px solid #FFF !important;
-	background-color: #39BFC3 !important;
+	background-color: transparent !important;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 24px !important;
 	text-transform: capitalize !important;
 	font-weight: 700;
 	line-height: 1;
 	cursor: pointer;
-	width: auto !important;
+	width:100% !important;
 	padding: 12px 60px !important;
 }
 
