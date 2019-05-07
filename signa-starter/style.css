@@ -883,7 +883,7 @@ h2 {
 	text-align: center
 }
 .text-left {
-	text-align:center;
+	text-align:left;
 }
 .text-right {
 	text-align: right;
@@ -1228,7 +1228,8 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 	#navbar {
 		background-color: #fff;
 	}
-	#navbar.bg-black {background-color:#000;}
+	#navbar.bg-black {background-color:#000;     z-index: 99999;}
+	#navbar.bg-black.open {background-color: #fff;}
 	.bg-black #open-menu-btn .fa-bars { color: #fff !important; }
 	.logo {
 		display: block;
