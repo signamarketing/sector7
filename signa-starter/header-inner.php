@@ -128,7 +128,7 @@ $thumb_url = $thumb_url_array[0];?>
 			<div id="inner-banner" class="header-banner container-fluid no-gutter">
 
 				<div class="row" style="width:1200px; margin: auto;">
-					<div class="col-12" style="display: block; position: relative; padding: 234px 40px 56px 40px; width: 100%;">
+					<div class="col-12 hero-title-padding" >
 						<h1>
 							<?php if(!is_category()) { the_title(); } else { single_cat_title('Category: '); } ?>
 						</h1>
