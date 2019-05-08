@@ -130,8 +130,11 @@ get_header('single'); ?>
 						</div>
 						<div class="end-of-post-categories-2">
 							<?php
-								$category = get_the_category();
-								echo '<a href="'.get_category_link($category[0]->cat_ID).'">' . $category[0]->cat_name . '</a>';
+								// Displaying only this posts categories.
+								// $category = get_the_category();
+								// echo '<a href="'.get_category_link($category[0]->cat_ID).'">' . $category[0]->cat_name . '</a>';
+								// Displaying all categories
+								echo wp_list_categories();
 							?>
 						</div>
 
