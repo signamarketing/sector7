@@ -134,7 +134,10 @@ get_header('single'); ?>
 								// $category = get_the_category();
 								// echo '<a href="'.get_category_link($category[0]->cat_ID).'">' . $category[0]->cat_name . '</a>';
 								// Displaying all categories
-								echo wp_list_categories();
+								$categories = wp_list_categories();
+								foreach($categories as $category){
+										echo '<a href="' . get_category_link($category) . '">' . get_cat_name($category) . '</a>';
+								}
 							?>
 						</div>
 
