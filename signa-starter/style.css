@@ -1921,12 +1921,11 @@ p.above-header {
 	padding: 162px 0px 56px 0px;
 	width: 100%;
 }
-@media(min-width:992px) {
+@media(min-width:1130px) {
 	#inner-banner .hero-title-padding{ 
 		padding: 234px 40px 56px 40px;
 	}
 }
-
 
 @media(max-width: 768px) {
 	.bold-statement-box {
