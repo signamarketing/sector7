@@ -893,7 +893,7 @@ h2 {
 	width: 1200px;
 	max-width: 100%;
 	margin: auto;
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .white-text {
@@ -1294,7 +1294,11 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 	min-height: 610px;
 	height: 100vh;
 }
-
+@media (max-width:600px) {
+		.header-banner {
+			max-height: 640px;
+	}
+}
 /* @media(max-width: 992px) {
 	.header-banner {
 		padding: 200px 0px;
