@@ -1622,7 +1622,10 @@ div#footer-sidebar3 {
 ## Fixed Phone
 --------------------------------------------------------------*/
 .fixed-phone-row-padding {
-	padding: 25% 0 25%;
+	padding: 30px 0 50px;
+	height: 612px;
+	display: flex;
+	align-items: center;
 }
 
 .fixed-phone-clip {
