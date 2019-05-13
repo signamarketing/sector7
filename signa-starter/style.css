@@ -1642,6 +1642,11 @@ div#footer-sidebar3 {
 
 .fixed-phone-position img {
 	width:200px;
+	margin-bottom:22px;
+}
+
+.fixed-phone-row-padding p:last-child {
+	margin-bottom: 0px !important;
 }
 
 .m-t-0 {margin-top:0px;}
@@ -1668,6 +1673,7 @@ div#footer-sidebar3 {
 		left: 12%;
 		position: absolute;
 		top: -350px;
+		margin-bottom:0px;
 	}
 }
 
