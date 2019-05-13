@@ -1621,6 +1621,16 @@ div#footer-sidebar3 {
 /*-------------------------------------------------------------
 ## Fixed Phone
 --------------------------------------------------------------*/
+.fixed-phone-row-padding {
+	width: 1200px;
+	max-width: 100%;
+	margin: auto;
+	padding: 75px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .fixed-phone-clip {
 	clip: rect(auto,auto,auto,auto);
 	height: 100%;
@@ -1630,27 +1640,35 @@ div#footer-sidebar3 {
 	max-width: 100%;
 }
 
-/* POSITION DIV */
 .fixed-phone-position {
 	display: block;
 	left: 50%;
 	max-width: 100%;
 	max-height: 866px;
 	position: fixed;
-	top: 57%;
+	top: 68%;
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 	width: 1200px;
 }
+
 .fixed-phone-position img {
-	width: 265px;
+	width: 25%;
+	max-width: 265px;
 	left: 12%;
 	position: absolute;
 	top: -350px;
 }
+
 .m-t-0 {margin-top:0px;}
-/* POSITION DIV */
+
+@media (min-width:768px) {
+	.fixed-phone-row-padding{
+		min-height: 600px;
+	}	
+}
+
 @media(max-width:992px) {
 	.hp-card-image-spacer {
 		padding: 0;
