@@ -1621,91 +1621,33 @@ div#footer-sidebar3 {
 /*-------------------------------------------------------------
 ## Fixed Phone
 --------------------------------------------------------------*/
-.fixed-phone-row-padding {
-	padding: 30px 0 50px;
-	height: 612px;
-	display: flex;
-	align-items: center;
-}
-
 .fixed-phone-clip {
-	clip: rect(auto, auto, auto, auto);
+	clip: rect(auto,auto,auto,auto);
 	height: 100%;
 	position: absolute;
 	top: 0;
-	left: 0;
-	width: 100%;
+	width: 1200px;
+	max-width: 100%;
 }
 
 /* POSITION DIV */
 .fixed-phone-position {
 	display: block;
-	left: 31%;
-	max-width: 41%;
+	left: 50%;
+	max-width: 100%;
 	max-height: 866px;
 	position: fixed;
-	top: 60%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	/* text-align: center; */
-	/* vertical-align: middle; */
-	width: 50%;
+	top: 57%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	width: 1200px;
 }
-
-/* RESPONSIVE SIZE DIV */
-.fixed-phone-position .fixed-phone-all-sizing {
-	margin: 0 auto;
-	/* min-width: 78%; */
-	width: 247px;
-	/* width: 42%; */
-	/* z-index: 99999; */
-}
-
-/* MORE SIZING DIV */
-.fixed-phone-frame-padding {
-	padding-top: 208.75332%;
-	position: relative;
-}
-
-/* FRAME IMAGE SIZING DIV BEGINNING */
-.fixed-phone-frame-sizing {
-	height: 100%;
-	left: 0;
+.fixed-phone-position img {
+	width: 265px;
+	left: 12%;
 	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 9;
-}
-
-/* FRAME IMAGE WRAPPER */
-.rfixed-phone-frame-img-wrapper {
-	bottom: 0;
-	height: 100%;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	width: 100%;
-}
-
-/*FRAME IMAGE IMAGE HERE  - END*/
-/* INSIDE IMAGE SIZING & POSITIONING BEGINNING */
-.fixed-phone-inner-img {
-	height: 382px;
-	left: 12px;
-	position: absolute;
-	top: 36px;
-	width: 223px;
-}
-
-/* INSIDE IMAGE WRAPPER */
-.fixed-phone-inner-img-wrapper {
-	bottom: 0;
-	height: 100%;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	width: 100%;
+	top: -350px;
 }
 
 /* POSITION DIV */
