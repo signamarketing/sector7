@@ -1640,14 +1640,8 @@ div#footer-sidebar3 {
 	max-width: 100%;
 }
 
-
-
 .fixed-phone-position img {
-	width: 25%;
-	max-width: 265px;
-	left: 12%;
-	position: absolute;
-	top: -350px;
+	width:200px;
 }
 
 .m-t-0 {margin-top:0px;}
@@ -1667,6 +1661,13 @@ div#footer-sidebar3 {
 		-ms-transform: translate(-50%,-50%);
 		transform: translate(-50%,-50%);
 		width: 1200px;
+	}
+	.fixed-phone-position img {
+		width: 25%;
+		max-width: 265px;
+		left: 12%;
+		position: absolute;
+		top: -350px;
 	}
 }
 
