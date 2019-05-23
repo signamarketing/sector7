@@ -318,7 +318,7 @@ li > ol {
   margin-bottom: 0;
   margin-left: 1.5em; }
 
-ul > li, ol > li {
+.blog-entry-content ul > li, .blog-entry-content ol > li {
   margin-bottom: 15px; }
 
 nav li {
