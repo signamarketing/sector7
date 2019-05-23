@@ -1,24 +1,8 @@
-/*!
-Theme Name: signa-starter
-Theme URI: http://underscores.me/
-Author: Signa Marketing Don
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: signa-starter
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+// Signa Starter Theme CSS
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
+// Global
+@import 'colors';
 
-signa-starter is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -397,6 +381,16 @@ li>ul,
 li>ol {
 	margin-bottom: 0;
 	margin-left: 1.5em;
+}
+
+.blog-entry-content ul > li, .blog-entry-content ol > li {
+	margin-bottom: 15px;
+}
+nav li {
+	margin-bottom: 0px;
+}
+li:last-child {
+	margin-bottom: 0px;
 }
 
 dt {
@@ -2400,5 +2394,3 @@ object {
         width: 35px;
       }
     }
-
-}

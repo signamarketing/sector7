@@ -1,0 +1,28 @@
+{
+  "name": "sector_7_apps",
+  "version": "1.0.0",
+  "description": "Sector 7 Apps WordPress and Bootstrap Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signamarketing/sector7.git"
+  },
+  "author": "signamarketing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/signamarketing/sector7/issues"
+  },
+  "homepage": "https://github.com/signamarketing/sector7#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

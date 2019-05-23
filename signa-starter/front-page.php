@@ -78,7 +78,7 @@ get_header(); ?>
 
 					<p>You should only want the best of the best to design and build your mobile applications. At Sector 7 Apps, our team is highly capable and experienced in building apps. We’ve utilized and improved upon industry standard processes to develop our own unique and efficient concept-to-launch process. Our hard-boiled processes allow us to quickly build apps that fit in with your overall business strategy. Your app shouldn’t just be functional, it should benefit your company and remain aligned with your brand’s culture and style.</p>
 					
-					 <p>In this industry, technology is ever-evolving and businesses have to adapt to remain current. So we’ve adopted a positive attitude towards change and we’re constantly looking for new software that can quicken app design, app
+					<p> In this industry, technology is ever-evolving and businesses have to adapt to remain current. So we’ve adopted a positive attitude towards change and we’re constantly looking for new software that can quicken app design, app
 					development, and aid project management.</p>
 
 					<a class="btn black" href="/start-now/">Schedule A Discovery Meeting</a>
@@ -91,7 +91,7 @@ get_header(); ?>
 		<div class="container-fluid main-nf-bg" style="position: relative; display: block; background: radial-gradient(#4cced1 19%,#34bec1);">
 			<div class="row row-container">
 				<div class="col-12">
-					<p class="bold-statement text-center" style="padding-bottom: 25px;">Need an App?<br>Let's Chat</p>
+				<p class="bold-statement text-center" style="padding-bottom: 25px;">Need an App?<br>Let's Chat</p>
 					<?php echo do_shortcode('[ninja_form id=2]'); ?>
 				</div>
 			</div>

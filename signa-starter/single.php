@@ -75,22 +75,6 @@ get_header('single'); ?>
     </div>
   </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
@@ -130,8 +114,10 @@ get_header('single'); ?>
 						</div>
 						<div class="end-of-post-categories-2">
 							<?php
+								// Displaying only this posts categories.
 								$category = get_the_category();
 								echo '<a href="'.get_category_link($category[0]->cat_ID).'">' . $category[0]->cat_name . '</a>';
+								// Displaying all categories
 							?>
 						</div>
 
