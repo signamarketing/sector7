@@ -318,6 +318,15 @@ li > ol {
   margin-bottom: 0;
   margin-left: 1.5em; }
 
+ul > li, ol > li {
+  margin-bottom: 15px; }
+
+nav li {
+  margin-bottom: 0px; }
+
+li:last-child {
+  margin-bottom: 0px; }
+
 dt {
   font-weight: bold; }
 
