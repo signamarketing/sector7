@@ -1,49 +1,3 @@
-/*!
-Theme Name: signa-starter
-Theme URI: http://underscores.me/
-Author: Signa Marketing Don
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: signa-starter
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-signa-starter is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-	## Posts and pages
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
 html {
 	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -2282,7 +2236,7 @@ object {
     display: block;
 	}
     .social-share-fixed ul.social-share-list li .social-share-hide {
-      color: $black;
+      color: black;
       cursor: pointer;
     }
 
@@ -2372,33 +2326,48 @@ object {
 	}
 
 	ul.ss-list-mobile li a {
-        width: 100%;
-        display: block;
-      }
+		width: 100%;
+		display: block;
+	}
 
-      ul.ss-list-mobile li:nth-child(2) {
-        background: #598DCA;
-      }
+	ul.ss-list-mobile li:nth-child(2) {
+		background: #598DCA;
+	}
 
-      ul.ss-list-mobile li:nth-child(3) {
-        background: #527FA4;
-      }
+	ul.ss-list-mobile li:nth-child(3) {
+		background: #527FA4;
+	}
 
-			ul.ss-list-mobile li:nth-child(4) {
-        background: #D95032;
-      }
+	ul.ss-list-mobile li:nth-child(4) {
+		background: #D95032;
+	}
 
-      ul.ss-list-mobile li:first-of-type {
-        background: #3A589B;
-      }
+	ul.ss-list-mobile li:first-of-type {
+		background: #3A589B;
+	}
 
-      ul.ss-list-mobile li:last-of-type {
-        background: #007AB9;
-      }
+	ul.ss-list-mobile li:last-of-type {
+		background: #007AB9;
+	}
 
-      ul.ss-list-mobile li img {
-        width: 35px;
-      }
-    }
+	ul.ss-list-mobile li img {
+		width: 35px;
+	}
+}
 
+/* Blog Font Sizing Fix */
+.blog-entry-content h2 {
+	font-size: 37px;
+}
+
+.blog-entry-content h3 {
+	font-size: 31px;
+}
+
+.blog-entry-content h4 {
+	font-size: 26px;
+}
+
+.blog-entry-content h5 {
+	font-size: 22px;
 }

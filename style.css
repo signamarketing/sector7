@@ -2373,33 +2373,48 @@ object {
 	}
 
 	ul.ss-list-mobile li a {
-        width: 100%;
-        display: block;
-      }
+		width: 100%;
+		display: block;
+	}
 
-      ul.ss-list-mobile li:nth-child(2) {
-        background: #598DCA;
-      }
+	ul.ss-list-mobile li:nth-child(2) {
+		background: #598DCA;
+	}
 
-      ul.ss-list-mobile li:nth-child(3) {
-        background: #527FA4;
-      }
+	ul.ss-list-mobile li:nth-child(3) {
+		background: #527FA4;
+	}
 
-			ul.ss-list-mobile li:nth-child(4) {
-        background: #D95032;
-      }
+	ul.ss-list-mobile li:nth-child(4) {
+		background: #D95032;
+	}
 
-      ul.ss-list-mobile li:first-of-type {
-        background: #3A589B;
-      }
+	ul.ss-list-mobile li:first-of-type {
+		background: #3A589B;
+	}
 
-      ul.ss-list-mobile li:last-of-type {
-        background: #007AB9;
-      }
+	ul.ss-list-mobile li:last-of-type {
+		background: #007AB9;
+	}
 
-      ul.ss-list-mobile li img {
-        width: 35px;
-      }
-    }
+	ul.ss-list-mobile li img {
+		width: 35px;
+	}
+}
 
+/* Blog Font Sizing Fix */
+.blog-entry-content h2 {
+	font-size: 37px;
+}
+
+.blog-entry-content h3 {
+	font-size: 31px;
+}
+
+.blog-entry-content h4 {
+	font-size: 26px;
+}
+
+.blog-entry-content h5 {
+	font-size: 22px;
 }
