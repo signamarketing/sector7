@@ -21,7 +21,7 @@ get_header(); ?>
 			<div class="row row-container">
 				<div class="col-lg-4 text-center services">
 					<img style="width: auto; height: 110px;" src="/wp-content/uploads/2018/07/lightbulb.png">
-					<h2>Strategy + Planning</h2>
+					<h2>Strategy + Planningg</h2>
 					<p>The only way to develop a mobile app that addresses your business goals, and solves current pain points, is by
 						developing a clearly defined goal, strategy, and laying out a plan for a successful launch and execution of your
 						mobile app.</p>
