@@ -2356,18 +2356,20 @@ object {
 }
 
 /* Blog Font Sizing Fix */
-.blog-entry-content h2 {
-	font-size: 37px;
-}
+.blog-entry-content {
+	h2 {
+		font-size: 37px;
+	}
 
-.blog-entry-content h3 {
-	font-size: 31px;
-}
-
-.blog-entry-content h4 {
-	font-size: 26px;
-}
-
-.blog-entry-content h5 {
-	font-size: 22px;
+	h3 {
+		font-size: 31px;
+	}
+	
+	 h4 {
+		font-size: 26px;
+	}
+	
+	 h5 {
+		font-size: 22px;
+	}
 }
