@@ -1,0 +1,89 @@
+
+h1 {
+	font-size: 64px;
+	font-weight: 700;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.text-cta {
+	font-weight: 900;
+	font-size: 54px;
+	text-transform: uppercase;
+}
+
+.sub-header {
+	color: #39BFC3;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+
+
+
+.text-center {
+	text-align: center
+}
+.text-left {
+	text-align:left;
+}
+.text-right {
+	text-align: right;
+}
+
+
+/* Blog Font Sizing Fix */
+.blog-entry-content h2 {
+	font-size: 37px;
+	margin: 25px 0px;
+}
+
+.blog-entry-content h3 {
+	font-size: 31px;
+	margin: 15px 0px;
+}
+
+.blog-entry-content h4 {
+	font-size: 26px;
+	margin: 15px 0px;
+}
+
+.blog-entry-content h5 {
+	font-size: 22px;
+	margin: 15px 0px;
+}
+
+h2.post-title {
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+
+p.date-text {
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a.nostyle {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.blog-author-name {
+  font-size: 20px;
+}
+
+.blog-post-date,
+.reading-time {
+  font-size: 14px;
+}
