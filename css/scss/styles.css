@@ -1889,16 +1889,20 @@ object {
 
 /* Blog Font Sizing Fix */
 .blog-entry-content h2 {
-  font-size: 37px; }
+  font-size: 37px;
+  margin: 15px 0px; }
 
 .blog-entry-content h3 {
-  font-size: 31px; }
+  font-size: 31px;
+  margin: 15px 0px; }
 
 .blog-entry-content h4 {
-  font-size: 26px; }
+  font-size: 26px;
+  margin: 15px 0px; }
 
 .blog-entry-content h5 {
-  font-size: 22px; }
+  font-size: 22px;
+  margin: 15px 0px; }
 
 .blog-entry-content li {
   margin-bottom: 15px; }
