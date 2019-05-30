@@ -753,7 +753,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 ## SCROLLED HEADER & MENU
 --------------------------------------------------------------*/
 .scrolled #open-menu-btn .fa-bars {
-  color: #000; }
+  color: #fff; }
 
 .scrolled #close-menu-btn .fa-times {
   color: #000; }
@@ -1062,6 +1062,16 @@ div.end-of-post-categories {
   text-transform: uppercase;
   width: 100%;
   margin: auto; }
+
+.form-title {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-transform: uppercase;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 0px; }
 
 .services i {
   width: 100px;
