@@ -753,7 +753,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 ## SCROLLED HEADER & MENU
 --------------------------------------------------------------*/
 .scrolled #open-menu-btn .fa-bars {
-  color: #000; }
+  color: #fff; }
 
 .scrolled #close-menu-btn .fa-times {
   color: #000; }
