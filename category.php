@@ -108,7 +108,7 @@ get_header('inner'); ?>
         </div>
 
         <!-- Form CTA -->
-        <?php get_template_part('template-parts/content-form-cta.php'); ?>
+        <?php get_template_part('template-parts/content-form-cta'); ?>
 
 
         
