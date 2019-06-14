@@ -223,11 +223,3 @@ function new_excerpt_more($more) {
 	return '<a class="nostyle" href="'. get_permalink($post->ID) . '">...</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
-
-// change form title after ninja forms submission
-add_action( 'init', 'nf_tribe_event_title');
-function nf_tribe_event_title(){
-    global $ninja_forms_loading;
-
-    $ninja_forms_loading->update_field_value( 2, 'TRIBE EVENT TITLE HERE' );
-}
