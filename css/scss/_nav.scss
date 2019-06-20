@@ -43,7 +43,7 @@
 .scrolled .logo-2 {
 	display: none;
 }
-.scrolled #open-menu-btn .fa-bars {
+.scrolled #open-menu-btn .icon-menu {
 	color:#fff;
 }
 .nav-menu .menu ul {
@@ -160,7 +160,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 	cursor: pointer;
 }
 
-#open-menu-btn .fa-bars {
+#open-menu-btn .icon-menu {
 	font-size: 40px;
 	color: #fff;
 }
@@ -171,7 +171,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 	cursor: pointer;
 }
 
-#close-menu-btn .fa-times {
+#close-menu-btn .icon-cancel {
 	font-size: 40px;
 	color: #fff;
 }
@@ -240,7 +240,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 		color: #000;
 	}
 
-	#close-menu-btn.open .fa-times {
+	#close-menu-btn.open .icon-cancel {
 		color: #000;
 	}
 
@@ -250,7 +250,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 	}
 	#navbar.bg-black {background-color:#000;     z-index: 99999;}
 	#navbar.bg-black.open {background-color: #fff;}
-	.bg-black #open-menu-btn .fa-bars { color: #fff !important; }
+	.bg-black #open-menu-btn .icon-menu { color: #fff !important; }
 	.logo {
 		display: block;
 	}
@@ -259,11 +259,11 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 		display: none;
 	}
 
-	#open-menu-btn .fa-bars {
+	#open-menu-btn .icon-menu {
 		color: #000;
 	}
 
-	.bg-black #open-menu-btn .fa-bars {
+	.bg-black #open-menu-btn .icon-menu {
 		color: #fff;
 	}
 
@@ -282,11 +282,11 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 /*--------------------------------------------------------------
 ## SCROLLED HEADER & MENU
 --------------------------------------------------------------*/
-.scrolled #open-menu-btn .fa-bars {
+.scrolled #open-menu-btn .icon-menu {
 	color: #fff;
 }
 
-.scrolled #close-menu-btn .fa-times {
+.scrolled #close-menu-btn .icon-cancel {
 	color: #000;
 }
 
