@@ -151,8 +151,18 @@ input.search-field:-ms-input-placeholder {
 
 
 .ninja-forms-field {
-	border: solid 3px #fff;
+	border: solid 3px #fff !important;
 	background: transparent;
 	background-color: transparent;
-	color: #fff;
+	color: #fff !important;
+	font-weight: bold !important;
+}
+
+#nf-field-9 {
+	width: 100%;
+	border-width: 3px;
+
+	&:hover {
+		width: 100%;
+	}
 }
