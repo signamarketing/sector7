@@ -1923,3 +1923,16 @@ input.search-field:-ms-input-placeholder {
   max-width: 100%;
   width: 350px;
   text-align: center; }
+
+.ninja-forms-field {
+  border: solid 3px #fff !important;
+  background: transparent;
+  background-color: transparent;
+  color: #fff !important;
+  font-weight: bold !important; }
+
+#nf-field-9 {
+  width: 100%;
+  border-width: 3px; }
+  #nf-field-9:hover {
+    width: 100%; }
