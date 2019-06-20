@@ -1510,3 +1510,7 @@ p {
 /* Do not show the outline on the skip link target. */
 #content[tabindex="-1"]:focus {
   outline: 0; }
+
+img {
+  height: auto;
+  max-width: 100%; }
