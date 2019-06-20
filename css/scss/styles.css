@@ -1936,3 +1936,7 @@ input.search-field:-ms-input-placeholder {
   border-width: 3px; }
   #nf-field-9:hover {
     width: 100%; }
+
+#nf-field-9.ninja-forms-field:hover {
+  max-width: 100% !important;
+  width: 100% !important; }
