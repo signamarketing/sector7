@@ -104,10 +104,10 @@ $thumb_url = $thumb_url_array[0];?>
 					 <img class="logo-2" src="/wp-content/uploads/2018/07/Sector7Apps_logoWHITE.png">
 					</a>
 					<span id="open-menu-btn" class="open-menu-btn" onclick="openMenu()">
-						<i class="fa fa-bars" aria-hidden="true"></i>
+					<i class="icon-menu"></i>
 					</span>
 					<span id="close-menu-btn" class="closebtn" onclick="closeMenu()">
-						<i class="fa fa-times" aria-hidden="true"></i>
+						<i class="icon-cancel"></i>
 					</span>
 					<?php
 						wp_nav_menu( array ( 

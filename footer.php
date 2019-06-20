@@ -46,7 +46,7 @@
 		<!-- Lazy Loading -->
 		<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.5/dist/lazyload.min.js"></script>
 
-		<script src="https://use.fontawesome.com/52dda3483b.js"></script>	
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/font/css/fontello.css">
 
 		<?php wp_footer(); ?>
 
