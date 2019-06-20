@@ -81,7 +81,8 @@
 
 <body <?php body_class(); ?>>
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQ2747V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQ2747V" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<div id="page" class="site">
 
@@ -94,16 +95,16 @@
 			<div id="navbar" class="bg-black">
 				<nav class="row navbar-container">
 
-					<a class="logo-container" alt="Sector 7 logo and homepage link" href="<?php echo esc_url( home_url( '/' ) ); ?>"
-					 rel="home">
-					 <img class="logo-2 lazy" data-src="/wp-content/uploads/2018/07/Sector7Apps_logoWHITE.png">
-					 <img class="logo lazy" data-src="/wp-content/uploads/2018/07/Sector7Apps_logo.png">
+					<a class="logo-container" alt="Sector 7 logo and homepage link"
+						href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img class="logo-2 lazy" data-src="/wp-content/uploads/2018/07/Sector7Apps_logoWHITE.png">
+						<img class="logo lazy" data-src="/wp-content/uploads/2018/07/Sector7Apps_logo.png">
 					</a>
 					<span id="open-menu-btn" class="open-menu-btn" onclick="openMenu()">
-						<i class="fa fa-bars" aria-hidden="true"></i>
+						<i class="icon-menu"></i>
 					</span>
 					<span id="close-menu-btn" class="closebtn" onclick="closeMenu()">
-						<i class="fa fa-times" aria-hidden="true"></i>
+						<i class="icon-cancel"></i>
 					</span>
 					<?php
 						wp_nav_menu( array ( 
@@ -116,12 +117,11 @@
 
 			<!-- Page progress bar -->
 			<?php if('post' === get_post_type()): ?>
-				<div class="progress-container">
-					<div class="progress-bar"></div>
-				</div>
+			<div class="progress-container">
+				<div class="progress-bar"></div>
+			</div>
 			<?php endif; ?>
 
 		</header>
 
 		<div id="content" class="site-content">
-		
