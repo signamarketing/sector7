@@ -43,7 +43,7 @@
 
 </footer>
 </div><!-- #page -->
-
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 <!-- Lazy Loading -->
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.5/dist/lazyload.min.js"></script>
 <script>
