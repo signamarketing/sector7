@@ -109,7 +109,7 @@ get_header(); ?>
 				</div>
 				<div class="col-lg-6 fo1 f-center">
 					<picture>
-						<source data-srcset="/wp-content/themes/signa-starter/img/webp/bold-statement-banner-img-2.webp" type="image/webp" class="hp-card-image lazy" alt="app mockup image" >
+						<source data-srcset="/wp-content/themes/signa-starter/img/webp/scout-perspective-mockup-min.webp" type="image/webp" class="hp-card-image lazy" alt="app mockup image" >
 						<source data-srcset="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" type="image/jpg" class="hp-card-image lazy" alt="app mockup image" > 
 						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" >
           </picture>
