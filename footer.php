@@ -68,3 +68,8 @@
 </body>
 
 </html>
+<picture>
+	<source srcset="/wp-content/themes/signa-starter/img/webp/apple.webp" type="image/webp" alt="ios apple logo" style="width: auto; height: 110px;">
+	<source srcset="/wp-content/uploads/2018/07/apple.png"type="image/png" alt="ios apple logo" style="width: auto; height: 110px;"> 
+	<img src="//wp-content/uploads/2018/07/apple.png" alt="ios apple logo" style="width: auto; height: 110px;">
+</picture>
