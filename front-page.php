@@ -111,7 +111,7 @@ get_header(); ?>
 					<picture>
 						<source data-srcset="/wp-content/themes/signa-starter/img/webp/scout-perspective-mockup-min.webp" type="image/webp" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" data-aos-offset="200">
 						<source data-srcset="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" type="image/jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" data-aos-offset="200"> 
-						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" data-aos-offset="200">
+						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" data-aos-delay="200">
           </picture>
 				</div>
 			</div>
