@@ -19,7 +19,7 @@ get_header(); ?>
 
 		<div class="container-fluid no-gutters">
 			<div class="row row-container">
-				<div class="col-lg-4 text-center services" data-aos="fade-up">
+				<div class="col-lg-4 text-center services" data-aos="fade-up" data-aos-once="true">
 					<picture>
 						<source data-srcset="/wp-content/themes/signa-starter/img/webp/lightbulb.webp" type="image/webp" class="lazy" alt="lightbulb icon" style="width: auto; height: 110px;">
 						<source data-srcset="/wp-content/uploads/2018/07/lightbulb.png" type="image/png" class="lazy" alt="lightbulb icon" style="width: auto; height: 110px;"> 
@@ -30,7 +30,7 @@ get_header(); ?>
 						developing a clearly defined goal, strategy, and laying out a plan for a successful launch and execution of your
 						mobile app.</p>
 				</div>
-				<div class="col-lg-4 text-center services" data-aos="fade-up">
+				<div class="col-lg-4 text-center services" data-aos="fade-up" data-aos-once="true">
 					<picture>
 						<source data-srcset="/wp-content/themes/signa-starter/img/webp/phone.webp" type="image/webp" class="lazy" alt="phone icon" style="width: auto; height: 110px;">
 						<source data-srcset="/wp-content/uploads/2018/07/phone.png" type="image/png" class="lazy" alt="phone icon" style="width: auto; height: 110px;"> 
@@ -41,7 +41,7 @@ get_header(); ?>
 						and Android mobile application design and development. From concept to launch, our team will see your vision and
 						purpose all the way through.</p>
 				</div>
-				<div class="col-lg-4 text-center services" data-aos="fade-up">
+				<div class="col-lg-4 text-center services" data-aos="fade-up" data-aos-once="true">
 					<picture>
 						<source data-srcset="/wp-content/themes/signa-starter/img/webp/tool.webp" type="image/webp" class="lazy" alt="tool icon" style="width: auto; height: 110px;">
 						<source data-srcset="/wp-content/uploads/2018/07/tool.png" type="image/png" class="lazy" alt="tool icon" style="width: auto; height: 110px;"> 
@@ -53,7 +53,7 @@ get_header(); ?>
 			</div>
 
 			<div class="row row-container" style="padding-top: 0px;">
-				<div class="col-lg-6 text-center services-buttons" data-aos="fade-up">
+				<div class="col-lg-6 text-center services-buttons" data-aos="fade-up" data-aos-once="true">
 					<picture>
 						<source data-srcset="/wp-content/themes/signa-starter/img/webp/apple.webp" type="image/webp" class="lazy" alt="apple icon" style="width: auto; height: 110px;">
 						<source data-srcset="/wp-content/uploads/2018/07/apple.png" type="image/png" class="lazy" alt="apple icon" style="width: auto; height: 110px;"> 
@@ -63,7 +63,7 @@ get_header(); ?>
 					<p>iPhone app development at it’s finest. The Sector 7 Apps team has the experience and business knowledge to make your iPhone app successful.</p>
 					<a class="btn black" href="/ios-app-development/">Learn More</a>
 				</div>
-				<div class="col-lg-6 text-center services-buttons" data-aos="fade-up">
+				<div class="col-lg-6 text-center services-buttons" data-aos="fade-up" data-aos-once="true">
 					<picture>
 						<source data-srcset="/wp-content/themes/signa-starter/img/webp/android.webp" type="image/webp" class="lazy" alt="android icon" style="width: auto; height: 110px;">
 						<source data-srcset="/wp-content/uploads/2018/07/android.png" type="image/png" class="lazy" alt="android icon" style="width: auto; height: 110px;"> 
@@ -77,7 +77,7 @@ get_header(); ?>
 		</div>
 
 		<!-- Bold Statement -->
-		<div class="container-fluid no-gutter bold-statement-bg" data-aos="fade-up">
+		<div class="container-fluid no-gutter bold-statement-bg" data-aos="fade-up" data-aos-once="true">
 			<div class="row row-container bold-statement-box">
 				<div class="col-md-6 col-lg-5 fo2 text-center">
 					<picture>
@@ -109,9 +109,9 @@ get_header(); ?>
 				</div>
 				<div class="col-lg-6 fo1 f-center">
 					<picture>
-						<source data-srcset="/wp-content/themes/signa-starter/img/webp/scout-perspective-mockup-min.webp" type="image/webp" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left">
-						<source data-srcset="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" type="image/jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left"> 
-						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left">
+						<source data-srcset="/wp-content/themes/signa-starter/img/webp/scout-perspective-mockup-min.webp" type="image/webp" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" data-aos-offset="200">
+						<source data-srcset="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" type="image/jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" data-aos-offset="200"> 
+						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" data-aos-offset="200">
           </picture>
 				</div>
 			</div>
