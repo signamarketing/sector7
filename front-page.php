@@ -109,15 +109,9 @@ get_header(); ?>
 				</div>
 				<div class="col-lg-6 fo1 f-center">
 					<picture>
-<<<<<<< HEAD
-						<source data-srcset="/wp-content/themes/signa-starter/img/webp/scout-perspective-mockup-min.webp" type="image/webp" class="hp-card-image lazy" alt="app mockup image" >
-						<source data-srcset="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" type="image/jpg" class="hp-card-image lazy" alt="app mockup image" > 
-						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" >
-=======
 						<source data-srcset="/wp-content/themes/signa-starter/img/webp/scout-perspective-mockup-min.webp" type="image/webp" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" >
 						<source data-srcset="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" type="image/jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" > 
 						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" >
->>>>>>> f0d548725bc5f1dfa6ad43d918f76023ff0e2194
           </picture>
 				</div>
 			</div>
