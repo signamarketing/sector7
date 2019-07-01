@@ -81,7 +81,7 @@ get_header(); ?>
 			<div class="row row-container bold-statement-box">
 				<div class="col-md-6 col-lg-5 fo2 text-center">
 					<picture>
-						<source data-srcset="/wp-content/themes/signa-starter/img/webp/bold-statement-banner-img-2.webp" type="image/webp" class="bold-statment-img lazy" alt="three shiny phones" >
+						<source data-srcset="/wp-content/themes/signa-starter/img/webp/bold-statement-banner-img-2.webp" type="image/webp" class="bold-statement-img lazy" alt="three shiny phones" >
 						<source data-srcset="/wp-content/uploads/2018/03/bold-statement-banner-img-2.png" type="image/png" class="bold-statement-img lazy" alt="three shiny phones" > 
 						<img data-src="/wp-content/uploads/2018/03/bold-statement-banner-img-2.png" class="bold-statement-img lazy" alt="three shiny phones" >
           </picture>
