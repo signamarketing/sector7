@@ -202,7 +202,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 // REMOVES PARAGRAPH TAGS THAT GENERATE IN NEW LINES WITHIN THE TEXT EDITOR
-remove_filter( 'the_content', 'wpautop' );
+//remove_filter( 'the_content', 'wpautop' );
 
 // REMOVES WP ADMIN BAR - REALLY GOOD FOR WHEN DEVELOPING THE HEADER OF WEBSITES
 add_action('get_header', 'remove_admin_login_header');
