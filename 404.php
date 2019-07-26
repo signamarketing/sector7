@@ -12,11 +12,11 @@ get_header('single'); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-			<div class="container-fluid no-gutters">
+			<div class="container-fluid no-gutters" stlyle="background: #eee;">
 				<div class="row row-container">
 
 
-					<section class="error-404 not-found">
+					<section class="error-404 not-found" style="padding-top:150px;">
 						<header class="page-header">
 							<h1 class="page-title"><?php esc_html_e( 'We\'re sorry. The page you requested is not available.', 'signa-starter' ); ?></h1>
 						</header><!-- .page-header -->
