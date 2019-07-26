@@ -25,18 +25,9 @@ get_header('single'); ?>
 							<p><?php esc_html_e( 'If you used a bookmark, the page may have been moved, or it no longer exists. If you typed in the URL, please check it and try again.', 'signa-starter' ); ?></p>
 
 							<?php
-								get_search_form();
+								// get_search_form();
 
-								the_widget( 'WP_Widget_Recent_Posts' );
-							?>
-
-							<?php
-
-								/* translators: %1$s: smiley */
-								$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'signa-starter' ), convert_smilies( ':)' ) ) . '</p>';
-								the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-
-								the_widget( 'WP_Widget_Tag_Cloud' );
+								// the_widget( 'WP_Widget_Recent_Posts' );
 							?>
 
 						</div><!-- .page-content -->
