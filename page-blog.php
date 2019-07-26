@@ -33,7 +33,7 @@ get_header('inner'); ?>
                 <li>TOPICS: 
 
                   <a href="javascript:"><?php if(is_archive() || is_home()) { echo 'All'; } else { echo single_cat_title(); } ?> 
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/sort-blog.png" aria-hidden="true" width="20">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/sort-blog.png" aria-hidden="true" width="20" alt="blog mobile sort icon">
                   </a>
 
                   <ol class="mobile-tabs-items">
