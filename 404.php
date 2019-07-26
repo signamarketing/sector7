@@ -18,32 +18,17 @@ get_header('single'); ?>
 
 					<section class="error-404 not-found">
 						<header class="page-header">
-							<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'signa-starter' ); ?></h1>
+							<h1 class="page-title"><?php esc_html_e( 'We\'re sorry. The page you requested is not available.', 'signa-starter' ); ?></h1>
 						</header><!-- .page-header -->
 
 						<div class="page-content">
-							<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'signa-starter' ); ?></p>
+							<p><?php esc_html_e( 'If you used a bookmark, the page may have been moved, or it no longer exists. If you typed in the URL, please check it and try again.', 'signa-starter' ); ?></p>
 
 							<?php
 								get_search_form();
 
 								the_widget( 'WP_Widget_Recent_Posts' );
 							?>
-
-							<div class="widget widget_categories">
-								<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'signa-starter' ); ?></h2>
-								<ul>
-								<?php
-									wp_list_categories( array(
-										'orderby'    => 'count',
-										'order'      => 'DESC',
-										'show_count' => 1,
-										'title_li'   => '',
-										'number'     => 10,
-									) );
-								?>
-								</ul>
-							</div><!-- .widget -->
 
 							<?php
 
