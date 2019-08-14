@@ -130,7 +130,13 @@ $thumb_url = $thumb_url_array[0];?>
 				<div class="row" style="width:1200px; margin: auto;">
 					<div class="col-12 hero-title-padding" >
 						<h1>
-							<?php if(!is_category()) { the_title(); } else { single_cat_title('Category: '); } ?>
+							<?php 
+								if(!is_category()) { 
+									the_title(); 
+								} else { 
+									echo single_cat_title() . " Archives";
+								} 
+							?>
 						</h1>
 
 						<?php if ( 'post' === get_post_type() && !is_category() ) : ?>
