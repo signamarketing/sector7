@@ -134,7 +134,7 @@ $thumb_url = $thumb_url_array[0];?>
 								if(!is_category()) { 
 									the_title(); 
 								} else { 
-									single_cat_title();
+									echo single_cat_title() . " Archives";
 								} 
 							?>
 						</h1>
