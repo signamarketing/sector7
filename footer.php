@@ -36,7 +36,7 @@
 	<div class="copyright-section">
 		<div class="row row-container text-center" style="padding:0px;">
 			<p class="copyright-text">
-				<a href="/sitemap_index.xml">Sitemap</a> | © Copyright 2019, Sector 7 Apps, All Rights reserved
+				<a href="/sitemap_index.xml">Sitemap</a> | &copy; Copyright <?php echo date("Y"); ?>, Sector 7 Apps, All Rights reserved
 			</p>
 		</div>
 	</div>
