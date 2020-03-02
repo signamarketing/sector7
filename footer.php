@@ -18,7 +18,7 @@
 		<div id="main-footer-section" class="row row-container">
 
 			<div id="footer-sidebar3" class="col-sm-12 col-md-12 col-lg-6"
-				style="align-items: center; display: flex; margin-right:auto;">
+				style="align-items: initial; display: flex; margin-right:auto;">
 				<?php if(is_active_sidebar('footer-sidebar-3')){ dynamic_sidebar('footer-sidebar-3');}?>
 			</div>
 
