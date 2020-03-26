@@ -227,10 +227,10 @@ add_filter('excerpt_more', 'new_excerpt_more');
 /**
  * Remove dashicons from front-end
  */
-add_action( 'wp_print_styles',     'my_deregister_styles', 100 );
+// add_action( 'wp_print_styles',     'my_deregister_styles', 100 );
 
-function my_deregister_styles()    { 
-   //wp_deregister_style( 'amethyst-dashicons-style' ); 
-   wp_deregister_style( 'dashicons' ); 
+// function my_deregister_styles()    { 
+//    //wp_deregister_style( 'amethyst-dashicons-style' ); 
+//    wp_deregister_style( 'dashicons' ); 
 
-}
+// }
