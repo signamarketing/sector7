@@ -45,7 +45,7 @@
 </div><!-- #page -->
 
 <!-- Lazy Loading -->
-<script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.5/dist/lazyload.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.5/dist/lazyload.min.js"></script>
 <script>
 	/*var myLazyLoad = */
 	new LazyLoad({
