@@ -43,9 +43,9 @@
 
 </footer>
 </div><!-- #page -->
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
 <!-- Lazy Loading -->
-<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.5/dist/lazyload.min.js"></script>
+<script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.5/dist/lazyload.min.js"></script>
 <script>
 	/*var myLazyLoad = */
 	new LazyLoad({
@@ -63,8 +63,8 @@
 
 <?php wp_footer(); ?>
 
-<script src="/wp-content/themes/signa-starter/js/master-js.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script async src="/wp-content/themes/signa-starter/js/master-js.js"></script>
+<script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>
