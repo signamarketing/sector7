@@ -478,6 +478,18 @@ div.end-of-post-categories {
   background-size: cover;
   background-position: top center; }
 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 129dpi) {
+  .header-banner-bg {
+    background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2@2x.jpg) !important; } }
+
+@media (max-width: 768px) {
+  .header-banner-bg {
+    background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2-mobile.jpg) !important; } }
+
+@media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 768px) and (min-resolution: 129dpi) {
+  .header-banner-bg {
+    background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2@2x-mobile.jpg) !important; } }
+
 .homepage-background-img-filter {
   background: linear-gradient(0deg, #101010 6%, #040404 92%);
   height: 100%;
