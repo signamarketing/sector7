@@ -76,6 +76,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
