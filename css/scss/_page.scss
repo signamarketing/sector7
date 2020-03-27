@@ -273,10 +273,34 @@ div.end-of-post-categories {
 }
 
 
+//desktop
 .header-banner-bg {
 	background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2.jpg);
 	background-size: cover;
 	background-position: top center;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 129dpi) { 
+	.header-banner-bg {
+		background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2@2x.jpg) !important;
+	}
+}
+
+// mobile
+@media(max-width: 768px) {
+	.header-banner-bg {
+		background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2-mobile.jpg) !important;
+	}
+
+	@media 
+	(-webkit-min-device-pixel-ratio: 2), 
+	(min-resolution: 129dpi) { 
+		.header-banner-bg {
+			background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2@2x-mobile.jpg) !important;
+		}
+	}
 }
 
 .homepage-background-img-filter {
