@@ -31,7 +31,7 @@ get_header('inner'); ?>
                 <li>TOPICS: 
 
                   <a href="javascript:"><?php if(is_archive() || is_home()) { echo 'All'; } else { echo single_cat_title(); } ?> 
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/sort-blog.png" aria-hidden="true" width="20">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/sort-blog.png" aria-hidden="true" width="20" alt="blog sort icon">
                   </a>
 
                   <ol class="mobile-tabs-items">
@@ -108,14 +108,10 @@ get_header('inner'); ?>
         </div>
 
         <!-- Form CTA -->
-        <div class="container-fluid main-nf-bg" style="position: relative; display: block; background: radial-gradient(#4cced1 19%,#34bec1);">
-          <div class="row row-container">
-            <div class="col-12">
-            <p class="bold-statement text-center" style="padding-bottom: 25px;">Need an App?<br>Let's Chat</p>
-              <?php echo do_shortcode('[ninja_form id=2]'); ?>
-            </div>
-          </div>
-        </div>
+        <?php get_template_part('template-parts/content-form-cta'); ?>
+
+
+        
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

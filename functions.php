@@ -161,9 +161,8 @@ function signa_starter_scripts() {
 
 	// Styles
 	wp_enqueue_style( 'bootstrap-grid-style', get_template_directory_uri() . '/bootstrap-4/css/bootstrap-grid.min.css' );
-	wp_enqueue_style( 'main_styles', get_stylesheet_directory_uri() . '/css/scss/min/styles.min.css', array(), '1.0.0' );
-
-	wp_enqueue_style( 'ninjaform-css', get_template_directory_uri() . '/main-contact-style.css' );
+	wp_enqueue_style( 'signa-starter-style', get_template_directory_uri() . '/css/scss/min/styles.min.css' ); 
+	wp_enqueue_style( 'ninjaform-css', get_template_directory_uri() . '/main-contact-style.css' ); 
 
 	// Scripts
 	wp_enqueue_script( 'countable', get_template_directory_uri() . '/js/countable.js', array(), '', true);
@@ -203,7 +202,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 // REMOVES PARAGRAPH TAGS THAT GENERATE IN NEW LINES WITHIN THE TEXT EDITOR
-remove_filter( 'the_content', 'wpautop' );
+//remove_filter( 'the_content', 'wpautop' );
 
 // REMOVES WP ADMIN BAR - REALLY GOOD FOR WHEN DEVELOPING THE HEADER OF WEBSITES
 add_action('get_header', 'remove_admin_login_header');
@@ -224,3 +223,14 @@ function new_excerpt_more($more) {
 	return '<a class="nostyle" href="'. get_permalink($post->ID) . '">...</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
+
+/**
+ * Remove dashicons from front-end
+ */
+// add_action( 'wp_print_styles',     'my_deregister_styles', 100 );
+
+// function my_deregister_styles()    { 
+//    //wp_deregister_style( 'amethyst-dashicons-style' ); 
+//    wp_deregister_style( 'dashicons' ); 
+
+// }

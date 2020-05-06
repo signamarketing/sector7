@@ -36,7 +36,6 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
 
 	<?php wp_head(); ?>
 
@@ -79,12 +78,14 @@
 			}]
 		}
 	</script>
-
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQ2747V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQ2747V" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<div id="page" class="site">
 
@@ -97,16 +98,16 @@
 			<div id="navbar">
 				<nav class="row navbar-container">
 
-					<a class="logo-container" alt="Sector 7 logo and homepage link" href="<?php echo esc_url( home_url( '/' ) ); ?>"
-					 rel="home">
-						<img class="logo" src="/wp-content/uploads/2018/07/Sector7Apps_logo.png">
-						<img class="logo-2" src="/wp-content/uploads/2018/07/Sector7Apps_logoWHITE.png">
+					<a class="logo-container" alt="Sector 7 logo and homepage link"
+						href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img class="logo-2 lazy" data-src="/wp-content/uploads/2018/07/Sector7Apps_logoWHITE.png">
+						<img class="logo lazy" data-src="/wp-content/uploads/2018/07/Sector7Apps_logo.png">
 					</a>
 					<span id="open-menu-btn" class="open-menu-btn" onclick="openMenu()">
-						<i class="fa fa-bars" aria-hidden="true"></i>
+						<i class="icon-menu"></i>
 					</span>
 					<span id="close-menu-btn" class="closebtn" onclick="closeMenu()">
-						<i class="fa fa-times" aria-hidden="true"></i>
+						<i class="icon-cancel"></i>
 					</span>
 					<?php
 						wp_nav_menu( 

@@ -32,7 +32,7 @@
 		})(window, document, 'script', 'dataLayer', 'GTM-KQ2747V');
 	</script>
 	<!-- End Google Tag Manager -->
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
 	<script type="application/ld+json">
 		{
 			"@context": "http://schema.org",
@@ -75,8 +75,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-
 	<?php wp_head(); ?>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
@@ -100,14 +101,14 @@ $thumb_url = $thumb_url_array[0];?>
 
 					<a class="logo-container" alt="Sector 7 logo and homepage link" href="<?php echo esc_url( home_url( '/' ) ); ?>"
 					 rel="home">
-						<img class="logo" src="/wp-content/uploads/2018/07/Sector7Apps_logo.png">
-						<img class="logo-2" src="/wp-content/uploads/2018/07/Sector7Apps_logoWHITE.png">
+					 <img class="logo lazy" data-src="/wp-content/uploads/2018/07/Sector7Apps_logo.png">
+					 <img class="logo-2 lazy" data-src="/wp-content/uploads/2018/07/Sector7Apps_logoWHITE.png">
 					</a>
 					<span id="open-menu-btn" class="open-menu-btn" onclick="openMenu()">
-						<i class="fa fa-bars" aria-hidden="true"></i>
+					<i class="icon-menu"></i>
 					</span>
 					<span id="close-menu-btn" class="closebtn" onclick="closeMenu()">
-						<i class="fa fa-times" aria-hidden="true"></i>
+						<i class="icon-cancel"></i>
 					</span>
 					<?php
 						wp_nav_menu( array ( 
@@ -130,7 +131,13 @@ $thumb_url = $thumb_url_array[0];?>
 				<div class="row" style="width:1200px; margin: auto;">
 					<div class="col-12 hero-title-padding" >
 						<h1>
-							<?php if(!is_category()) { the_title(); } else { single_cat_title('Category: '); } ?>
+							<?php 
+								if(!is_category()) { 
+									the_title(); 
+								} else { 
+									echo single_cat_title() . " Archives";
+								} 
+							?>
 						</h1>
 
 						<?php if ( 'post' === get_post_type() && !is_category() ) : ?>
