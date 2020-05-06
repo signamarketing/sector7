@@ -24,7 +24,7 @@ if ( ! function_exists( 'signa_starter_setup' ) ) :
 		 */
 		load_theme_textdomain( 'signa-starter', get_template_directory() . '/languages' );
 
-		// Add default posts and comments RSS feed links to head.
+		// Add default posts and comments RSS feed links to head. 
 		add_theme_support( 'automatic-feed-links' );
 
 		/*
