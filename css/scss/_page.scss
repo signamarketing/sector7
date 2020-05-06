@@ -276,7 +276,7 @@ div.end-of-post-categories {
 //desktop
 .header-banner-bg {
 	background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2.jpg);
-	background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2.webp);
+	// background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2.webp);
 	background-size: cover;
 	background-position: top center;
 }
@@ -286,7 +286,7 @@ div.end-of-post-categories {
 (min-resolution: 129dpi) { 
 	.header-banner-bg {
 		background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2@2x.jpg) !important;
-		background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
+		// background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
 	} 
 }
 //
@@ -294,7 +294,7 @@ div.end-of-post-categories {
 @media(max-width: 768px) {
 	.header-banner-bg {
 		background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2-mobile.jpg) !important;
-		background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
+		// background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
 	}
 
 	@media 
@@ -302,7 +302,7 @@ div.end-of-post-categories {
 	(min-resolution: 129dpi) { 
 		.header-banner-bg {
 			background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2@2x-mobile.jpg) !important;
-			background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
+			// background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
 		}
 	}
 }
