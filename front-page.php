@@ -113,7 +113,7 @@ get_header(); ?>
 						<!-- <source data-srcset="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" type="image/jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" >  -->
           			<!-- </picture> -->
 						<!-- <img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" > -->
-						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class=" lazy" alt="app mockup image" >
+						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" >
 				</div>
 			</div>
 		</div>
