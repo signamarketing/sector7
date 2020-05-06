@@ -108,11 +108,11 @@ get_header(); ?>
 					<a class="btn black" href="/start-now/">Schedule A Discovery Meeting</a>
 				</div>
 				<div class="col-lg-6 fo1 f-center">
-					<!-- <picture>
+					<picture>
 						<source data-srcset="/wp-content/themes/signa-starter/img/webp/scout-perspective-mockup-min.webp" type="image/webp" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" >
 						<source data-srcset="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" type="image/jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" > 
 						<img data-src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" data-aos="fade-left" data-aos-once="true" >
-          			</picture> -->
+          			</picture>
 				</div>
 			</div>
 		</div>
