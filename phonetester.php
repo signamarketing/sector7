@@ -1,7 +1,7 @@
 <div class="container-fluid no-gutter">
     <div class="row row-container">
         <div class="col-12 text-center">
-            <img style="width:100px;" src="/img/Android_robot.png">
+            <img style="width:100px;" src="/img/Android_robot.png" class="lazy">
         </div>
         <div class="col-12">
             <h2 class="text-center">Lorem Ipsum</h2>
@@ -22,12 +22,12 @@
                     <div class="fixed-phone-frame-padding">
                         <div class="fixed-phone-frame-sizing">
                             <div class="fixed-phone-frame-img-wrapper" data-reveal-bg="2">
-                                <img alt="" aria-hidden="true" width="377" height="787" src="/img/google-nexus-cutout.png">
+                                <img alt="" aria-hidden="true" width="377" height="787" class="lazy" src="/img/google-nexus-cutout.png">
                             </div>
                         </div>
                         <div class="fixed-phone-inner-img">
                             <div class="fixed-phone-inner-img-wrapper" data-reveal-wrap="2">
-                                <img src="/img/orange-bg.jpg">
+                                <img src="/img/orange-bg.jpg" class="lazy">
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="fixed-phone-inner-img">
                     <div class="fixed-phone-inner-img-wrapper" data-reveal-wrap="2">
-                        <img src="/img/orange-bg.jpg">
+                        <img src="/img/orange-bg.jpg" class="lazy">
                     </div>
                 </div>
             </div>
@@ -86,12 +86,12 @@
             <div class="fixed-phone-frame-padding">
                 <div class="fixed-phone-frame-sizing">
                     <div class="fixed-phone-frame-img-wrapper" data-reveal-bg="2">
-                        <img alt="" aria-hidden="true" width="377" height="787" src="/img/google-nexus-cutout.png">
+                        <img alt="" aria-hidden="true" width="377" class="lazy" height="787" src="/img/google-nexus-cutout.png">
                     </div>
                 </div>
                 <div class="fixed-phone-inner-img">
                     <div class="fixed-phone-inner-img-wrapper" data-reveal-wrap="2">
-                        <img src="/img/orange-bg.jpg">
+                        <img src="/img/orange-bg.jpg" class="lazy">
                     </div>
                 </div>
             </div>
@@ -118,12 +118,12 @@
             <div class="fixed-phone-frame-padding">
                 <div class="fixed-phone-frame-sizing">
                     <div class="fixed-phone-frame-img-wrapper" data-reveal-bg="2">
-                        <img alt="" aria-hidden="true" width="377" height="787" src="/img/google-nexus-cutout.png">
+                        <img alt="" aria-hidden="true" class="lazy" width="377" height="787" src="/img/google-nexus-cutout.png">
                     </div>
                 </div>
                 <div class="fixed-phone-inner-img">
                     <div class="fixed-phone-inner-img-wrapper" data-reveal-wrap="2">
-                        <img src="/img/orange-bg.jpg">
+                        <img src="/img/orange-bg.jpg" class="lazy">
                     </div>
                 </div>
             </div>

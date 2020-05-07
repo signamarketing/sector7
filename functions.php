@@ -234,3 +234,9 @@ add_filter('excerpt_more', 'new_excerpt_more');
 //    wp_deregister_style( 'dashicons' ); 
 
 // }
+
+// To check if webp exists for a banner image.
+function check_404($url) {
+	$headers=get_headers($url, 1);
+	if ($headers[0]!='HTTP/1.1 200 OK') return true; else return false;
+ }
