@@ -93,8 +93,21 @@
 		<?php
         $thumb_id = get_post_thumbnail_id();
 $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
-$thumb_url = $thumb_url_array[0];?>
-		<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg" style="background:url(' <?php echo $thumb_url ?> ');     background-size: cover;">
+
+$thumb_url = $thumb_url_array[0];
+$thumbUrlForWebP =  str_replace(array("jpg","jpeg"), "webp", $thumb_url);
+$has_webp = false;
+if (!check_404($thumbUrlForWebP)) {
+	echo '<!-- Has webp -->';
+	$has_webp = true;
+}
+
+
+		if ($has_webp) { ?>
+			<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg" style="background:url(' <?php echo $thumb_url ?> '); background:url(' <?php echo $thumbUrlForWebP ?> ');   background-size: cover;">
+		<?php } else {?>
+			<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg" style="background:url(' <?php echo $thumb_url ?> ');  background-size: cover;">
+			<?php } ?>
 			<div class="inner-page-banner-filter"></div>
 			<div id="navbar">
 				<nav class="row navbar-container">
