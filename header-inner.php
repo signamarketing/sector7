@@ -51,7 +51,7 @@
 				"addressLocality": "Phoenix",
 				"addressRegion": "AZ",
 				"postalCode": "85034",
-				"streetAddress": "1201 E Jefferson St #4A "
+				"streetAddress": "1201 E Jefferson St Suite #4A "
 			},
 			"geo": {
 				"@type": "GeoCoordinates",
