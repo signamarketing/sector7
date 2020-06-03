@@ -247,3 +247,8 @@ function check_404($url) {
 	$headers=get_headers($url, 1);
 	if ($headers[0]!='HTTP/1.1 200 OK') return true; else return false;
  }
+
+ function wpassist_remove_block_library_css(){
+    wp_dequeue_style( 'wp-block-library' );
+} 
+add_action( 'wp_enqueue_scripts', 'wpassist_remove_block_library_css' );
