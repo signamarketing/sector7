@@ -161,8 +161,8 @@ function signa_starter_scripts() {
 
 	// Styles
 	wp_enqueue_style( 'bootstrap-grid-style', get_template_directory_uri() . '/bootstrap-4/css/bootstrap-grid.min.css' );
-	if (is_home()) {
-		wp_enqueue_style( 'signa-start-home-styles', get_template_directory_uri() . 'homepage-styles.css' );
+	if (is_home() || is_front_page()) {
+		wp_enqueue_style( 'signa-start-home-styles', get_template_directory_uri() . '/homepage-styles.css' );
 	} else {
 		wp_enqueue_style( 'signa-starter-style', get_template_directory_uri() . '/css/scss/min/styles.min.css' );
 	}
