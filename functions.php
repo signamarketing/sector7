@@ -161,8 +161,12 @@ function signa_starter_scripts() {
 
 	// Styles
 	wp_enqueue_style( 'bootstrap-grid-style', get_template_directory_uri() . '/bootstrap-4/css/bootstrap-grid.min.css' );
-	// wp_enqueue_style( 'signa-start-home-styles', get_template_directory_uri() . '/homepage-styles.css' );
-	wp_enqueue_style( 'signa-starter-style', get_template_directory_uri() . '/css/scss/min/styles.min.css' );
+	if (is_home() || is_front_page()) {
+		wp_enqueue_style( 'signa-start-home-styles', get_template_directory_uri() . '/homepage-styles.css' );
+	} else {
+		wp_enqueue_style( 'signa-starter-style', get_template_directory_uri() . '/css/scss/min/styles.min.css' );
+	}
+
 	
 	wp_enqueue_style( 'ninjaform-css', get_template_directory_uri() . '/main-contact-style.css' ); 
 	
@@ -230,13 +234,13 @@ add_filter('excerpt_more', 'new_excerpt_more');
 /**
  * Remove dashicons from front-end
  */
-add_action( 'wp_print_styles',     'my_deregister_styles', 100 );
+// add_action( 'wp_print_styles',     'my_deregister_styles', 100 );
 
-function my_deregister_styles()    { 
-   //wp_deregister_style( 'amethyst-dashicons-style' ); 
-   wp_deregister_style( 'dashicons' ); 
+// function my_deregister_styles()    { 
+//    //wp_deregister_style( 'amethyst-dashicons-style' ); 
+//    wp_deregister_style( 'dashicons' ); 
 
-}
+// }
 
 // To check if webp exists for a banner image.
 function check_404($url) {
