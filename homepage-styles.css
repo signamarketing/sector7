@@ -300,6 +300,7 @@ h2 {
   display: inline-block;
   text-align: center;
   font-weight: 600 !important;
+  margin-top: 10px;
 }
 .clear:before,
 .clear:after,
