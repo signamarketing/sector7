@@ -1311,18 +1311,6 @@ select {
   max-width: 100% !important;
   width: 100% !important;
 }
-h3,
-div {
-  font-family: "Source Sans Pro", sans-serif;
-}
-input,
-select {
-  color: #404040;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1rem;
-  font-size: 18px;
-  line-height: 1.5;
-}
 h3 {
   clear: both;
   color: #221e20;
