@@ -171,3 +171,376 @@ input.search-field:-ms-input-placeholder {
 	max-width: 100% !important;
 	width: 100% !important;
 }
+
+
+
+// Missing
+@media all {
+	::-webkit-input-placeholder {
+	  font-size: 20px !important;
+	  font-weight: 400 !important;
+	}
+	::-moz-placeholder {
+	  font-size: 20px !important;
+	  font-weight: 400 !important;
+	}
+	:-ms-input-placeholder {
+	  font-size: 20px !important;
+	  font-weight: 400 !important;
+	}
+	:-moz-placeholder {
+	  font-size: 20px !important;
+	  font-weight: 400 !important;
+	}
+	@media (max-width: 768px) {
+	  .col-12 {
+		padding: 0 25px;
+	  }
+	  [class*="col-"] {
+		padding: 0 25px;
+	  }
+	  .row {
+		margin-left: 0;
+		margin-right: 0;
+	  }
+	}
+	::-webkit-input-placeholder {
+	  color: #ff783b !important;
+	}
+	:-moz-placeholder {
+	  color: #ff783b !important;
+	}
+	::-moz-placeholder {
+	  color: #ff783b !important;
+	}
+	:-ms-input-placeholder {
+	  color: #ff783b !important;
+	}
+	div {
+	  font-family: "Source Sans Pro", sans-serif;
+	}
+	::-webkit-input-placeholder {
+	  color: #fff !important;
+	  font-weight: 400;
+	}
+	:-moz-placeholder {
+	  color: #fff !important;
+	  font-weight: 400;
+	}
+	::-moz-placeholder {
+	  color: #fff !important;
+	  font-weight: 400;
+	}
+	:-ms-input-placeholder {
+	  color: #fff !important;
+	  font-weight: 400;
+	}
+	.ninja-forms-noscript-message {
+	  background: #f1f1f1;
+	  border: 4px dashed #ccc;
+	  color: #333;
+	  display: block;
+	  font-size: 20px;
+	  margin: 20px 0;
+	  padding: 40px;
+	  text-align: center;
+	}
+  }
+  @media (max-width: 767px) {
+	input#nf-field-9 {
+	  width: auto !important;
+	}
+  }
+  input#nf-field-9 {
+	color: #fff !important;
+	border: 2px solid #fff !important;
+	background-color: transparent !important;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 24px !important;
+	text-transform: capitalize !important;
+	font-weight: 700;
+	line-height: 1;
+	cursor: pointer;
+	width: 100% !important;
+	padding: 12px 60px !important;
+  }
+  input#nf-field-9:hover {
+	background-color: #fff !important;
+	color: #39bfc3 !important;
+	border: solid 3px #fff !important;
+  }
+  .nf-error-msg {
+	text-align: center;
+  }
+  ::-webkit-input-placeholder {
+	font-size: 20px !important;
+	font-weight: 400 !important;
+  }
+  ::-moz-placeholder {
+	font-size: 20px !important;
+	font-weight: 400 !important;
+  }
+  :-ms-input-placeholder {
+	font-size: 20px !important;
+	font-weight: 400 !important;
+  }
+  :-moz-placeholder {
+	font-size: 20px !important;
+	font-weight: 400 !important;
+  }
+  select#nf-field-6 {
+	font-size: 20px !important;
+	font-weight: 400 !important;
+  }
+  @media (max-width: 768px) {
+	.col-12 {
+	  padding: 0 25px;
+	}
+	[class*="col-"] {
+	  padding: 0 25px;
+	}
+	.row {
+	  margin-left: 0;
+	  margin-right: 0;
+	}
+  }
+  input[type="button"] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1;
+	padding: 0.6em 1em 0.4em;
+  }
+  input[type="button"]:hover {
+	border-color: #ccc #bbb #aaa;
+  }
+  input[type="button"]:active,
+  input[type="button"]:focus {
+	border-color: #aaa #bbb #bbb;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus {
+	color: #111;
+  }
+  select {
+	border: 1px solid #ccc;
+  }
+  #nf-field-9 {
+	width: 190px;
+  }
+  #nf-field-9.ninja-forms-field:hover {
+	min-width: auto !important;
+	max-width: 190px;
+  }
+  .ninja-forms-field {
+	height: 64px !important;
+	padding: 0 25px !important;
+  }
+  ::-webkit-input-placeholder {
+	color: #ff783b !important;
+  }
+  :-moz-placeholder {
+	color: #ff783b !important;
+  }
+  ::-moz-placeholder {
+	color: #ff783b !important;
+  }
+  :-ms-input-placeholder {
+	color: #ff783b !important;
+  }
+  #nf-form-title-2 h3 {
+	color: #fff !important;
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 1.1;
+	text-transform: uppercase;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 0;
+	padding-bottom: 25px;
+	max-width: 100%;
+	width: 350px;
+	text-align: center;
+  }
+  .ninja-forms-field {
+	border: solid 3px #fff !important;
+	background: transparent;
+	background-color: transparent;
+	color: #fff !important;
+	font-weight: bold !important;
+  }
+  #nf-field-9 {
+	width: 100%;
+	border-width: 3px;
+  }
+  #nf-field-9:hover {
+	width: 100%;
+  }
+  #nf-field-9.ninja-forms-field:hover {
+	max-width: 100% !important;
+	width: 100% !important;
+  }
+  h3 {
+	clear: both;
+	color: #221e20;
+  }
+  ::-webkit-input-placeholder {
+	color: #fff !important;
+	font-weight: 400;
+  }
+  :-moz-placeholder {
+	color: #fff !important;
+	font-weight: 400;
+  }
+  ::-moz-placeholder {
+	color: #fff !important;
+	font-weight: 400;
+  }
+  :-ms-input-placeholder {
+	color: #fff !important;
+	font-weight: 400;
+  }
+  .nf-form-content
+	.nf-field-container
+	#nf-field-6-wrap
+	.nf-field-element
+	select
+	option,
+  .nf-form-content
+	.nf-field-container
+	#nf-field-21-wrap
+	.nf-field-element
+	select
+	option {
+	color: #000;
+	font-weight: 400;
+  }
+  .nf-before-form-content {
+	display: none;
+  }
+  .nf-response-msg {
+	text-align: center;
+  }
+  #nf-form-2-cont .nf-form-content {
+	width: 585px;
+	max-width: 100%;
+	margin: auto;
+  }
+  .ninja-forms-form-wrap *,
+  .ninja-forms-form-wrap :after,
+  .ninja-forms-form-wrap :before {
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+  .nf-response-msg {
+	display: none;
+  }
+  .nf-field-container {
+	clear: both;
+	position: relative;
+	margin-bottom: 25px;
+  }
+  .nf-field-container:after {
+	clear: both;
+	content: "";
+	display: block;
+  }
+  .nf-field-label label {
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+  }
+  .nf-field-element {
+	position: relative;
+  }
+  .nf-field-element input,
+  .nf-field-element select {
+	margin: 0;
+	width: auto;
+	height: auto;
+	vertical-align: inherit;
+  }
+  .nf-help {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAANhJREFUOI2l0k1KA0EUBODPgYDjIfy5gAx6AD1almathCTgUQxKLiBuNBGScyQLddHdMrQ9OsSCGnp4VfWm3xt+4gJTvGMXucIETUH/jSPc4/MPTlGXzIse5sSnPKTUeYkTHMcr5PVJMl92dLlpNRh1aBrxTqXiCqc4EwZa0oz9UuzDtwNhTYN8qnFQj/F8jauCZpcepfRhSzjs0GwrbArJfbGuMP9HwEMlbGFfzCo8Y7aHeYyX9FILE++7vjkO88Ra90+V+IG7krmNJn7eUljxFq+4xXku/gJlon9e3CXL/QAAAABJRU5ErkJggg==)
+	  no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+  }
+  .nf-input-limit {
+	font-size: 12px;
+	margin-top: 5px;
+  }
+  .nf-after-field .nf-error-msg {
+	margin-right: 10px;
+  }
+  .nf-form-hp {
+	position: absolute;
+	visibility: hidden;
+  }
+  .list-select-wrap div div {
+	display: none;
+  }
+  .nf-error-msg,
+  .ninja-forms-req-symbol {
+	color: #e80000;
+  }
+  .nf-error .ninja-forms-field {
+	border: 1px solid #e80000;
+  }
+  .ninja-forms-noscript-message {
+	background: #f1f1f1;
+	border: 4px dashed #ccc;
+	color: #333;
+	display: block;
+	font-size: 20px;
+	margin: 20px 0;
+	padding: 40px;
+	text-align: center;
+  }
+  .field-wrap {
+	display: -ms-flexbox;
+	display: flex;
+  }
+  .field-wrap > div input,
+  .field-wrap select {
+	width: 100%;
+  }
+  .field-wrap input[type="button"] {
+	width: auto;
+  }
+  .nf-field-label {
+	-ms-flex-order: 5;
+	order: 5;
+  }
+  .nf-field-element {
+	-ms-flex-order: 15;
+	order: 15;
+  }
+  .label-hidden .field-wrap {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+  }
+  .label-hidden .nf-field-label {
+	height: 0;
+	margin: 0 !important;
+	width: 100%;
+	visibility: hidden;
+  }
+  .label-hidden .nf-field-element {
+	width: 100%;
+  }
+  
