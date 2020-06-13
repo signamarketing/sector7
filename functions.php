@@ -166,6 +166,7 @@ function signa_starter_scripts() {
 	} else {
 		wp_enqueue_style( 'signa-starter-style', get_template_directory_uri() . '/css/scss/min/styles.min.css' );
 	}
+	
 
 	
 	wp_enqueue_style( 'ninjaform-css', get_template_directory_uri() . '/main-contact-style.css' ); 
