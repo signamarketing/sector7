@@ -1015,6 +1015,12 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
     margin-left: auto;
     margin-right: auto;
   }
+  .col-lg-4.text-center.services:last-child {
+    padding-bottom: 0px;
+  }
+  .col-lg-6.text-center.services-buttons {
+    padding-bottom: 62px;
+  }
 }
 @media (max-width: 768px) {
   .hidden-screen-sm {
