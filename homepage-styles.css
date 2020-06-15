@@ -464,7 +464,7 @@ h2 {
   font-size: 43px;
   font-weight: 700;
   line-height: 1;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 p {
   font-weight: 400;
@@ -1015,6 +1015,12 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
     margin-left: auto;
     margin-right: auto;
   }
+  .col-lg-4.text-center.services:last-child {
+    padding-bottom: 0px;
+  }
+  .col-lg-6.text-center.services-buttons {
+    padding-bottom: 62px;
+  }
 }
 @media (max-width: 768px) {
   .hidden-screen-sm {
@@ -1121,6 +1127,7 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
       margin-left: 0;
       margin-right: 0;
     }
+
   }
   ::-webkit-input-placeholder {
     color: #ff783b !important;
@@ -1221,6 +1228,10 @@ select#nf-field-6 {
     margin-left: 0;
     margin-right: 0;
   }
+  .col-lg-4.text-center.services {
+    padding-bottom: 62px;
+  }
+  .col-lg-6
 }
 input[type="button"] {
   border: 1px solid;
