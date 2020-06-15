@@ -612,6 +612,9 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
   #navbar.open .menu li a {
     color: #000;
   }
+  #navbar .menu li:last-of-type a:hover {
+    background: none !important;
+  }
 }
 @media (max-width: 1220px) {
   .navbar-container {
@@ -1231,7 +1234,7 @@ select#nf-field-6 {
   .col-lg-4.text-center.services {
     padding-bottom: 62px;
   }
-  .col-lg-6
+  
 }
 input[type="button"] {
   border: 1px solid;
