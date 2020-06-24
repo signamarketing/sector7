@@ -32,7 +32,7 @@
 				<?php if (is_active_sidebar('footer-sidebar-2')) {
 					dynamic_sidebar('footer-sidebar-2');
 				} ?>
-				<div class="social-share-list" id="socialShare">
+				<div id=" footer-socialShare">
 					<a href="https://www.facebook.com/sector7apps" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/facebook.svg" alt="Signa Marketing Share on Facebook"></a>
 					<!-- Twitter -->
 					<a href="https://twitter.com/sector7apps" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/twitter.svg" alt="Signa Marketing Share on Facebook"></a>
