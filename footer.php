@@ -9,7 +9,6 @@
  *
  * @package signa-starter
  */
-
 ?>
 
 </div><!-- #content -->
@@ -29,30 +28,22 @@
 					dynamic_sidebar('footer-sidebar-1');
 				} ?>
 			</div>
-
 			<div id="footer-sidebar2" class="col-sm-12 col-md-6 col-lg-3">
 				<?php if (is_active_sidebar('footer-sidebar-2')) {
 					dynamic_sidebar('footer-sidebar-2');
 				} ?>
-				<ul class="social-share-list" id="socialShare">
-
-					<!-- Facebook -->
-					<li><a href="http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/facebook.svg" alt="Signa Marketing Share on Facebook"></a></li>
-
+				<div class="social-share-list" id="socialShare">
+					<a href="http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/facebook.svg" alt="Signa Marketing Share on Facebook"></a>
 					<!-- Twitter -->
-					<li><a href="https://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/twitter.svg" alt="Signa Marketing Share on Facebook"></a></li>
+					<a href="https://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/twitter.svg" alt="Signa Marketing Share on Facebook"></a>
 
 					<!-- Instagram -->
-					<li><a href="https://www.instagram.com/" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/instagram.svg" alt="Signa Marketing Share on Facebook"></a></li>
-
-					<!-- Google plus -->
-					<li><a href="https://plus.google.com/share?url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/google-plus.svg" alt="Signa Marketing Share on Facebook"></a></li>
+					<a href="https://www.instagram.com/" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/instagram.svg" alt="Signa Marketing Share on Facebook"></a>
 
 					<!-- Linkedin -->
-					<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/linkedin.svg" alt="Signa Marketing Share on Facebook"></a></li>
+					<a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/linkedin.svg" alt="Signa Marketing Share on Facebook"></a>
 				</ul>
 			</div>
-
 		</div><!-- .site-info -->
 	</div><!-- #colophon -->
 
@@ -63,7 +54,6 @@
 			</p>
 		</div>
 	</div>
-
 </footer>
 </div><!-- #page -->
 

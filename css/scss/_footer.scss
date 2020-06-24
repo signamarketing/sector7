@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+div#socialShare {
+    display: flex;
+    justify-content: center;
+
+    a {
+        max-width: 100%;
+        width: 50px;
+        height: auto;
+    }
+}
