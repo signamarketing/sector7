@@ -10,6 +10,10 @@ div#footer-socialShare {
         width: 44px;
         height: auto;
         margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
     }
 }
 site-footer.container-fluid {
