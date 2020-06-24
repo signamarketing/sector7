@@ -2734,23 +2734,23 @@ site-footer.container-fluid {
   padding-right: 0;
 }
 
-div#socialShare {
+div#footer-socialShare {
   display: flex;
   justify-content: start;
 }
 
-div#socialShare a {
+div#footer-socialShare a {
   max-width: 100%;
-  width: 50px;
+  width: 44px;
   height: auto;
   display: block;
   margin-right: 10px;
 }
-div#socialShare a:last-child {
+div#footer-socialShare a:last-child {
   margin-right: 0;
 }
 @media (max-width: 767px) {
-  div#socialShare {
+  div#footer-socialShare {
     justify-content: center;
   }
 }
