@@ -2730,11 +2730,21 @@ h3 {
 
 div#socialShare {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 div#socialShare a {
   max-width: 100%;
   width: 50px;
   height: auto;
+  display: block;
+  margin-right: 10px;
+}
+div#socialShare a:last-child {
+  margin-right: 0;
+}
+@media (max-width: 767px) {
+  div#socialShare {
+    justify-content: center;
+  }
 }

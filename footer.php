@@ -33,15 +33,15 @@
 					dynamic_sidebar('footer-sidebar-2');
 				} ?>
 				<div class="social-share-list" id="socialShare">
-					<a href="http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/facebook.svg" alt="Signa Marketing Share on Facebook"></a>
+					<a href="https://www.facebook.com/sector7apps" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/facebook.svg" alt="Signa Marketing Share on Facebook"></a>
 					<!-- Twitter -->
-					<a href="https://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/twitter.svg" alt="Signa Marketing Share on Facebook"></a>
+					<a href="https://twitter.com/sector7apps" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/twitter.svg" alt="Signa Marketing Share on Facebook"></a>
 
 					<!-- Instagram -->
-					<a href="https://www.instagram.com/" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/instagram.svg" alt="Signa Marketing Share on Facebook"></a>
+					<a href="https://www.instagram.com/sector7apps/" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/instagram.svg" alt="Signa Marketing Share on Facebook"></a>
 
 					<!-- Linkedin -->
-					<a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/linkedin.svg" alt="Signa Marketing Share on Facebook"></a>
+					<a href="https://www.linkedin.com/company/sector7apps" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/linkedin.svg" alt="Signa Marketing Share on Facebook"></a>
 				</ul>
 			</div>
 		</div><!-- .site-info -->
