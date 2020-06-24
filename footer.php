@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -17,17 +18,39 @@
 	<div id="colophon" class="site-footer container-fluid no-gutter">
 		<div id="main-footer-section" class="row row-container">
 
-			<div id="footer-sidebar3" class="col-sm-12 col-md-12 col-lg-6"
-				style="align-items: initial; display: flex; margin-right:auto;">
-				<?php if(is_active_sidebar('footer-sidebar-3')){ dynamic_sidebar('footer-sidebar-3');}?>
+			<div id="footer-sidebar3" class="col-sm-12 col-md-12 col-lg-6" style="align-items: initial; display: flex; margin-right:auto;">
+				<?php if (is_active_sidebar('footer-sidebar-3')) {
+					dynamic_sidebar('footer-sidebar-3');
+				} ?>
 			</div>
 
 			<div id="footer-sidebar1" class="col-sm-12 col-md-6 col-lg-3">
-				<?php if(is_active_sidebar('footer-sidebar-1')){ dynamic_sidebar('footer-sidebar-1');}?>
+				<?php if (is_active_sidebar('footer-sidebar-1')) {
+					dynamic_sidebar('footer-sidebar-1');
+				} ?>
 			</div>
 
 			<div id="footer-sidebar2" class="col-sm-12 col-md-6 col-lg-3">
-				<?php if(is_active_sidebar('footer-sidebar-2')){ dynamic_sidebar('footer-sidebar-2');}?>
+				<?php if (is_active_sidebar('footer-sidebar-2')) {
+					dynamic_sidebar('footer-sidebar-2');
+				} ?>
+				<ul class="social-share-list" id="socialShare">
+
+					<!-- Facebook -->
+					<li><a href="http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/facebook.svg" alt="Signa Marketing Share on Facebook"></a></li>
+
+					<!-- Twitter -->
+					<li><a href="https://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/twitter.svg" alt="Signa Marketing Share on Facebook"></a></li>
+
+					<!-- Instagram -->
+					<li><a href="https://www.instagram.com/" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/instagram.svg" alt="Signa Marketing Share on Facebook"></a></li>
+
+					<!-- Google plus -->
+					<li><a href="https://plus.google.com/share?url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/google-plus.svg" alt="Signa Marketing Share on Facebook"></a></li>
+
+					<!-- Linkedin -->
+					<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" rel="nofollow" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/social-share/linkedin.svg" alt="Signa Marketing Share on Facebook"></a></li>
+				</ul>
 			</div>
 
 		</div><!-- .site-info -->
@@ -52,7 +75,7 @@
 		data_src: "src",
 		data_srcset: "srcset",
 		show_while_loading: true, //best for progressive JPEG
-		callback_set: function (img) {
+		callback_set: function(img) {
 			picturefill({
 				elements: [img]
 			});
@@ -67,7 +90,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 <script>
-  AOS.init();
+	AOS.init();
 </script>
 </body>
 
