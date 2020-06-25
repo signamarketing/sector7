@@ -85,9 +85,11 @@
 
 	Modernizr.on('webp', function(result) {
   if (result) {
-    // supported
+	// supported
+	console.log('WebP support detected');
   } else {
-    // not-supported
+	// not-supported
+	console.log('Missing webp support');
   }
 });
 </script>
