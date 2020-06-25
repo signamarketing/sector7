@@ -185,6 +185,8 @@ img.hp-card-image {
 #main-footer-section {
   padding-top: 100px;
   padding-bottom: 27px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 #main-footer-section ul {
   padding: 0;
@@ -2748,6 +2750,11 @@ div#footer-socialShare a {
 }
 div#footer-socialShare a:last-child {
   margin-right: 0;
+}
+
+div#colophon.site-footer.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 @media (max-width: 767px) {
   div#footer-socialShare {

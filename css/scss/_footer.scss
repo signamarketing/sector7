@@ -2,26 +2,36 @@
 # Footer
 --------------------------------------------------------------*/
 div#footer-socialShare {
-    display: flex;
-    justify-content: start;
+  display: flex;
+  justify-content: start;
 
-    a {
-        max-width: 100%;
-        width: 44px;
-        height: auto;
-        margin-right: 10px;
+  a {
+    max-width: 100%;
+    width: 44px;
+    height: auto;
+    margin-right: 10px;
 
-        &:last-child {
-            margin-right: 0;
-        }
+    &:last-child {
+      margin-right: 0;
     }
+  }
 }
 site-footer.container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media (max-width: 767px) {
-    div#footer-socialShare {
-        justify-content: center;
-    }
+  div#footer-socialShare {
+    justify-content: center;
+  }
+}
+#main-footer-section {
+  padding-top: 100px;
+  padding-bottom: 27px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div#colophon.site-footer.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
