@@ -93,7 +93,7 @@
 			<?php esc_html_e( 'Skip to content', 'signa-starter' ); ?>
 		</a>
 
-		<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg">
+		<header class="container-fluid no-gutter navbar-bg-color header-banner-bg">
 			<div class="homepage-background-img-filter"></div>
 			<div id="navbar">
 				<nav class="row navbar-container">
