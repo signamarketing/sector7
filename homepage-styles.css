@@ -98,6 +98,8 @@
 }
 .no-webp .header-banner-bg {
   background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2.jpg);
+  background-size: cover;
+  background-position: top center;
 }
 .homepage-background-img-filter {
   background: -webkit-gradient(
@@ -819,9 +821,6 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 @media (max-width: 768px) {
   .webp .header-banner-bg {
     background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
-  }
-  .no-webp .header-banner-bg {
-    background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2-mobile.jpg) !important;
   }
 }
 @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
