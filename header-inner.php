@@ -108,13 +108,13 @@ if (!check_404($thumbUrlForWebP)) {
 		<style>
 			.webp .container-fluid.header-banner-bg {
 				background: url(<?php echo $thumbUrlForWebP; ?>) !important;
-				background-size: cover;
-				background-repeat: no-repeat;
+				background-size: cover !important;
+				background-repeat: no-repeat !important;
 			}
 			.no-webp .container-fluid.header-banner-bg {
 				background: url(<?php echo $thumbUrlForWebP; ?>) !important;
-				background-size: cover;
-				background-repeat: no-repeat;
+				background-size: cover !important;
+				background-repeat: no-repeat !important;
 			}
 		</style>
 			<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg">
