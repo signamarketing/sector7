@@ -77,11 +77,11 @@
 <?php wp_footer(); ?>
 
 <script async src="/wp-content/themes/signa-starter/js/master-js.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>0
-<!-- <script src="/wp-content/themes/signa-starter/js/modernizr-custom-webp.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="/wp-content/themes/signa-starter/js/modernizr-custom-webp.js"></script>
 
 <script>
-	// AOS.init();
+	AOS.init();
 
 	Modernizr.on('webp', function(result) {
   if (result) {
