@@ -107,12 +107,12 @@ if (!check_404($thumbUrlForWebP)) {
 		if ($has_webp) { ?>
 		<style>
 			.webp .container-fluid.no-gutter.navbar.header-banner-bg {
-				background: url($thumbUrlForWebP);
+				background: url(<?php echo $thumbUrlForWebP; ?>);
 				background-size: cover;
 				background-repeat: no-repeat;
 			}
 			.no-webp .container-fluid.no-gutter.navbar.header-banner-bg {
-				background: url($thumb_url);
+				background: url(<?php echo $thumbUrlForWebP; ?>);
 				background-size: cover;
 				background-repeat: no-repeat;
 			}
