@@ -91,11 +91,13 @@
   margin: auto;
   padding: 75px 0;
 }
-.header-banner-bg {
-  background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2.jpg);
+.webp .header-banner-bg {
   background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2.webp);
   background-size: cover;
   background-position: top center;
+}
+.no-webp .header-banner-bg {
+  background-image: url(/wp-content/uploads/2018/03/homepage-banner-v2.jpg);
 }
 .homepage-background-img-filter {
   background: -webkit-gradient(
@@ -807,23 +809,29 @@ nav.open > div#primary-menu > ul > li:last-of-type > a {
 @media (-webkit-min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 1.34375),
   (min-resolution: 129dpi) {
-  .header-banner-bg {
-    background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2@2x.jpg) !important;
+  .webp .header-banner-bg {
     background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
+  }
+  .no-webp .header-banner-bg {
+    background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2@2x.jpg) !important;
   }
 }
 @media (max-width: 768px) {
-  .header-banner-bg {
-    background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2-mobile.jpg) !important;
+  .webp .header-banner-bg {
     background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
+  }
+  .no-webp .header-banner-bg {
+    background-image: url(/wp-content/uploads/2020/03/homepage-banner-v2-mobile.jpg) !important;
   }
 }
 @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
   (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.34375),
   (max-width: 768px) and (min-resolution: 129dpi) {
-  .header-banner-bg {
-    background-image: url(/wp-content/themes/signa-starter/img/homepage-banner-v2@2x-mobile.jpg) !important;
+    .webp .header-banner-bg {
     background-image: url(/wp-content/themes/signa-starter/img/webp/homepage-banner-v2@2x.webp) !important;
+  }
+  .no-webp .header-banner-bg {
+    background-image: url(/wp-content/themes/signa-starter/img/homepage-banner-v2@2x-mobile.jpg) !important;
   }
 }
 @media (max-width: 768px) {
@@ -1473,9 +1481,6 @@ h3 {
   margin: 0 !important;
   width: 100%;
   visibility: hidden;
-}
-.label-hidden .nf-field-element {
-  width: 100%;
 }
 
 /* Admin Panel Top */
