@@ -112,7 +112,7 @@ if (!check_404($thumbUrlForWebP)) {
 				background-repeat: no-repeat !important;
 			}
 			.no-webp .container-fluid.header-banner-bg {
-				background: url(<?php echo $thumbUrlForWebP; ?>) !important;
+				background: url(<?php echo $thumb_url; ?>) !important;
 				background-size: cover !important;
 				background-repeat: no-repeat !important;
 			}
