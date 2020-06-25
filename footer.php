@@ -81,17 +81,17 @@
 <!-- <script src="/wp-content/themes/signa-starter/js/modernizr-custom-webp.js"></script> -->
 
 <script>
-	AOS.init();
+	// AOS.init();
 
-	// Modernizr.on('webp', function(result) {
-//   if (result) {
-// 	// supported
-// 	console.log('WebP support detected');
-//   } else {
-// 	// not-supported
-// 	console.log('Missing webp support');
-//   }
-// });
+	Modernizr.on('webp', function(result) {
+  if (result) {
+	// supported
+	console.log('WebP support detected');
+  } else {
+	// not-supported
+	console.log('Missing webp support');
+  }
+});
 </script>
 </body>
 
