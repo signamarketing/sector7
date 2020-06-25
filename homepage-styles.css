@@ -1471,6 +1471,7 @@ h3 {
 .nf-field-element {
   -ms-flex-order: 15;
   order: 15;
+  width: 100%;
 }
 .label-hidden .field-wrap {
   -ms-flex-wrap: wrap;
