@@ -1,6 +1,7 @@
 <?php 
 /**
- * ATTENTION: This header is used for single blog post pages and does not have hero section with background image at the top like the other pages. This header only contains the navbar.
+ * ATTENTION: This header is used for single blog post pages and does not have hero section with 
+ * background image at the top like the other pages. This header only contains the navbar.
  * 
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *

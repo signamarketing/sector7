@@ -103,8 +103,21 @@ if (!check_404($thumbUrlForWebP)) {
 }
 
 
+
 		if ($has_webp) { ?>
-			<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg" style="background:url(' <?php echo $thumb_url ?> '); background:url(' <?php echo $thumbUrlForWebP ?> ');   background-size: cover;">
+		<style>
+			.webp .container-fluid.header-banner-bg {
+				background: url(<?php echo $thumbUrlForWebP; ?>) !important;
+				background-size: cover !important;
+				background-repeat: no-repeat !important;
+			}
+			.no-webp .container-fluid.header-banner-bg {
+				background: url(<?php echo $thumb_url; ?>) !important;
+				background-size: cover !important;
+				background-repeat: no-repeat !important;
+			}
+		</style>
+			<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg">
 		<?php } else {?>
 			<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg" style="background:url(' <?php echo $thumb_url ?> ');  background-size: cover;">
 			<?php } ?>
