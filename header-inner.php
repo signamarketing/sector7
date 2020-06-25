@@ -106,13 +106,13 @@ if (!check_404($thumbUrlForWebP)) {
 
 		if ($has_webp) { ?>
 		<style>
-			.webp .container-fluid.no-gutter.navbar.header-banner-bg {
-				background: url(<?php echo $thumbUrlForWebP; ?>);
+			.webp .container-fluid.header-banner-bg {
+				background: url(<?php echo $thumbUrlForWebP; ?>) !important;
 				background-size: cover;
 				background-repeat: no-repeat;
 			}
-			.no-webp .container-fluid.no-gutter.navbar.header-banner-bg {
-				background: url(<?php echo $thumbUrlForWebP; ?>);
+			.no-webp .container-fluid.header-banner-bg {
+				background: url(<?php echo $thumbUrlForWebP; ?>) !important;
 				background-size: cover;
 				background-repeat: no-repeat;
 			}
