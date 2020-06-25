@@ -2727,3 +2727,30 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+site-footer.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div#footer-socialShare {
+  display: flex;
+  justify-content: start;
+}
+
+div#footer-socialShare a {
+  max-width: 100%;
+  width: 44px;
+  height: auto;
+  display: block;
+  margin-right: 10px;
+}
+div#footer-socialShare a:last-child {
+  margin-right: 0;
+}
+@media (max-width: 767px) {
+  div#footer-socialShare {
+    justify-content: center;
+  }
+}
