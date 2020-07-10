@@ -409,7 +409,18 @@ img.hp-card-image {
 	line-height: 1.7em;
 	margin: 0px;
 }
-
+@media (max-width: 768px) {
+	.col-md-4.contact-col {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.col-md-3.contact-col {
+		margin: 20px 0;
+	}
+	.col-md-3.contact-col:last-child {
+		margin-bottom: 0;
+	}
+}
 /* -------------------------------
 ## FOOTER
 ----------------------- */
