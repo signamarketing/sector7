@@ -45,6 +45,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+	<link rel="preload" href="https://www.sector7apps.com/wp-content/themes/signa-starter/fontello/css/fontello.css" as="style">
+
 	<?php wp_head(); ?>
 
 	<script type="application/ld+json">
@@ -89,8 +91,9 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
 	<!-- Preloading font -->
-	<link rel="preload" href="https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2" as="font" crossorigin>
-	<link rel="preload" href="https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2" as="font" crossorigin>
+	<link rel="preload" href="https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2" as="font" crossorigin>
+	<link rel="preload" href="https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2" as="font" crossorigin>
+	
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 </head>
 
