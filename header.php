@@ -18,7 +18,8 @@
 <!-- Pre-connect testing -->
 <link rel="preload" href="https://in.hotjar.com" as="script">
 <link rel="preload" href="https://www.googletagmanager.com/" as="script">
-<link rel="preload" href="https://fonts.googleapis.com/" as="style">
+<link rel="preload" href="https://cdn.calltrk.com/" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/" as="font" type="font/woff2">
 <!-- END Pre-connect -->
 
 	<!-- Google Tag Manager -->
