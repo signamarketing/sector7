@@ -16,9 +16,9 @@
 <head>
 
 <!-- Pre-connect testing -->
-<link rel="preload" href="https://in.hotjar.com" as="script">
-<link rel="preload" href="https://cdn.calltrk.com" as="script">
-<link rel="preload" href="https://script.hotjar.com" as="script">
+<link rel="preload" href="https://in.hotjar.com" as="script" crossorigin>
+<link rel="preload" href="https://www.googletagmanager.com/" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/" as="style">
 <!-- END Pre-connect -->
 
 	<!-- Google Tag Manager -->
