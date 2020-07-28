@@ -45,7 +45,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<link rel="preload" href="https://www.sector7apps.com/wp-content/themes/signa-starter/fontello/css/fontello.css" as="style">
+	<link rel="preload" href="/wp-content/themes/signa-starter/fontello/font/fontello.woff2?83304338" as="font" crossorigin>
 
 	<?php wp_head(); ?>
 
