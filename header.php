@@ -14,6 +14,13 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+
+<!-- Pre-connect testing -->
+<link rel="preload" href="https://in.hotjar.com">
+<link rel="preload" href="https://cdn.calltrk.com">
+<link rel="preload" href="https://script.hotjar.com">
+<!-- END Pre-connect -->
+
 	<!-- Google Tag Manager -->
 	<script>
 		(function (w, d, s, l, i) {
