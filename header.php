@@ -16,10 +16,10 @@
 <head>
 
 <!-- Pre-connect testing -->
-<link rel="preload" href="https://in.hotjar.com" as="script">
+<!-- <link rel="preload" href="https://in.hotjar.com" as="script">
 <link rel="preload" href="https://www.googletagmanager.com/" as="embed">
-<link rel="preload" href="https://cdn.calltrk.com/" as="script">
-<link rel="preload" href="https://fonts.googleapis.com/" as="style">
+<link rel="preload" href="https://cdn.calltrk.com/" as="script"> -->
+
 <!-- END Pre-connect -->
 
 	<!-- Google Tag Manager -->
@@ -87,6 +87,10 @@
 		}
 	</script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+	<!-- Preloading font -->
+	<link rel="preload" href="https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2" as="font" crossorigin>
+	<link rel="preload" href="https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2" as="font" crossorigin>
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 </head>
 
