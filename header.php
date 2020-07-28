@@ -16,9 +16,9 @@
 <head>
 
 <!-- Pre-connect testing -->
-<link rel="preload" href="https://in.hotjar.com">
-<link rel="preload" href="https://cdn.calltrk.com">
-<link rel="preload" href="https://script.hotjar.com">
+<link rel="preload" href="https://in.hotjar.com" as="script">
+<link rel="preload" href="https://cdn.calltrk.com" as="script">
+<link rel="preload" href="https://script.hotjar.com" as="script">
 <!-- END Pre-connect -->
 
 	<!-- Google Tag Manager -->
