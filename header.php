@@ -16,9 +16,9 @@
 <head>
 
 <!-- Pre-connect testing -->
-<!-- <link rel="preload" href="https://in.hotjar.com" as="script">
-<link rel="preload" href="https://www.googletagmanager.com/" as="embed">
-<link rel="preload" href="https://cdn.calltrk.com/" as="script"> -->
+https://in.hotjar.com
+<link rel="dns-prefetch" href="https://in.hotjar.com">
+<link rel="preconnect" href="https://in.hotjar.com" crossorigin>
 
 <!-- END Pre-connect -->
 
