@@ -16,9 +16,9 @@
 <head>
 
 <!-- Pre-connect testing -->
-https://in.hotjar.com
 <link rel="dns-prefetch" href="https://in.hotjar.com">
 <link rel="preconnect" href="https://in.hotjar.com" crossorigin>
+
 
 <!-- END Pre-connect -->
 
