@@ -607,6 +607,10 @@ div#footer-sidebar3 {
 		margin: auto;
 		display: block;
 	}
+
+	img.phoenix-page.work-with-us {
+		display: none;
+	}
 }
 
 @media(max-width:768px) {
@@ -921,6 +925,10 @@ ul.mobile-tabs li {
 	display: block;
 }
 
+/**
+*** Phoenix Page ****
+**/
+
 .services-list.phoenix-app-dev img{
 	max-width: 100%;
 	padding: 0;
@@ -954,3 +962,8 @@ ul.mobile-tabs li {
     margin-bottom: 0;
     line-height: 100%;
 }
+
+.phoenix-page.work-with-us {
+	max-height: 417px;
+}
+
