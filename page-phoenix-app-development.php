@@ -54,12 +54,28 @@ get_header('inner'); ?>
 						<p class="white-text">Whether you’re an existing business or a startup, we deliver not only mobile apps but also web app development services. You may need an Admin Dashboard for Business to Business apps, an app landing page for promotional purposes, or any other kind of web app to compliment your business venture. In many cases the web application can also be used to provide the same functionality as the mobile app, but for browser-based applications as some users may prefer to use a browser-accessed app.</p>
 					</div>
 				</div>
-				<div class="col-12" style="display: flex;flex-direction: row;margin-bottom:50px;">
+				<div class="col-12" style="display: flex;flex-direction: row;">
 					<img src="/wp-content/themes/signa-starter/img/optimization-phoenix-dev.png" class="hp-card-image lazy" alt="">
 					<div>
 						<h2 class="white-text m-t-0">Optimization</h2>
 						<p class="white-text">Continuous updates and improvements will keep your app ahead of the competition in today’s ever-changing market. Making sure we continue to optimize and enhance your mobile application is crucial to ensuring you are staying ahead of the curve and capitalize on the ever-evolving app user.</p>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid no-gutter hp-card-image-spacer">
+			<div class="row row-container">
+				<div class="phoenix-process-tile f-center">
+					<p class="mt-0" style="font-size: 35px;">Ideation</p>
+					<p>Identifying the practical uses of your app</p>
+				</div>
+				<div class="col-lg-4 phoenix-process-tile f-center">
+					<p class="mt-0" style="font-size: 35px;">Defining Scope</p>
+					<p>Making the strategic decisions your app needs</p>
+				</div>
+				<div class="col-lg-4 phoenix-process-tile f-center">
+					<p class="mt-0" style="font-size: 35px;">Design</p>
+					<p>Designing how your app will look, feel, and function</p>
 				</div>
 			</div>
 		</div>
