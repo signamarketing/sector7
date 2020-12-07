@@ -31,7 +31,7 @@ get_header('inner'); ?>
 		</div>
 		<div class="container-fluid main-nf-bg" style="position: relative; display: block; background: radial-gradient(#4cced1 19%,#34bec1);">
 			<div class="row row-container services-list phoenix-app-dev">
-				<div class="col-12" style="display: flex;flex-direction: row;">
+				<div class="col-12" style="display: flex;flex-direction: row;margin-bottom:50px;margin-bottom:50px;">
 					<img class="hp-card-image lazy" alt="" src="/wp-content/themes/signa-starter/img/strategy-icon-phoenix-dev.png">
 					<div>
 						<h2 class="white-text m-t-0">Strategy</h2>
@@ -39,7 +39,7 @@ get_header('inner'); ?>
 
 					</div>
 				</div>
-				<div class="col-12" style="display: flex;flex-direction: row;">
+				<div class="col-12" style="display: flex;flex-direction: row;margin-bottom:50px;">
 					<img src="/wp-content/themes/signa-starter/img/ios_android-phoenix-dev.png" class="hp-card-image lazy" alt="">
 					<div>
 						<h2 class="white-text m-t-0">Mobile App Development (iOS & Android)</h2>
@@ -47,14 +47,14 @@ get_header('inner'); ?>
 
 					</div>
 				</div>
-				<div class="col-12" style="display: flex;flex-direction: row;">
+				<div class="col-12" style="display: flex;flex-direction: row;margin-bottom:50px;">
 					<img src="/wp-content/themes/signa-starter/img/web-app-phoenix-dev.png" class="hp-card-image lazy" alt="">
 					<div>
 						<h2 class="white-text m-t-0">Web App Development</h2>
 						<p class="white-text">Whether you’re an existing business or a startup, we deliver not only mobile apps but also web app development services. You may need an Admin Dashboard for Business to Business apps, an app landing page for promotional purposes, or any other kind of web app to compliment your business venture. In many cases the web application can also be used to provide the same functionality as the mobile app, but for browser-based applications as some users may prefer to use a browser-accessed app.</p>
 					</div>
 				</div>
-				<div class="col-12" style="display: flex;flex-direction: row;">
+				<div class="col-12" style="display: flex;flex-direction: row;margin-bottom:50px;">
 					<img src="/wp-content/themes/signa-starter/img/optimization-phoenix-dev.png" class="hp-card-image lazy" alt="">
 					<div>
 						<h2 class="white-text m-t-0">Optimization</h2>
