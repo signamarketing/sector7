@@ -11,7 +11,7 @@ get_header('inner'); ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">
 
-		<div class="container-fluid no-gutter hp-card-image-spacer">
+		<div class="container-fluid no-gutter">
 			<div class="row row-container">
 				<div class="col-lg-6 fo1 f-center">
 					<img class="phoenix-page work-with-us lazy" src="/wp-content/themes/signa-starter/img/iPhone-XR-black-iconic-input-min@2x.jpg" alt="ICONIC HAUS app image">
