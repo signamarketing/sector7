@@ -152,7 +152,7 @@ if (!check_404($thumbUrlForWebP)) {
 				</div>
 			<?php endif; ?>
 
-			<div id="hp-banner" class="header-banner row no-gutter">
+			<div id="hp-banner" class="phoenix-page header-banner row no-gutter">
 				<div class="padding-hero">
 					<div class="col-12">
 						<h1 style="margin-top:0px;">App Development Company in Phoenix</h1>
