@@ -65,7 +65,7 @@ get_header('inner'); ?>
 		</div>
 		<div class="container-fluid no-gutter hp-card-image-spacer">
 			<h2 style="text-align: center;margin-top: 75px;margin-bottom:0;">Process</h2>
-			<div class="row row-container" style="justify-content:center;">
+			<div class="row row-container" style="justify-content:center;padding-bottom:0;">
 				<div class="phoenix-process-tile f-center">
 					<p class="mt-0 process-title">Ideation</p>
 					<p>Identifying the practical uses of your app</p>
@@ -77,6 +77,20 @@ get_header('inner'); ?>
 				<div class="col-lg-4 phoenix-process-tile f-center">
 					<p class="mt-0 process-title">Design</p>
 					<p>Designing how your app will look, feel, and function</p>
+				</div>
+			</div>
+			<div class="row row-container" style="justify-content:center;padding-top:0;">
+				<div class="phoenix-process-tile f-center">
+					<p class="mt-0 process-title">Development</p>
+					<p>Coding your app to deliver a prototype and final product</p>
+				</div>
+				<div class="col-lg-4 phoenix-process-tile f-center">
+					<p class="mt-0 process-title">Launch</p>
+					<p>Delivering your app to the people who will use it</p>
+				</div>
+				<div class="col-lg-4 phoenix-process-tile f-center">
+					<p class="mt-0 process-title">Maintenance and Growth</p>
+					<p>Optimizing your app to keep you on the cutting edge</p>
 				</div>
 			</div>
 		</div>
