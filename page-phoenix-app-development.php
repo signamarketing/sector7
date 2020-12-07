@@ -64,17 +64,18 @@ get_header('inner'); ?>
 			</div>
 		</div>
 		<div class="container-fluid no-gutter hp-card-image-spacer">
-			<div class="row row-container">
+			<h2 style="text-align: center;margin-top: 75px;margin-bottom:0;">Process</h2>
+			<div class="row row-container" style="justify-content:center;">
 				<div class="phoenix-process-tile f-center">
-					<p class="mt-0" style="font-size: 35px;">Ideation</p>
+					<p class="mt-0 process-title">Ideation</p>
 					<p>Identifying the practical uses of your app</p>
 				</div>
 				<div class="col-lg-4 phoenix-process-tile f-center">
-					<p class="mt-0" style="font-size: 35px;">Defining Scope</p>
+					<p class="mt-0 process-title">Defining Scope</p>
 					<p>Making the strategic decisions your app needs</p>
 				</div>
 				<div class="col-lg-4 phoenix-process-tile f-center">
-					<p class="mt-0" style="font-size: 35px;">Design</p>
+					<p class="mt-0 process-title">Design</p>
 					<p>Designing how your app will look, feel, and function</p>
 				</div>
 			</div>
