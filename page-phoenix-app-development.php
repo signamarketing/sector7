@@ -6,7 +6,7 @@
  * @package signa-starter
  */
 
-get_header('inner'); ?>
+get_header('phoenix-page'); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">
@@ -20,11 +20,8 @@ get_header('inner'); ?>
 					<!-- <img src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" aos="fade-left" aos-once="true" > -->
 					<h2 class="mt-0">Why work with Sector 7 Apps?</h2>
 					<p style="color:#39BFC3; font-weight:700; font-size:22px; line-height:1.3;">We work with Phoenix startups and businesses in strategizing, designing and developing their web applications and mobile apps.</p>
-
 					<p>At Sector 7 Apps, our Team has the knowledge and skills to develop applications that meet or exceed your business and user’s needs. You won’t have to worry about communication across state-lines, as all the help you’ll need is in our downtown Phoenix office. You’ll be able to meet and interact with all members of our talented team through the process of creating your app.</p>
-
 					<p>Schedule a discovery call with us now by calling (602) 358-0199 to become one step closer to launching your mobile app!</p>
-
 					<a class="btn black" href="/start-now/">Schedule A Discovery Meeting</a>
 				</div>
 			</div>
