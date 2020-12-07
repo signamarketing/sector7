@@ -91,10 +91,22 @@ get_header('phoenix-page'); ?>
 				</div>
 			</div>
 		</div>
-
-		<!-- Form CTA -->
-		<?php get_template_part('template-parts/content-form-cta'); ?>
-	</main><!-- #main -->
+		<div class="container-fluid no-gutter">
+			<div class="row row-container">
+				<div class="col-md-6 offset-md-6 col-12 white-text f-center">
+					<h2 class="mt-0">How We Roll</h2>
+					<p style="color:#fff; font-weight:700; font-size:22px; line-height:1.3;">The App Experts From the Valley of the Sun</p>
+					<p>At Sector 7, we live for the challenge. Our Phoenix-based app development team has the experience and skills to help achieve your business goals. We have the proven, results-driven team that can create and follow through with making the app that brings your users value time and time again. We’ve utilized and improved upon industry standard processes to develop our own unique concept-to-launch process. We pride ourselves on delivering quality applications efficiently and effectively.</p>
+					<p>Our passion for technology, design, and development differentiates ourselves from the rest of the pack. The Sector 7 Apps team has adopted a growth oriented mindset that helps us keep up to date with the business environment and changing digital landscape.</p>
+					<p>Ready to get started? Schedule a discovery meeting with us by calling (602) 358-0199 today!</p>
+					</p>
+				</div>
+			</div>
+		</div>
+</div>
+<!-- Form CTA -->
+<?php get_template_part('template-parts/content-form-cta'); ?>
+</main><!-- #main -->
 </div><!-- #primary -->
 
 <?php

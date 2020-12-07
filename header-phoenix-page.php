@@ -158,7 +158,7 @@ if (!check_404($thumbUrlForWebP)) {
 						<h1 style="margin-top:0px;">App Development Company in Phoenix</h1>
 					</div>
 					<div class="col-12">
-						<p>Have a new web app or mobile app business? Learn why Phoenix companies work with us to bring their application needs to life.</p>
+						<p style="max-width: 780px;">Have a new web app or mobile app business? Learn why Phoenix companies work with us to bring their application needs to life.</p>
 					</div>
 					<div class="col-12">
 						<a href="/contact-us/" class="btn">Contact Us</a>
