@@ -416,7 +416,7 @@ img.hp-card-image {
 	.col-md-3.contact-col:last-child {
 		margin-bottom: 0;
 	}
-	
+
 	img.phoenix-page.work-with-us {
 		display: block;
 		margin-bottom: 60px;
@@ -613,6 +613,17 @@ div#footer-sidebar3 {
 
 	img.phoenix-page.work-with-us {
 		display: none;
+	}
+
+	.row.row-container.services-list.phoenix-app-dev .col-12 {
+		flex-direction: column !important;
+		text-align: center;
+	}
+
+	.services-list.phoenix-app-dev img {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
 	}
 }
 
@@ -926,13 +937,13 @@ ul.mobile-tabs li {
 **/
 
 .services-list.phoenix-app-dev img {
-    max-width: 100%;
-    padding: 0;
-    width: 115px;
-    height: 115px;
-    margin-left: 60px;
-    margin-right: 22px;
-    margin-top: 0;
+	max-width: 100%;
+	padding: 0;
+	width: 115px;
+	height: 115px;
+	margin-left: 60px;
+	margin-right: 22px;
+	margin-top: 0;
 }
 
 .phoenix-process-tile {
@@ -962,4 +973,3 @@ ul.mobile-tabs li {
 .phoenix-page.header-banner {
 	height: 650px;
 }
-
