@@ -943,13 +943,8 @@ ul.mobile-tabs li {
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
-	margin-right: 30px;
-	margin-bottom: 30px;
+	margin: 15px 15px;
 	padding: 0 25px;
-}
-
-.phoenix-process-tile:last-child {
-	margin-right: 0;
 }
 
 .phoenix-process-tile .process-title {
@@ -966,3 +961,4 @@ ul.mobile-tabs li {
 .phoenix-page.header-banner {
 	height: 650px;
 }
+
