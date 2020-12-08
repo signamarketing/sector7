@@ -62,7 +62,7 @@ get_header('phoenix-page'); ?>
 		</div>
 		<div class="container-fluid no-gutter hp-card-image-spacer">
 			<h2 style="text-align: center;margin-top: 75px;margin-bottom:0;">Process</h2>
-			<div class="row row-container" style="justify-content:center;padding-bottom:0;max-width:100%;width:1000px;">
+			<div class="row row-container" style="justify-content:center;max-width:100%;width:1000px;">
 				<div class="col-lg-4 phoenix-process-tile f-center">
 					<p class="mt-0 process-title">Ideation</p>
 					<p>Identifying the practical uses of your app</p>
