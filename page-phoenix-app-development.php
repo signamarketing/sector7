@@ -89,7 +89,7 @@ get_header('phoenix-page'); ?>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid no-gutter" style="background-image: url(/wp-content/uploads/2020/12/how-we-roll-bg.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
+		<div class="container-fluid no-gutter" style="background-image: url(/wp-content/uploads/2020/12/how-we-roll-bg-min.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
 			<div class="row row-container">
 				<div class="col-md-6 col-12 white-text f-center">
 					<h2 class="mt-0 white-text">How We Roll</h2>
