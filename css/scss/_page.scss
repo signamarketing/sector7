@@ -367,13 +367,13 @@ div.end-of-post-categories {
 }
 
 .inner-page-banner-filter {
-	background: linear-gradient(0deg, #101010 6%, #040404 92%);
+    background: linear-gradient(0deg, rgba(4, 4, 4, 0.4), rgba(4, 4, 4, 0.4)), #040404;
 	height: 100%;
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 0.4;
+	opacity: 0.5;
 }
 
 #inner-banner.header-banner h1 {
@@ -968,6 +968,8 @@ ul.mobile-tabs li {
 
 .phoenix-page.work-with-us {
 	max-height: 417px;
+	display: block;
+	margin: 0 auto;
 }
 
 .phoenix-page.header-banner {
