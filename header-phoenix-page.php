@@ -98,7 +98,6 @@ $thumb_url = $thumb_url_array[0];
 $thumbUrlForWebP =  str_replace(array("jpg","jpeg"), "webp", $thumb_url);
 $has_webp = false;
 if (!check_404($thumbUrlForWebP)) {
-	echo '<!-- Has webp -->';
 	$has_webp = true;
 }
 
