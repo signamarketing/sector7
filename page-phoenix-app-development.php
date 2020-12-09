@@ -26,7 +26,7 @@ get_header('phoenix-page'); ?>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid main-nf-bg" style="position: relative; display: block; background: radial-gradient(#4cced1 19%,#34bec1);">
+		<div class="container-fluid main-nf-bg" style="position: relative; display: block; background: linear-gradient(89.98deg, #8CE0E2 -5.54%, rgba(53, 191, 194, 0.9) 47.28%);">
 			<div class="row row-container services-list phoenix-app-dev">
 				<div class="col-12" style="display: flex;flex-direction: row;margin-bottom:50px;margin-bottom:50px;">
 					<img class="hp-card-image lazy" alt="" src="/wp-content/themes/signa-starter/img/strategy-icon-phoenix-dev.png">
