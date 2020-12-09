@@ -16,7 +16,7 @@ get_header('phoenix-page'); ?>
 				<div class="col-lg-6 fo1 f-center">
 					<img class="phoenix-page work-with-us lazy" src="/wp-content/themes/signa-starter/img/iPhone-XR-black-iconic-input-min@2x.jpg" alt="ICONIC HAUS app image">
 				</div>
-				<div class="col-lg-6 fo2 f-center">
+				<div class="col-lg-6 work-with-us-text fo2 f-center">
 					<!-- <img src="/wp-content/themes/signa-starter/img/scout-perspective-mockup-min.jpg" class="hp-card-image lazy" alt="app mockup image" aos="fade-left" aos-once="true" > -->
 					<h2 class="mt-0">Why work with Sector 7 Apps?</h2>
 					<p style="color:#39BFC3; font-weight:700; font-size:22px; line-height:1.3;">We work with Phoenix startups and businesses in strategizing, designing and developing their web applications and mobile apps.</p>
