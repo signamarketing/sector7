@@ -64,27 +64,27 @@ get_header('phoenix-page'); ?>
 			<h2 style="text-align: center;margin-top: 75px;margin-bottom:0;">Process</h2>
 			<div class="row row-container" style="    justify-content: center;max-width: 100%;width: 1000px;padding-top: 47px;">
 				<div class="col-lg-4 phoenix-process-tile f-center">
-					<p class="mt-0 process-title">Ideation</p>
+					<span class="mt-0 process-title">Ideation</span>
 					<p>Identifying the practical uses of your app</p>
 				</div>
 				<div class="col-lg-4 phoenix-process-tile f-center">
-					<p class="mt-0 process-title">Defining Scope</p>
+					<span class="mt-0 process-title">Defining Scope</span>
 					<p>Making the strategic decisions your app needs</p>
 				</div>
 				<div class="col-lg-4 phoenix-process-tile f-center">
-					<p class="mt-0 process-title">Design</p>
+					<span class="mt-0 process-title">Design</span>
 					<p>Designing how your app will look, feel, and function</p>
 				</div>
 				<div class="col-lg-4 phoenix-process-tile f-center">
-					<p class="mt-0 process-title">Development</p>
+					<span class="mt-0 process-title">Development</span>
 					<p>Coding your app to deliver a prototype and final product</p>
 				</div>
 				<div class="col-lg-4 phoenix-process-tile f-center">
-					<p class="mt-0 process-title">Launch</p>
+					<span class="mt-0 process-title">Launch</span>
 					<p>Delivering your app to the people who will use it</p>
 				</div>
 				<div class="col-lg-4 phoenix-process-tile f-center">
-					<p class="mt-0 process-title">Maintenance and Growth</p>
+					<span class="mt-0 process-title">Maintenance and Growth</span>
 					<p>Optimizing your app to keep you on the cutting edge</p>
 				</div>
 			</div>
