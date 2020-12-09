@@ -120,7 +120,7 @@ if (!check_404($thumbUrlForWebP)) {
 		<?php } else {?>
 			<header class="container-fluid  no-gutter navbar-bg-color header-banner-bg" style="background:url(' <?php echo $thumb_url ?> ');  background-size: cover;">
 			<?php } ?>
-			<div class="inner-page-banner-filter"></div>
+			<div class="inner-page-banner-filter phoenix-page"></div>
 			<div id="navbar">
 				<nav class="row navbar-container">
 

@@ -373,7 +373,11 @@ div.end-of-post-categories {
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 0.5;
+	opacity: 0.4;
+}
+
+.inner-page-banner-filter.phoenix-page {
+	opacity: 0.6 !important;
 }
 
 #inner-banner.header-banner h1 {

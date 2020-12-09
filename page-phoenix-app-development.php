@@ -61,7 +61,7 @@ get_header('phoenix-page'); ?>
 			</div>
 		</div>
 		<div class="container-fluid no-gutter hp-card-image-spacer">
-			<h2 style="text-align: center;margin-top: 75px;margin-bottom:0;">Process</h2>
+			<h2 style="text-align: center;margin-top: 75px;margin-bottom:0;">Our Process</h2>
 			<div class="row row-container" style="    justify-content: center;max-width: 100%;width: 1000px;padding-top: 47px;">
 				<div class="col-lg-4 phoenix-process-tile f-center">
 					<span class="mt-0 process-title">Ideation</span>
